@@ -1,0 +1,9 @@
+{{!-- Armor Properties (based on dnd5e/templates/items/weapon) --}}
+<div class="form-group stacked">
+  <label>{{ localize "ROS5E.Item.ArmorProps.Label" }}</label>
+  {{#each propLabels as |name prop|}}
+  <label class="checkbox" {{edit}}>
+    <input type="checkbox" name="{{../propRoot}}.{{prop}}" {{checked (lookup ../armorProps prop)}} {{../edit}}/> {{ name }}
+  </label>
+  {{/each}}
+</div>

@@ -1,0 +1,21 @@
+.spell-slot-tracker {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.favored-spell {
+  background-color: #30376a !important;
+}
+
+.talisman-spell,
+.rune-spell {
+  background-color: #9a8d00 !important;
+}
+
+.rest-roll-buttons {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Ruins of Symbaroum 5E",
+  "description": "Reimplements the core rules mechanics of the Ruins of Symbaroum conversion for 5th Edition.",
+  "version": "#{VERSION}#",
+  "styles": [
+    {
+      "src": "/css/ros5e.css"
+    }
+  ],
+  "esmodules": ["/scripts/core.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "url": "#{URL}#",
+  "authors": [
+    {
+      "name": "awarenet",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.2.4",
+          "verified": "5.2.4"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      },
+      {
+        "id": "tidy5e-sheet",
+        "type": "module"
+      }
+    ]
+  },
+  "id": "ros5e",
+  "flags": {}
+}

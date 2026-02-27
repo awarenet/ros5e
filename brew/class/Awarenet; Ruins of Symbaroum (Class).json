@@ -1,0 +1,2138 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "RuinsOfSymbaroumC",
+        "full": "Ruins of Symbaroum Classes",
+        "abbreviation": "RoS:C",
+        "authors": ["Free League Publishing"],
+        "version": "1.0.0",
+        "url": "https://freeleaguepublishing.com"
+      }
+    ],
+    "dateAdded": 1705220000,
+    "dateLastModified": 1705220000,
+    "edition": "classic"
+  },
+  "class": [
+    {
+      "name": "Mystic",
+      "source": "RuinsOfSymbaroumC",
+      "foundryEffects": [
+        {
+          "name": "Symbaroum Actor",
+          "icon": "icons/svg/item-bag.svg",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.ros5eActor",
+              "mode": 5,
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "page": 108,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": ["wis"],
+      "startingProficiencies": {
+        "armor": ["light"],
+        "weapons": ["simple"],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "arcana",
+                "deception",
+                "history",
+                "insight",
+                "investigation",
+                "medicine",
+                "persuasion",
+                "religion"
+              ],
+              "count": 3
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a horseman's bow and quiver of 20 arrows or (b) a staff",
+          "(a) a scholar's pack, or (b) an explorer's pack",
+          "any one light armor, two daggers, and a component pouch"
+        ],
+        "defaultData": [
+          {
+            "a": [
+              "horseman's bow|RuinsOfSymbaroumC",
+              {
+                "item": "arrows (20)|phb",
+                "quantity": 20
+              }
+            ],
+            "b": ["quarterstaff|phb"]
+          },
+          {
+            "a": ["scholar's pack|phb"],
+            "b": ["explorer's pack|phb"]
+          },
+          {
+            "_": [
+              {
+                "equipmentType": "armorLight"
+              },
+              {
+                "item": "dagger|phb",
+                "quantity": 2
+              },
+              "component pouch|phb"
+            ]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Features",
+            "Favored Cantrips",
+            "Favored Spells",
+            "Max Spell Level"
+          ],
+          "rows": [
+            ["Spellcasting, Approach", 2, 1, 1],
+            ["Ritual Casting", 3, 1, 1],
+            ["Approach", 4, 2, 2],
+            ["Ability Score Improvement or Feat", 5, 2, 2],
+            ["Ritual Casting", 6, 3, 3],
+            ["Approach", 6, 3, 3],
+            ["Ritual Casting", 6, 4, 4],
+            ["Ability Score Improvement or Feat", 6, 4, 4],
+            ["Approach", 6, 5, 5],
+            ["Ability Score Improvement or Feat", 6, 5, 5],
+            ["Ritual Casting", 6, 6, 6],
+            ["Ability Score Improvement or Feat", 6, 6, 6],
+            ["Approach", 6, 7, 7],
+            ["Ritual Casting", 6, 7, 7],
+            ["\u2014", 6, 8, 8],
+            ["Ability Score Improvement or Feat", 6, 8, 8],
+            ["Approach", 6, 9, 9],
+            ["Spell Mastery", 6, 9, 9],
+            ["Ability Score Improvement or Feat", 6, 10, 9],
+            ["Signature Spells", 6, 10, 9]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Cantrips|Mystic|RuinsOfSymbaroumC|1",
+        "Leveled Spells|Mystic|RuinsOfSymbaroumC|1",
+        "Favored Spells|Mystic|RuinsOfSymbaroumC|1",
+        "Approach|Mystic|RuinsOfSymbaroumC|1",
+        "Ritual Casting|Mystic|RuinsOfSymbaroumC|2",
+        "Ritual Casting|Mystic|RuinsOfSymbaroumC|2",
+        {
+          "classFeature": "Ability Score Improvement|Mystic|RuinsOfSymbaroumC|4",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Mystic|RuinsOfSymbaroumC|8",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Mystic|RuinsOfSymbaroumC|12",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Mystic|RuinsOfSymbaroumC|16",
+          "gainSubclassFeature": true
+        },
+        "Spell Mastery|Mystic|RuinsOfSymbaroumC|18",
+        {
+          "classFeature": "Ability Score Improvement|Mystic|RuinsOfSymbaroumC|19",
+          "gainSubclassFeature": true
+        },
+        "Signature Spells|Mystic|RuinsOfSymbaroumC|20"
+      ],
+      "cantripProgression": [
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
+      ],
+      "spellsKnownProgression": [
+        2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+      ],
+      "casterProgression": "full"
+    },
+    {
+      "name": "Hunter",
+      "source": "RuinsOfSymbaroumC",
+      "foundryEffects": [
+        {
+          "name": "Symbaroum Actor",
+          "icon": "icons/svg/item-bag.svg",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.ros5eActor",
+              "mode": 5,
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "page": 102,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": ["dex", "str"],
+      "startingProficiencies": {
+        "armor": ["light", "medium", "shield"],
+        "weapons": ["simple", "martial"],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "athletics",
+                "insight",
+                "investigation",
+                "nature",
+                "perception",
+                "stealth",
+                "survival"
+              ],
+              "count": 4
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a fencing sword or (b) a shortsword",
+          "(a) a longbow and 20 arrows or (b) a light crossbow and 20 bolts",
+          "(a) a dungeoneer's pack, or (b) an explorer's pack",
+          "(a) Studded leather armor and two daggers or (b) a lacquered silk cuirass"
+        ],
+        "defaultData": [
+          {
+            "a": ["fencing sword|RuinsOfSymbaroumC"],
+            "b": ["shortsword|phb"]
+          },
+          {
+            "a": [
+              "longbow|phb",
+              {
+                "item": "arrows (20)|phb",
+                "quantity": 20
+              }
+            ],
+            "b": [
+              "light crossbow|phb",
+              {
+                "item": "crossbow bolts (20)|phb",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "a": ["dungeoneer's pack|phb"],
+            "b": ["explorer's pack|phb"]
+          },
+          {
+            "a": [
+              "studded leather armor|phb",
+              {
+                "item": "dagger|phb",
+                "quantity": 2
+              }
+            ],
+            "b": ["lacquered silk cuirass|RuinsOfSymbaroumC"]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": ["Features"],
+          "rows": [
+            ["Wilderness Explorer, Approach"],
+            ["Hunter's Instinct"],
+            ["Approach"],
+            ["Ability Score Improvement or Feat"],
+            ["Extra Attack (2)"],
+            ["Expertise, Approach"],
+            ["Land's Stride"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Ability Score Improvement or Feat"],
+            ["Hide in Plain Sight"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Vanish"],
+            ["Feral Senses"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Extra Attack (3)"],
+            ["Ability Score Improvement or Feat"],
+            ["Expert Hunter"]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Wilderness Explorer|Hunter|RuinsOfSymbaroumC|1",
+        "Approach|Hunter|RuinsOfSymbaroumC|1",
+        "Expertise|Hunter|RuinsOfSymbaroumC|1",
+        "Hunter's Instinct|Hunter|RuinsOfSymbaroumC|2",
+        "Hunter's Instinct|Hunter|RuinsOfSymbaroumC|2",
+        {
+          "classFeature": "Ability Score Improvement|Hunter|RuinsOfSymbaroumC|4",
+          "gainSubclassFeature": true
+        },
+        "Extra Attack|Hunter|RuinsOfSymbaroumC|5",
+        "Expertise|Hunter|RuinsOfSymbaroumC|6",
+        {
+          "classFeature": "Ability Score Improvement|Hunter|RuinsOfSymbaroumC|8",
+          "gainSubclassFeature": true
+        },
+        "Land's Stride|Hunter|RuinsOfSymbaroumC|8",
+        "Hide in Plain Sight|Hunter|RuinsOfSymbaroumC|10",
+        {
+          "classFeature": "Ability Score Improvement|Hunter|RuinsOfSymbaroumC|12",
+          "gainSubclassFeature": true
+        },
+        "Vanish|Hunter|RuinsOfSymbaroumC|14",
+        "Feral Senses|Hunter|RuinsOfSymbaroumC|15",
+        {
+          "classFeature": "Ability Score Improvement|Hunter|RuinsOfSymbaroumC|16",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Hunter|RuinsOfSymbaroumC|19",
+          "gainSubclassFeature": true
+        },
+        "Expert Hunter|Hunter|RuinsOfSymbaroumC|20"
+      ]
+    },
+    {
+      "name": "Scoundrel",
+      "source": "RuinsOfSymbaroumC",
+      "foundryEffects": [
+        {
+          "name": "Symbaroum Actor",
+          "icon": "icons/svg/item-bag.svg",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.ros5eActor",
+              "mode": 5,
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "page": 102,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": ["dex", "cha"],
+      "startingProficiencies": {
+        "armor": ["light"],
+        "weapons": [
+          "simple",
+          "hand crossbows",
+          "longswords",
+          "rapiers",
+          "shortswords"
+        ],
+        "tools": ["thieves' tools"],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "athletics",
+                "deception",
+                "insight",
+                "intimidation",
+                "investigation",
+                "perception",
+                "performance",
+                "persuasion",
+                "sleight of hand",
+                "stealth"
+              ],
+              "count": 3
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a fencing sword or (b) a shortsword",
+          "(a) a horseman's bow and quiver of 20 arrows or (b) a shortsword",
+          "(a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack",
+          "(a) studded leather armor, two daggers, and thieves' tools or (b) woven silk armor"
+        ],
+        "defaultData": [
+          {
+            "a": ["fencing sword|RuinsOfSymbaroumC"],
+            "b": ["shortsword|phb"]
+          },
+          {
+            "a": [
+              "horseman's bow|RuinsOfSymbaroumC",
+              {
+                "item": "arrows (20)|phb",
+                "quantity": 20
+              }
+            ],
+            "b": ["shortsword|phb"]
+          },
+          {
+            "a": ["burglar's pack|phb"],
+            "b": ["dungeoneer's pack|phb"],
+            "c": ["explorer's pack|phb"]
+          },
+          {
+            "a": [
+              "studded leather armor|phb",
+              {
+                "item": "dagger|phb",
+                "quantity": 2
+              },
+              "thieves' tools|phb"
+            ],
+            "b": ["woven silk armor|RuinsOfSymbaroumC"]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": ["Backstab", "Features"],
+          "rows": [
+            ["1d6", "Expertise, Backstab, Approach"],
+            ["1d6", "Cunning Action"],
+            ["2d6", "Approach"],
+            ["2d6", "Ability Score Improvement or Feat"],
+            ["3d6", "Uncanny Dodge"],
+            ["3d6", "Expertise, Approach"],
+            ["4d6", "Evasion"],
+            ["4d6", "Ability Score Improvement or Feat"],
+            ["5d6", "Approach"],
+            ["5d6", "Ability Score Improvement or Feat"],
+            ["6d6", "Reliable Talent"],
+            ["6d6", "Ability Score Improvement or Feat"],
+            ["7d6", "Approach"],
+            ["7d6", "Blindsense"],
+            ["8d6", "Slippery Mind"],
+            ["8d6", "Ability Score Improvement or Feat"],
+            ["9d6", "Approach"],
+            ["9d6", "Elusive"],
+            ["10d6", "Ability Score Improvement or Feat"],
+            ["10d6", "Stroke of Luck"]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Backstab|Scoundrel|RuinsOfSymbaroumC|1",
+        "Expertise|Scoundrel|RuinsOfSymbaroumC|1",
+        "Approach|Scoundrel|RuinsOfSymbaroumC|1",
+        "Cunning Action|Scoundrel|RuinsOfSymbaroumC|2",
+        {
+          "classFeature": "Ability Score Improvement|Scoundrel|RuinsOfSymbaroumC|4",
+          "gainSubclassFeature": true
+        },
+        "Uncanny Dodge|Scoundrel|RuinsOfSymbaroumC|5",
+        "Expertise|Scoundrel|RuinsOfSymbaroumC|6",
+        "Evasion|Scoundrel|RuinsOfSymbaroumC|7",
+        {
+          "classFeature": "Ability Score Improvement|Scoundrel|RuinsOfSymbaroumC|8",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Scoundrel|RuinsOfSymbaroumC|10",
+          "gainSubclassFeature": true
+        },
+        "Reliable Talent|Scoundrel|RuinsOfSymbaroumC|11",
+        {
+          "classFeature": "Ability Score Improvement|Scoundrel|RuinsOfSymbaroumC|12",
+          "gainSubclassFeature": true
+        },
+        "Blindsense|Scoundrel|RuinsOfSymbaroumC|14",
+        "Slippery Mind|Scoundrel|RuinsOfSymbaroumC|15",
+        {
+          "classFeature": "Ability Score Improvement|Scoundrel|RuinsOfSymbaroumC|16",
+          "gainSubclassFeature": true
+        },
+        "Elusive|Scoundrel|RuinsOfSymbaroumC|18",
+        {
+          "classFeature": "Ability Score Improvement|Scoundrel|RuinsOfSymbaroumC|19",
+          "gainSubclassFeature": true
+        },
+        "Stroke of Luck|Scoundrel|RuinsOfSymbaroumC|20"
+      ],
+      "foundryAdvancement": [
+        {
+          "type": "ScaleValue",
+          "title": "Backstab Die Count",
+          "configuration": {
+            "identifier": "backstabDieCount",
+            "type": "number",
+            "scale": {
+              "1": {
+                "value": 1
+              },
+              "3": {
+                "value": 2
+              },
+              "5": {
+                "value": 3
+              },
+              "7": {
+                "value": 4
+              },
+              "9": {
+                "value": 5
+              },
+              "11": {
+                "value": 6
+              },
+              "13": {
+                "value": 7
+              },
+              "15": {
+                "value": 8
+              },
+              "17": {
+                "value": 9
+              },
+              "19": {
+                "value": 10
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Warrior",
+      "source": "RuinsOfSymbaroumC",
+      "foundryEffects": [
+        {
+          "name": "Symbaroum Actor",
+          "icon": "icons/svg/item-bag.svg",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.ros5eActor",
+              "mode": 5,
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "page": 136,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": ["str", "con"],
+      "startingProficiencies": {
+        "armor": ["light", "medium", "heavy", "shield"],
+        "weapons": ["simple", "martial"],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "animal handling",
+                "athletics",
+                "history",
+                "insight",
+                "intimidation",
+                "perception",
+                "survival"
+              ],
+              "count": 3
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a chain shirt or (b) studded leather armor, a longbow, and 20 arrows",
+          "(a) a martial weapon and a shield or (b) two martial weapons",
+          "(a) a light crossbow and 20 bolts or (b) two handaxes",
+          "(a) a dungeoneer's pack or (b) an explorer's pack"
+        ],
+        "defaultData": [
+          {
+            "a": ["chain shirt|phb"],
+            "b": [
+              "studded leather armor|phb",
+              "longbow|phb",
+              {
+                "item": "arrows (20)|phb",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "equipmentType": "weaponMartial"
+              },
+              "shield|phb"
+            ],
+            "b": [
+              {
+                "equipmentType": "weaponMartial",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              "light crossbow|phb",
+              {
+                "item": "crossbow bolts (20)|phb",
+                "quantity": 20
+              }
+            ],
+            "b": [
+              {
+                "item": "handaxe|phb",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "a": ["dungeoneer's pack|phb"],
+            "b": ["explorer's pack|phb"]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": ["Features"],
+          "rows": [
+            ["Battle Wind, Fighting Style, Approach"],
+            ["Action Surge"],
+            ["Approach"],
+            ["Ability Score Improvement or Feat"],
+            ["Extra Attack (2)"],
+            ["Approach"],
+            ["Indomitable"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Ability Score Improvement or Feat"],
+            ["Extra Attack (3)"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Ability Score Improvement or Feat"],
+            ["Action Surge"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Extra Attack (4)"],
+            ["Ability Score Improvement or Feat"],
+            ["Undying Courage"]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Battle Wind|Warrior|RuinsOfSymbaroumC|1",
+        "Fighting Style|Warrior|RuinsOfSymbaroumC|1",
+        "Approach|Warrior|RuinsOfSymbaroumC|1",
+        "Action Surge|Warrior|RuinsOfSymbaroumC|2",
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|4",
+          "gainSubclassFeature": true
+        },
+        "Extra Attack|Warrior|RuinsOfSymbaroumC|5",
+        "Indomitable|Warrior|RuinsOfSymbaroumC|7",
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|8",
+          "gainSubclassFeature": true
+        },
+        "Extra Attack|Warrior|RuinsOfSymbaroumC|11",
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|10",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|12",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|14",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|16",
+          "gainSubclassFeature": true
+        },
+        "Extra Attack|Warrior|RuinsOfSymbaroumC|18",
+        {
+          "classFeature": "Ability Score Improvement|Warrior|RuinsOfSymbaroumC|19",
+          "gainSubclassFeature": true
+        },
+        "Undying Courage|Warrior|RuinsOfSymbaroumC|20"
+      ],
+      "foundryAdvancement": [
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "actionSurge",
+            "type": "number",
+            "scale": {
+              "2": {
+                "value": 1
+              },
+              "15": {
+                "value": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Captain",
+      "source": "RuinsOfSymbaroumC",
+      "foundryEffects": [
+        {
+          "name": "Symbaroum Actor",
+          "icon": "icons/svg/item-bag.svg",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.ros5eActor",
+              "mode": 5,
+              "value": "true"
+            }
+          ]
+        }
+      ],
+      "page": 96,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": ["con", "cha"],
+      "startingProficiencies": {
+        "armor": ["light", "medium", "shield"],
+        "weapons": ["simple", "martial"],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "animal handling",
+                "athletics",
+                "deception",
+                "history",
+                "insight",
+                "intimidation",
+                "perception",
+                "persuasion",
+                "survival"
+              ],
+              "count": 4
+            }
+          }
+        ]
+      },
+      "foundryAdvancement": [
+        {
+          "type": "ScaleValue",
+          "title": "Field Dressings Die",
+          "configuration": {
+            "identifier": "fieldDressings",
+            "type": "number",
+            "scale": {
+              "2": {
+                "value": 6
+              },
+              "9": {
+                "value": 8
+              },
+              "11": {
+                "value": 10
+              },
+              "17": {
+                "value": 12
+              }
+            }
+          }
+        },
+        {
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "warStories",
+            "type": "number",
+            "scale": {
+              "7": {
+                "value": 1
+              },
+              "15": {
+                "value": 2
+              }
+            }
+          }
+        }
+      ],
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a chain shirt or (b) studded leather armor, a longbow, and 20 arrows",
+          "(a) a martial weapon and a shield or (b) two martial weapons",
+          "(a) a light crossbow and 20 bolts or (b) two handaxes",
+          "(a) a dungeoneer's pack or (b) an explorer's pack"
+        ],
+        "defaultData": [
+          {
+            "a": ["chain shirt|phb"],
+            "b": [
+              "studded leather armor|phb",
+              "longbow|phb",
+              {
+                "item": "arrows (20)|phb",
+                "quantity": 20
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "equipmentType": "weaponMartial"
+              },
+              "shield|phb"
+            ],
+            "b": [
+              {
+                "equipmentType": "weaponMartial",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              "light crossbow|phb",
+              {
+                "item": "crossbow bolts (20)|phb",
+                "quantity": 20
+              }
+            ],
+            "b": [
+              {
+                "item": "handaxe|phb",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "a": ["dungeoneer's pack|phb"],
+            "b": ["explorer's pack|phb"]
+          }
+        ]
+      },
+      "classTableGroups": [
+        {
+          "colLabels": ["Features"],
+          "rows": [
+            ["Approach, Fighting Style, Tactical Acumen"],
+            ["Field Dressings (d6)"],
+            ["Approach, Bid to Action"],
+            ["Ability Score Improvement or Feat"],
+            ["Extra Attack (2)"],
+            ["Approach"],
+            ["War Stories"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach, Field Dressings (d8)"],
+            ["Ability Score Improvement or Feat"],
+            ["Field Dressings (d10)"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach"],
+            ["Ability Score Improvement or Feat"],
+            ["War Stories (x2)"],
+            ["Ability Score Improvement or Feat"],
+            ["Approach, Field Dressings (d12)"],
+            ["Extra Attack (3)"],
+            ["Ability Score Improvement or Feat"],
+            ["Unending Conflict"]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Fighting Style|Captain|RuinsOfSymbaroumC|1",
+        "Tactical Acumen|Captain|RuinsOfSymbaroumC|1",
+        "Captain Approaches|Captain|RuinsOfSymbaroumC|1",
+        "Field Dressings|Captain|RuinsOfSymbaroumC|2",
+        "Bid to Action|Captain|RuinsOfSymbaroumC|3",
+        "Bid to Action|Captain|RuinsOfSymbaroumC|3",
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|4",
+          "gainSubclassFeature": true
+        },
+        "Extra Attack|Captain|RuinsOfSymbaroumC|5",
+        "War Stories|Captain|RuinsOfSymbaroumC|7",
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|8",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|10",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|12",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|14",
+          "gainSubclassFeature": true
+        },
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|16",
+          "gainSubclassFeature": true
+        },
+        "Extra Attack|Captain|RuinsOfSymbaroumC|18",
+        {
+          "classFeature": "Ability Score Improvement|Captain|RuinsOfSymbaroumC|19",
+          "gainSubclassFeature": true
+        },
+        "Unending Conflict|Captain|RuinsOfSymbaroumC|20"
+      ]
+    }
+  ],
+  "foundryClassFeature": [
+    {
+      "name": "Field Dressings",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 2,
+      "activities": [
+        {
+          "name": "Field Dressings",
+          "activation": {
+            "type": "special"
+          },
+          "description": {
+            "chatFlavor": "Field Dressings"
+          },
+          "healing": {
+            "custom": {
+              "enabled": true,
+              "formula": "1d@scale.captain.fieldDressings"
+            },
+            "types": ["heal"]
+          },
+          "target": {
+            "affects": {
+              "type": "character"
+            }
+          },
+          "type": "heal"
+        }
+      ]
+    },
+    {
+      "name": "Unending Conflict",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 20,
+      "activities": [
+        {
+          "name": "Unending Conflict",
+          "activation": {
+            "type": "special"
+          },
+          "description": {
+            "chatFlavor": "Unending Conflict"
+          },
+          "healing": {
+            "bonus": "10",
+            "denomination": "10",
+            "number": 10,
+            "types": ["temphp"]
+          },
+          "range": {
+            "units": "self"
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "type": "heal"
+        }
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Fighting Style",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Archery"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Defense"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Dueling"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Great Weapon Fighting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Two-Weapon Fighting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Polearm Fighting|RuinsOfSymbaroumC"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Shield Fighting|RuinsOfSymbaroumC"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Snare Fighting|RuinsOfSymbaroumC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tactical Acumen",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "You are often more concerned with your group's readiness at the expense of your own. When combat begins and you are not surprised you can take disadvantage on your initiative roll in order to give advantage on initiative rolls to a number of creatures equal to your proficiency bonus."
+      ]
+    },
+    {
+      "name": "Captain Approaches",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "Each captain is a superb leader of others but their goals may be as unique as their personalities. When you choose an approach, you make a choice about what kind of leader you are and what benefits you offer those who follow you."
+      ]
+    },
+    {
+      "name": "Field Dressings",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 2,
+      "entries": [
+        "Starting at 2nd level, you can help wounded allies during a short or long rest. If you or any friendly creatures regain hit points at the end of the rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points. The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 11th level, and to 1d12 at 17th level."
+      ]
+    },
+    {
+      "name": "Bid to Action",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 3,
+      "entries": [
+        "Beginning at 3rd level, you can spur others to act quickly. When a creature's turn ends, use your reaction to nominate a friendly creature to have its turn next instead of acting on its normal initiative count. The creature must not have already taken its turn yet this round and retains its original initiative count for future rounds."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 5,
+      "entries": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "War Stories",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 7,
+      "entries": [
+        "Beginning at 7th level, you can tell encouraging stories to steel the resolve of your companions. You may restore a number of Hit Dice equal to your proficiency bonus to each friendly creature you share a short or long rest with. Once you use this feature you must take an extended rest before using it again.",
+        "At 15th level, you can use this feature twice before needing to take an extended rest."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": "@scale.captain.warStories",
+          "recovery": [
+            {
+              "period": "er",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 8,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 10,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 12,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 14,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 16,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 18,
+      "entries": [
+        "Beginning at 18th level, you can attack three times, instead of twice, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 19,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Unending Conflict",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 20,
+      "entries": [
+        "At 20th level, when you roll initiative, you gain 1d10 + 10 temporary hit points."
+      ]
+    },
+    {
+      "name": "Wilderness Explorer",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "With a successful DC 10 Wisdom (Survival) check you can keep your party supplied in the wilderness."
+      ],
+      "foundrySystem": {
+        "activities": [
+          {
+            "name": "Wilderness Explorer",
+            "type": "check",
+            "check": {
+              "associated": ["sur"]
+            },
+            "activation": {
+              "type": "special"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Expertise",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "At 1st level, choose either Nature or Survival and one of your other skill proficiencies.",
+        "Your proficiency bonus is doubled for any ability check you make that uses either of these chosen proficiencies."
+      ],
+      "expertise": [
+        {
+          "anyProficientSkill": 1,
+          "nature": true
+        },
+        {
+          "anyProficientSkill": 1,
+          "survival": true
+        }
+      ]
+    },
+    {
+      "name": "Hunter's Instinct",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 2,
+      "entries": [
+        "You can use your bonus action to nominate a creature you can see as a chosen target.",
+        "The first time you hit your chosen target each turn, you do 2 additional damage to the creature."
+      ],
+      "foundrySystem": {
+        "activation": {
+          "type": "bonus",
+          "cost": 1
+        }
+      }
+    },
+    {
+      "name": "Approach",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "Hunters might be Bounty Hunters, who seek the most dangerous prey in city alleyways and other dark places, or Ironsworn, defenders of the Iron Pact.",
+        "They might elect to become Monster Hunters and venture far into Davokar, or they might be a Witch Hunter, seeking out blighted humans on behalf of the Church or their own personal quest of vengeance.",
+        "Your approach gives you benefits at 1st, 3rd, 6th, 9th, 13th and 17th levels."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.",
+        "As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 5,
+      "entries": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Expertise",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 6,
+      "entries": [
+        "You can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit."
+      ],
+      "expertise": [
+        {
+          "anyProficientSkill": 2
+        },
+        {
+          "anyProficientSkill": 1,
+          "thieves' tools": true
+        }
+      ]
+    },
+    {
+      "name": "Land's Stride",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 8,
+      "entries": [
+        "Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement.",
+        "You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+        "In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 8,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.",
+        "As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Hide in Plain Sight",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 10,
+      "entries": [
+        "Starting at 10th level, you can spend 1 minute creating camouflage for yourself.",
+        "You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.",
+        "Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are.",
+        "You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions.",
+        "Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 10,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.",
+        "As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 12,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.",
+        "As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Vanish",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 14,
+      "entries": [
+        "Starting at 14th level, you can use the Hide action as a bonus action on your turn.",
+        "Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+      ]
+    },
+    {
+      "name": "Feral Senses",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 15,
+      "entries": [
+        "Starting at 15th level, you gain preternatural senses that help you fight creatures you can't see.",
+        "When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.",
+        "You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 16,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.",
+        "As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 18,
+      "entries": [
+        "Beginning at 18th level, you can attack three times, instead of twice, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 19,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Expert Hunter",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Hunter",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 20,
+      "entries": [
+        "At 20th level, you have an uncanny knack for succeeding when you need to.",
+        "If your attack misses a target within range, you can turn the miss into a hit.",
+        "Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.",
+        "Once you use this feature, you can't use it again until you finish a short or longer rest."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": 1,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cantrips",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "page": 108,
+      "entries": [
+        "At 1st level, you know six cantrips of your choice from the spell list for your mystical approach. When you cast most porary Corruption."
+      ]
+    },
+    {
+      "name": "Leveled Spells",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "page": 108,
+      "entries": [
+        "You know two 1st level spells from the spell list belonging to your mystical approach. When you gain a level in mystic you learn another spell, which can be any spell on your list, up to the spell level shown on the Mystic table. You can also swap one spell you already know for another one of the same level. porary Corruption. A cantrip causes 1 point of temporary Corruption while a leveled spell causes 1d4 plus the spell's level points of temporary Corruption. Proficiency Level      Bonus     Features 1st          +2 2nd          +2 3rd          +2 4th          +2 5th          +3 6th          +3 7th          +3 8th          +3 9th          +4 10th          +4 11th          +4 12th          +4 13th          +5 14th          +5 15th          +5 16th          +5 17th          +6 18th          +6 19th          +6 20th          +6 Example: Mira's ogre mystic Grumpa casts message, a cantrip, and gains 1 point of Corruption. Later, Grumpa uses knock, a 2nd-level spell. She now adds 1d4+2 points of Corruption. Some spells allow you to cast them using a higher level spell. You can cast up to your maximum spell level as long as you pay the additional Corruption cost. Spellcasting Ability Your mystic approach determines your spellcasting ability, which affects your Corruption Threshold, spell save DC and your spell attack modifier: Corruption Threshold = (your proficiency bonus + your spellcasting ability modifier) × 2 Spell save DC = 8 + your proficiency bonus + your spellcasting ability modifier Spell attack modifier = your proficiency bonus + your spellcasting ability modifier Favored Maximum Spells Spell Level Spellcasting, Approach                    2/1           1st Ritual Casting                            3/1           1st Approach                                  4/2          2nd Ability Score Improvement or Feat         5/2          2nd Ritual Casting                            6/3           3rd Approach                                  6/3           3rd Ritual Casting                            6/4           4th Ability Score Improvement or Feat         6/4           4th Approach                                  6/5           5th Ability Score Improvement or Feat         6/5           5th Ritual Casting                            6/6           6th Ability Score Improvement or Feat         6/6           6th Approach                                  6/7           7th Ritual Casting                            6/7           7th \u2014                                         6/8           8th Ability Score Improvement or Feat         6/8           8th Approach                                  6/9           9th Spell Mastery                             6/9           9th Ability Score Improvement or Feat         6/10          9th Signature Spells                          6/10          9th"
+      ]
+    },
+    {
+      "name": "Favored Spells",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "page": 108,
+      "entries": [
+        "There are certain spells that a mystic has studied extensively, so much that they can mitigate the corrupting influence of the familiar magic. At 1st level, you can select 2 cantrips and 1 leveled spell. When you cast a favored cantrip you gain no Corruption, and when you cast a leveled favored spell you gain Corruption equal only to the level of the spell. Each time you gain a level of mystic you can make more spells favored, as shown on the Mystic table under Favored Spells, the first number is the current amount of favored cantrips and the second number is for leveled spells. When you cast a favored spell at a higher level you add the new level as Corruption instead of the base level. For example, if you cast a favored 3rd level spell at 5th level, you gain 5 temporary Corruption instead of 3. Certain spells are poorly researched, unreliable, or on the edge of dark sorcery. These spells cannot be favored. Unfavored spells are marked with an asterisk (*) in the spell lists found beginning on page 187."
+      ]
+    },
+    {
+      "name": "Approach",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "page": 108,
+      "entries": [
+        "At first level you also choose your approach, which deter- mines how you learned your arcane knowledge and how you understand the nature of the world. You might be an Artifact Crafter that makes magical items; a Sorcerer that seeks shortcuts to power despite their danger; a Staff-mage that gathers and binds power; a Symbolist that wields word- magic; a Troll Singer that brings forth magic with their voice; a Theurg that wields the power of the Sun God; a Witch that follows the old ways; or a Wizard that learned an orderly and philosophical approach to magic. Or you might be self-taught, without boundaries but a danger to yourself and others. Your approach gives you benefits at 1st, 3rd, 6th, 9th, 13th       accept Corruption as a part of their trade and just and 17th levels."
+      ]
+    },
+    {
+      "name": "Ritual Casting",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 2,
+      "page": 108,
+      "entries": [
+        "At 2nd level, you may choose a spell that you do not already know that is on your mystic approach spell list, has the rit- ual tag, and does not exceed your current maximum spell level. If you do so, you gain permanent Corruption (see page 37) equal to half the spell level, rounded up. If the ritual is a cantrip, you gain no permanent Corruption. You can only cast the chosen spell as a ritual \u2013 the ritual version of    who has already crossed that line, the Staff Mage which a spell takes 10 minutes longer to cast than normal and can only be cast at its base level. You gain no Corruption from casting one of these spells. You may also learn another spell as a ritual using these rules at 5th, 7th, 11th and 14th level."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 4,
+      "page": 108,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Spell Mastery",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 18,
+      "page": 108,
+      "entries": [
+        "At 18th level, you have achieved such mastery over certain spells that you can cast them at will and gain no Corruption. Choose two 1st or 2nd level spells that you know. You can cast them at their base level without gaining any Corrup- tion. If you cast them as a higher level, you gain Corruption as normal."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 8,
+      "page": 108,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 12,
+      "page": 108,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 16,
+      "page": 108,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 19,
+      "page": 108,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Signature Spells",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 20,
+      "page": 108,
+      "entries": [
+        "When you reach 20th level, you gain mastery over two pow- erful spells and can cast them with little effort. Choose two 3rd-level or lower spells that you know. You can cast them at their base level without gaining any Corruption. If you cast them as a higher level, you gain Corruption as normal. The Myth of Pure Magic Within all traditions there is a myth of Pure Magic, the undefiled miracle. In different versions it tells about a time when the world was unspoiled and when the use of mystical powers yielded no Corrup- tion. Then something happened. Evil entered the world and with it came the blight. Some mystics dream about recreating the pure magic of yore by healing the wounds of the world, expelling evil, slaying the World Serpent or reclaim- ing the long lost arch magic. However, most mystics something to be dealt with."
+      ]
+    },
+    {
+      "name": "Backstab",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction.",
+        "Once per turn, you can deal an extra 1d6 damage to one creature you hit with a melee weapon attack if you have advantage on the attack roll.",
+        "You must be proficient with the weapon used.",
+        "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.",
+        "The amount of the extra damage increases as you gain levels in this class, as shown in the Backstab column of the Scoundrel table."
+      ],
+      "foundrySystem": {
+        "activation": {
+          "type": "special"
+        },
+        "activities": [
+          {
+            "name": "Backstab",
+            "type": "damage",
+            "damage": {
+              "critical": {
+                "allow": true
+              },
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": true,
+                    "formula": "(@scale.scoundrel.backstabDieCount)d6"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Expertise",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools.",
+        "Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies."
+      ],
+      "expertise": [
+        {
+          "anyProficientSkill": 2
+        },
+        {
+          "anyProficientSkill": 1,
+          "thieves' tools": true
+        }
+      ]
+    },
+    {
+      "name": "Approach",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "At first level you also choose your approach, the way that your scoundrel interacts with the world: are they an Explorer, a Spy, a Treasure-hunter, a Thug, or a Sapper?",
+        "Each approach is detailed at the end of the class description.",
+        "Your choice grants you features at 1st level and again at 3rd, 6th, 9th, 13th, and 17th level."
+      ]
+    },
+    {
+      "name": "Cunning Action",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 2,
+      "entries": [
+        "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly.",
+        "You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action"
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Uncanny Dodge",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 5,
+      "entries": [
+        "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+      ]
+    },
+    {
+      "name": "Expertise",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 6,
+      "entries": [
+        "At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain expertise."
+      ],
+      "expertise": [
+        {
+          "anyProficientSkill": 2
+        },
+        {
+          "anyProficientSkill": 1,
+          "thieves' tools": true
+        }
+      ]
+    },
+    {
+      "name": "Evasion",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 7,
+      "entries": [
+        "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as an ice storm spell. ",
+        "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 8,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 10,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Reliable Talent",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 11,
+      "entries": [
+        "By 11th level, you have refined your chosen skills until they approach perfection.",
+        "Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 12,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Blindsense",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 14,
+      "entries": [
+        "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you."
+      ]
+    },
+    {
+      "name": "Slippery Mind",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 15,
+      "entries": [
+        "By 15th level, you have acquired greater mental strength.",
+        "You gain proficiency in Wisdom saving throws."
+      ],
+      "savingThrowProficiencies": [
+        {
+          "wis": true
+        }
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 16,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Elusive",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 18,
+      "entries": [
+        "Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you.",
+        "No attack roll has advantage against you while you aren't incapacitated."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 19,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Stroke of Luck",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Scoundrel",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 20,
+      "entries": [
+        "At 20th level, you have an uncanny knack for succeeding when you need to.",
+        "If your attack misses a target within range, you can turn the miss into a hit.",
+        "Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.",
+        "Once you use this feature, you can't use it again until you finish a short or longer rest."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": 1
+        }
+      }
+    },
+    {
+      "name": "Battle Wind",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "You are familiar with the ebb and flow of battle and know how to defend yourself against the wild blows of desperate opponents.",
+        "When you are hit by an attack roll you can use your reaction to gain temporary hit points equal to 2d4 + your Constitution modifier.",
+        "You immediately gain the temporary hit points and can apply damage from the triggering attack to them.",
+        "You can use this feature a number of times equal to your proficiency bonus and then you must take a long or extended rest before using this feature again."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "@attributes.prof"
+        },
+        "activities": [
+          {
+            "activation": {
+              "type": "reaction"
+            },
+            "type": "heal",
+            "healing": {
+              "types": ["temphp"],
+              "custom": {
+                "enabled": true,
+                "formula": "2d4 + @attributes.con"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fighting Style",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Archery"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Defense"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Dueling"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Great Weapon Fighting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Two-Weapon Fighting|RuinsOfSymbaroumC"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Polearm Fighting|RuinsOfSymbaroumC"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Shield Fighting|RuinsOfSymbaroumC"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Snare Fighting|RuinsOfSymbaroumC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Approach",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "entries": [
+        "At 1st level you also choose your approach to the profession of fighting.",
+        "Are you a Berserker, dangerous to friends and foes alike?",
+        "A studied Duelist used to combat against a single opponent?",
+        "A Knight who has pledged their very life to the protection of the kingdom?",
+        "A Rune Smith using custom weapons?",
+        "A faithful Templar?",
+        "Or one of the dangerous Wraithguard?",
+        "Your approach gives you benefits at 1st, 3rd, 6th, 9th, 13th and 17th levels."
+      ]
+    },
+    {
+      "name": "Action Surge",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 2,
+      "entries": [
+        "Starting at 2nd level, you can push yourself beyond your normal limits for a moment.",
+        "On your turn, you can take one additional action.",
+        "Once you use this feature, you must finish a rest of any length before you can use it again.",
+        "Starting at 15th level, you can use it twice before a rest, but only once on the same turn."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "@scale.warrior.actionSurge"
+        }
+      }
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 5,
+      "entries": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 18th level in this class."
+      ]
+    },
+    {
+      "name": "Indomitable",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 7,
+      "entries": [
+        "Beginning at 7th level, you can reroll a saving throw that you fail.",
+        "If you do so, you must use the new roll, and you can't use this feature again until you finish a long or extended rest."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": 1
+        }
+      }
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 11,
+      "entries": [
+        "Beginning at 11th level, you can attack three times, instead of twice, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 18,
+      "entries": [
+        "Beginning at 18th level, you can attack four times, instead of three, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Undying Courage",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 20,
+      "entries": [
+        "At 20th level you can shrug off effects that would incapacitate lesser warriors.",
+        "When required to make a saving throw you can choose to pass it instead.",
+        "If you do so, you cannot do so again until you take a rest of any length."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": 1
+        }
+      }
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 8,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 10,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 12,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 14,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 16,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Warrior",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 19,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Instead of improving your ability scores you can instead choose to gain a feat. See page 146 for more about feats."
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Polearm Fighting",
+      "source": "RuinsOfSymbaroumC",
+      "page": 96,
+      "featureType": ["FS:C"],
+      "entries": [
+        "When wielding a reach weapon, you can use your reaction to impose disadvantage on a melee attack roll within your reach."
+      ]
+    },
+    {
+      "name": "Shield Fighting",
+      "source": "RuinsOfSymbaroumC",
+      "page": 96,
+      "featureType": ["FS:C"],
+      "entries": [
+        "If you make a successful melee attack roll you can use your bonus action to slam a target within 5 ft with your shield. If the target is your size or smaller, it must make a Strength saving throw against 10 plus your Strength (Athletics) modifier. On a failure you can choose to move the creature 10 feet in a line, or cause it to become prone."
+      ]
+    },
+    {
+      "name": "Snare Fighting",
+      "source": "RuinsOfSymbaroumC",
+      "page": 96,
+      "featureType": ["FS:C"],
+      "entries": [
+        "If using a weapon with the ensnaring prop- erty and you make a successful attack roll, you can spend a bonus action to forgo do- ing damage, instead tripping the target and causing it to fall prone. This only works on creatures your size or smaller with two or less legs, or similarly shaped targets."
+      ]
+    },
+    {
+      "name": "Two-Weapon Fighting",
+      "source": "RuinsOfSymbaroumC",
+      "page": 96,
+      "featureType": ["FS:C"],
+      "entries": [
+        "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+      ]
+    }
+  ]
+}

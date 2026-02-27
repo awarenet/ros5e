@@ -1,0 +1,20 @@
+<div class="standard-form">
+  <div class="form-group">
+    <label>{{localize "ROS5E.setting.useSymbaroumCurrency.name"}}</label>
+    <div class="form-fields">
+      <input
+        type="checkbox"
+        name="useSymbaroumCurrency"
+        {{checked
+        useSymbaroumCurrency}}
+      />
+    </div>
+    <p class="notes">{{localize "ROS5E.setting.useSymbaroumCurrency.hint"}}</p>
+  </div>
+  <div class="form-group buttons-save">
+    <button type="submit" name="submit">
+      <i class="far fa-save"></i> {{localize
+      "ROS5E.setting.config-submit-button.name"}}
+    </button>
+  </div>
+</div>
