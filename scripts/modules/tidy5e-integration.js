@@ -7,10 +7,14 @@ export class Tidy5eIntegration {
   static register() {
     Hooks.once("tidy5e-sheet.ready", (api) => {
       Tidy5eIntegration.registerCorruption(api);
-      Tidy5eIntegration.registerTalisman(api);
       Tidy5eIntegration.registerExtRest(api);
-      Tidy5eIntegration.registerFavored(api);
-      Tidy5eIntegration.registerRunes(api);
+      Tidy5eIntegration.registerSpellcaster(api);
+      Handlebars.registerHelper("defaultIfEmpty", function (a, b) {
+        return a ? a : b;
+      });
+    });
+    Hooks.on("tidy5e-sheet.selectTab", (app, element, id) => {
+      app.render();
     });
     if (Common.setting("useSymbaroumCurrency")) {
       Hooks.on("renderActorSheetV2", (app, element, data, forced) => {
@@ -53,62 +57,28 @@ export class Tidy5eIntegration {
     );
   }
 
-  // Talisman chip
-  static registerTalisman(api) {
+  // Spellcaster chips
+  static registerSpellcaster(api) {
     api.registerActorContent(
       new api.models.HandlebarsContent({
-        path: `${Common.constants.path}/templates/actors/parts/tidy-talisman-container.hbs`,
+        path: `${Common.constants.path}/templates/actors/parts/tidy-spellcaster-container.hbs`,
         injectParams: {
-          selector: `.info.pills .pill:last-child`,
+          selector: `.spellcasting-class-card`,
           position: "beforebegin",
         },
         // context doesn't have the extension method for get ros5eActor so we have to do it manually
         getData(context) {
-          context.talismans = context.actor.getTalismans();
-          return context;
-        },
-      }),
-    );
-  }
-
-  // Runes chip
-  static registerRunes(api) {
-    api.registerActorContent(
-      new api.models.HandlebarsContent({
-        path: `${Common.constants.path}/templates/actors/parts/tidy-rune-container.hbs`,
-        injectParams: {
-          selector: `.info.pills .pill:last-child`,
-          position: "beforebegin",
-        },
-        // context doesn't have the extension method for get ros5eActor so we have to do it manually
-        getData(context) {
-          if (!context.actor.getRunes()) {
-            return context;
+          if (context.actor.getRunes()) {
+            context.runes = {
+              prepared: context.actor.getRunes().prepared.length,
+              max: context.actor.system.attributes.prof * 2,
+            };
           }
-          context.runes = {
-            prepared: context.actor.getRunes().prepared.length,
-            max: context.actor.system.attributes.prof * 2,
-          };
-          return context;
-        },
-      }),
-    );
-  }
-
-  // Favored Spells/Cantrips chip
-  static registerFavored(api) {
-    api.registerActorContent(
-      new api.models.HandlebarsContent({
-        path: `${Common.constants.path}/templates/actors/parts/tidy-favored-container.hbs`,
-        injectParams: {
-          selector: `.info.pills .pill:last-child`,
-          position: "beforebegin",
-        },
-        // context doesn't have the extension method for get ros5eActor so we have to do it manually
-        getData(context) {
+          context.talismans = context.actor.getTalismans();
           context.favored = context.actor.getFavoredSpells();
           context.cantripsmax = context.actor.getFavoredSpellsMax("cantrip");
           context.spellsmax = context.actor.getFavoredSpellsMax("spells");
+          context.show = context.runes || context.talismans || context.favored;
           return context;
         },
       }),

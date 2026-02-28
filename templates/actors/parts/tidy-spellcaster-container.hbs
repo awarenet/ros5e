@@ -1,0 +1,51 @@
+{{#if show}}
+  <div class="spellcasting-class-card flexrow">
+    <div class="header flexshrink"><a
+        role="button"
+        tabindex="0"
+        class="name font-title-small"
+        aria-label="Mystic"
+      >RoS</a>
+      <!----><!----></div>
+    <div class="info pills flex1">
+      {{#if runes}}
+        <div class="pill pill-medium rune-spell"><span
+            class="label font-label-medium color-text-lighter"
+          >{{localize "ROS5E.Rune.Label"}}</span>
+          <span class="value"><span class="font-data-medium">{{defaultIfEmpty
+                runes.prepared
+                0
+              }}/{{defaultIfEmpty runes.max 0}}</span></span>
+        </div>
+      {{/if}}
+      {{#if talismans}}
+        <div class="pill pill-medium talisman-spell"><span
+            class="label font-label-medium color-text-lighter"
+          >{{localize "ROS5E.Talisman.Label"}}</span>
+          <span class="value"><span class="font-data-medium">{{defaultIfEmpty
+                talismans.used.length
+                0
+              }}/{{defaultIfEmpty talismans.created 0}}</span></span>
+        </div>
+      {{/if}}
+      {{#if favored}}
+        <div class="pill pill-medium favored-spell"><span
+            class="label font-label-medium color-text-lighter"
+          >{{localize "ROS5E.Spell.Favored"}} Cantrips</span>
+          <span class="value"><span class="font-data-medium">{{defaultIfEmpty
+                favored.cantrips.length
+                0
+              }}/{{cantripsmax}}</span></span>
+        </div>
+        <div class="pill pill-medium favored-spell"><span
+            class="label font-label-medium color-text-lighter"
+          >{{localize "ROS5E.Spell.Favored"}} Spells</span>
+          <span class="value"><span class="font-data-medium">{{defaultIfEmpty
+                favored.spells.length
+                0
+              }}/{{spellsmax}}</span></span>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+{{/if}}
