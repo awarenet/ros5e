@@ -1,4 +1,4 @@
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 import { Spellcasting } from "./spellcasting.js";
 import { Corruption } from "./corruption.js";
 export class ItemSyb5e {
@@ -42,7 +42,7 @@ export class ItemSyb5e {
       },
     };
 
-    COMMON.patch(target, targetPath, patches);
+    Common.patch(target, targetPath, patches);
   }
 
   static prepareDerivedData(wrapped, ...args) {
@@ -83,7 +83,7 @@ export class ItemSyb5e {
     /* DnD5e v4+ properties are Sets */
     if (props instanceof Set) {
       if (this.isArmor) {
-        const flags = this.getFlag(COMMON.DATA.name, "armorProps");
+        const flags = this.getFlag(Common.constants.name, "armorProps");
         if (flags) {
           for (const [k, v] of Object.entries(flags)) {
             if (v) props.add(k);
@@ -102,7 +102,7 @@ export class ItemSyb5e {
     if (this.isArmor) {
       return foundry.utils.mergeObject(
         propsObj,
-        this.getFlag(COMMON.DATA.name, "armorProps") ??
+        this.getFlag(Common.constants.name, "armorProps") ??
           game.ros5e.CONFIG.DEFAULT_ITEM.armorProps,
       );
     }

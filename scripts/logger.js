@@ -3,26 +3,27 @@
  *  Full License at "scripts/licenses/DnD5e-Helpers-LICENSE"
  */
 
-import { COMMON } from './common.js'
+import { Common } from "./common.js";
 
 export class logger {
   static NAME = this.name;
 
   static info(...args) {
-    console.log(`${COMMON?.DATA?.title || "" }  | `, ...args);
+    console.log(`${Common?.constants?.title || ""}  | `, ...args);
   }
   static debug(...args) {
-    if (COMMON.setting('debug'))
-      this.info("DEBUG | ", ...args);
+    if (Common.setting("debug")) this.info("DEBUG | ", ...args);
   }
   static error(...args) {
-    console.error(`${COMMON?.DATA?.title || "" } | ERROR | `, ...args);
-    ui.notifications.error(`${COMMON?.DATA?.title || "" } | ERROR | ${args[0]}`);
+    console.error(`${Common?.constants?.title || ""} | ERROR | `, ...args);
+    ui.notifications.error(
+      `${Common?.constants?.title || ""} | ERROR | ${args[0]}`,
+    );
   }
 
   static warning(notify, ...args) {
-    console.warn(`${COMMON?.DATA?.title || "" } | WARNING | `, ...args);
-    if(notify) this.warn(...args)
+    console.warn(`${Common?.constants?.title || ""} | WARNING | `, ...args);
+    if (notify) this.warn(...args);
   }
 
   static notify(...args) {
@@ -33,18 +34,21 @@ export class logger {
     ui.notifications.warn(`${args[0]}`);
   }
 
-  static register(){
-    this.settings()
+  static register() {
+    this.settings();
   }
 
-  static settings(){
+  static settings() {
     const config = true;
     const settingsData = {
-      debug : {
-        scope: "world", config, default: false, type: Boolean,
+      debug: {
+        scope: "world",
+        config,
+        default: false,
+        type: Boolean,
       },
     };
 
-    COMMON.applySettings(settingsData);
+    Common.applySettings(settingsData);
   }
 }

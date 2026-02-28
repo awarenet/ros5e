@@ -1,4 +1,4 @@
-import { COMMON } from "./common.js";
+import { Common } from "./common.js";
 import { logger } from "./logger.js";
 import { LibWrapperShim } from "./libraries/LibWrapper/shim.js";
 import { ROS5E } from "./config.js";
@@ -11,7 +11,7 @@ import { Corruption } from "./modules/corruption.js";
 
 const SUB_MODULES = [
   LibWrapperShim,
-  COMMON,
+  Common,
   ROS5E,
   logger,
   ActorSyb5e,
@@ -25,7 +25,7 @@ const SUB_MODULES = [
 Hooks.on("init", () => {
   // register all submodules
   SUB_MODULES.forEach((cl) => {
-    logger.info(COMMON.localize("ROS5E.Init.SubModule", { name: cl.NAME }));
+    logger.info(Common.localize("ROS5E.Init.SubModule", { name: cl.NAME }));
     cl.register();
   });
 });

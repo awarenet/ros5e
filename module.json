@@ -49,6 +49,10 @@
       {
         "id": "tidy5e-sheet",
         "type": "module"
+      },
+      {
+        "id": "plutonium",
+        "type": "module"
       }
     ]
   },

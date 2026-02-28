@@ -1,4 +1,4 @@
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 import { logger } from "../logger.js";
 
 import { SybRestDialog } from "./apps/syb-rest-dialog.js";
@@ -97,7 +97,7 @@ export class ActorSyb5e {
       },
     };
 
-    COMMON.patch(target, targetPath, patches);
+    Common.patch(target, targetPath, patches);
     this.patchDataModel();
   }
 
@@ -271,14 +271,14 @@ export class ActorSyb5e {
 
   static getShadow() {
     const shadow =
-      this.getFlag(COMMON.DATA.name, "shadow") ??
+      this.getFlag(Common.constants.name, "shadow") ??
       game.ros5e.CONFIG.DEFAULT_FLAGS.shadow;
     return shadow;
   }
 
   static getManner() {
     const manner =
-      this.getFlag(COMMON.DATA.name, "manner") ??
+      this.getFlag(Common.constants.name, "manner") ??
       game.ros5e.CONFIG.DEFAULT_FLAGS.manner;
     return manner;
   }
@@ -293,7 +293,7 @@ export class ActorSyb5e {
   static convertSybCurrency() {
     /* dont convert syb currency if not an syb actor */
     if (!this.isSybActor()) {
-      logger.error(COMMON.localize("ROS5E.error.notSybActor"));
+      logger.error(Common.localize("ROS5E.error.notSybActor"));
       return;
     }
 
@@ -349,14 +349,14 @@ export class ActorSyb5e {
   /* -------------------------------------------- */
 
   static isSybActor() {
-    var retval = this.getFlag(COMMON.DATA.name, "ros5eActor") ?? false;
+    var retval = this.getFlag(Common.constants.name, "ros5eActor") ?? false;
     return retval;
   }
 
   static getTalismans() {
     var retval =
       this.subclasses["artifact-crafter"]?.getFlag(
-        COMMON.DATA.name,
+        Common.constants.name,
         "talismans",
       ) ?? false;
     return retval;
@@ -364,7 +364,7 @@ export class ActorSyb5e {
 
   static setTalismans(talismans) {
     this.subclasses["artifact-crafter"]?.setFlag(
-      COMMON.DATA.name,
+      Common.constants.name,
       "talismans",
       talismans,
     );
@@ -372,12 +372,17 @@ export class ActorSyb5e {
 
   static getRunes() {
     return (
-      this.subclasses["symbolist"]?.getFlag(COMMON.DATA.name, "runes") ?? false
+      this.subclasses["symbolist"]?.getFlag(Common.constants.name, "runes") ??
+      false
     );
   }
 
   static setRunes(runes) {
-    this.subclasses["symbolist"]?.setFlag(COMMON.DATA.name, "runes", runes);
+    this.subclasses["symbolist"]?.setFlag(
+      Common.constants.name,
+      "runes",
+      runes,
+    );
   }
 
   /* -------------------------------------------- */
@@ -440,7 +445,10 @@ export class ActorSyb5e {
 
   static getFavoredSpells() {
     return (
-      this.getFlag(COMMON.DATA.name, "favored") ?? { cantrips: [], spells: [] }
+      this.getFlag(Common.constants.name, "favored") ?? {
+        cantrips: [],
+        spells: [],
+      }
     );
   }
 
@@ -449,7 +457,7 @@ export class ActorSyb5e {
       logger.error("Favored spell ids must be an array", favoredSpellIds);
       return;
     }
-    this.setFlag(COMMON.DATA.name, `favored.${type}`, favoredSpellIds);
+    this.setFlag(Common.constants.name, `favored.${type}`, favoredSpellIds);
   }
 
   static getFavoredSpellsMax(type) {
@@ -460,7 +468,7 @@ export class ActorSyb5e {
 
   static isSinger() {
     return Object.values(this.subclasses)?.some(
-      (x) => x.getFlag(COMMON.DATA.name, "isSinger") == true,
+      (x) => x.getFlag(Common.constants.name, "isSinger") == true,
     );
   }
 

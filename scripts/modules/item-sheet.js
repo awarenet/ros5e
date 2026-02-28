@@ -1,4 +1,4 @@
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 import { logger } from "../logger.js";
 import { ROS5E } from "../config.js";
 
@@ -43,18 +43,18 @@ export class Syb5eItemSheet {
         favoredValue:
           foundry.utils.getProperty(item, ROS5E.CONFIG.PATHS.favored) ?? 0,
         favoredStates: {
-          [COMMON.localize("ROS5E.Spell.Favored")]: 1,
-          [COMMON.localize("ROS5E.Spell.NotFavored")]: 0,
-          [COMMON.localize("ROS5E.Spell.NeverFavored")]: -1,
+          [Common.localize("ROS5E.Spell.Favored")]: 1,
+          [Common.localize("ROS5E.Spell.NotFavored")]: 0,
+          [Common.localize("ROS5E.Spell.NeverFavored")]: -1,
         },
       };
 
       const favoredSelect = await renderTemplate(
-        `${COMMON.DATA.path}/templates/items/parts/spell-favored.html`,
+        `${Common.constants.path}/templates/items/parts/spell-favored.html`,
         data,
       );
       const favoredBadge = await renderTemplate(
-        `${COMMON.DATA.path}/templates/items/parts/spell-favored-badge.html`,
+        `${Common.constants.path}/templates/items/parts/spell-favored-badge.html`,
         data,
       );
 
@@ -73,7 +73,7 @@ export class Syb5eItemSheet {
       /* find the "Cost (GP)" label (if it exists) */
       const costLabel = html.find('[name="system.materials.cost"]').prev();
       if (costLabel.length > 0) {
-        costLabel.text(COMMON.localize("ROS5E.Currency.CostThaler"));
+        costLabel.text(Common.localize("ROS5E.Currency.CostThaler"));
       }
     }
 
@@ -82,7 +82,7 @@ export class Syb5eItemSheet {
       /* get the subclass text field entry */
       const subclassLabel = html.find(".header-details .item-type");
       if (subclassLabel.length > 0) {
-        subclassLabel.text(COMMON.localize("ROS5E.Item.Class.Approach"));
+        subclassLabel.text(Common.localize("ROS5E.Item.Class.Approach"));
       } else {
         logger.debug(
           "Could not find subclass label field in class item render.",
@@ -114,8 +114,8 @@ export class Syb5eItemSheet {
       let data = {
         corruptionType: {
           none: "",
-          temp: COMMON.localize("ROS5E.Corruption.TemporaryFull"),
-          permanent: COMMON.localize("ROS5E.Corruption.Permanent"),
+          temp: Common.localize("ROS5E.Corruption.TemporaryFull"),
+          permanent: Common.localize("ROS5E.Corruption.Permanent"),
         },
         corruptionModes: {
           "": CONST.ACTIVE_EFFECT_MODES.CUSTOM,
@@ -134,7 +134,7 @@ export class Syb5eItemSheet {
       }
 
       const corruptionGroup = await renderTemplate(
-        `${COMMON.DATA.path}/templates/items/parts/item-corruption.html`,
+        `${Common.constants.path}/templates/items/parts/item-corruption.html`,
         data,
       );
       consumeGroup.after(corruptionGroup);

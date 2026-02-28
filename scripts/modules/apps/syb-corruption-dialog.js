@@ -1,4 +1,4 @@
-import { COMMON } from "../../common.js";
+import { Common } from "../../common.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 

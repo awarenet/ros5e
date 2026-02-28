@@ -1,4 +1,4 @@
-import { COMMON } from "./common.js";
+import { Common } from "./common.js";
 import { SybConfigApp } from "./modules/apps/config-app.js";
 
 /* CONFIG class for ros5e data.
@@ -12,7 +12,6 @@ export class ROS5E {
     this.templates();
     this.hooks();
     this.settings();
-    this.bootstrapResources();
   }
 
   static get CONFIG() {
@@ -23,7 +22,7 @@ export class ROS5E {
     const loadTemplates =
       foundry.applications?.handlebars?.loadTemplates ??
       globalThis.loadTemplates;
-    return loadTemplates([`${COMMON.DATA.path}/templates/apps/rest.hbs`]);
+    return loadTemplates([`${Common.constants.path}/templates/apps/rest.hbs`]);
   }
 
   /* registering our settings */
@@ -46,13 +45,73 @@ export class ROS5E {
       },
     };
 
-    COMMON.applySettings(settingsData);
+    Common.applySettings(settingsData);
   }
 
   static hooks() {
     Hooks.on("i18nInit", ROS5E._preTranslateConfig);
+    Hooks.on("ready", ROS5E.setPlutoniumConfig);
+    Hooks.on("ready", ROS5E.bootstrapResources);
   }
 
+  static async setPlutoniumConfig() {
+    if (!game.user.isGM) {
+      return;
+    }
+
+    if (globalThis.plutonium) {
+      //config already set to our path
+      if (
+        globalThis.plutonium.config.getValue(
+          "dataSources",
+          "isLoadLocalHomebrewIndex",
+        ) &&
+        globalThis.plutonium.config.getValue(
+          "dataSources",
+          "localHomebrewDirectoryPath",
+        ) === Common.constants.brewPath
+      ) {
+        return;
+      }
+
+      //config set to another path
+      if (
+        globalThis.plutonium.config.getValue(
+          "dataSources",
+          "isLoadLocalHomebrewIndex",
+        ) &&
+        globalThis.plutonium.config.getValue(
+          "dataSources",
+          "localHomebrewDirectoryPath",
+        ) !== Common.constants.brewPath
+      ) {
+        await foundry.applications.api.Dialog.confirm({
+          title: Common.localize("ROS5E.setting.plutonium-source.title"),
+          content: Common.localize("ROS5E.setting.plutonium-source.content"),
+          yes: {
+            callback: ROS5E.setBrewSources,
+          },
+        });
+      } else {
+        ROS5E.setBrewSources();
+      }
+    } else {
+      logger.error(`plutonium not found`);
+    }
+  }
+
+  static setBrewSources() {
+    globalThis.plutonium.config.setValue(
+      "dataSources",
+      "isLoadLocalHomebrewIndex",
+      true,
+    );
+    globalThis.plutonium.config.setValue(
+      "dataSources",
+      "localHomebrewDirectoryPath",
+      Common.constants.brewPath,
+    );
+  }
   /// this is gross. have to override dnd5e config after it's loaded but there is no hook for it.
   /// it's the only way to add new consumable resources.
   static async bootstrapResources() {
@@ -70,13 +129,13 @@ export class ROS5E {
 
   static _preTranslateConfig() {
     globalThis.game.dnd5e.config.limitedUsePeriods.er = {
-      label: COMMON.localize("ROS5E.Rest.Extended"),
+      label: Common.localize("ROS5E.Rest.Extended"),
       abbreviation: "ER",
     };
 
     /* Add in "Extended Rest" type */
     globalThis.game.dnd5e.config.restTypes.ext = {
-      label: COMMON.localize("ROS5E.Rest.Extended"),
+      label: Common.localize("ROS5E.Rest.Extended"),
       duration: { normal: 1440, gritty: 10080, epic: 60 },
       recoverPeriods: ["er", "lr", "sr"],
       icon: "fas fa-bed",
@@ -88,17 +147,17 @@ export class ROS5E {
     };
 
     /* Add in "Greater Artifact" rarity for items */
-    globalThis.game.dnd5e.config.itemRarity.greaterArtifact = COMMON.localize(
+    globalThis.game.dnd5e.config.itemRarity.greaterArtifact = Common.localize(
       "ROS5E.Item.Rarity.GreaterArtifact",
     );
 
     /* Add in "Alchemical Weapon" category for weapons */
-    globalThis.game.dnd5e.config.weaponTypes.alchemical = COMMON.localize(
+    globalThis.game.dnd5e.config.weaponTypes.alchemical = Common.localize(
       "ROS5E.Item.Subtype.Alchemical",
     );
 
     /* Add in "Alchemical" as a weapon proficiency */
-    globalThis.game.dnd5e.config.weaponProficiencies.alc = COMMON.localize(
+    globalThis.game.dnd5e.config.weaponProficiencies.alc = Common.localize(
       "ROS5E.Proficiency.WeaponAlchemical",
     );
 
@@ -119,7 +178,7 @@ export class ROS5E {
     Reflect.ownKeys(weaProps).forEach((prop) => {
       globalThis.game.dnd5e.config.validProperties.weapon.add(prop);
       globalThis.game.dnd5e.config.itemProperties[prop] =
-        COMMON.translateObject(weaProps[prop]);
+        Common.translateObject(weaProps[prop]);
     });
 
     /* Extend armor properties */
@@ -133,7 +192,7 @@ export class ROS5E {
     Reflect.ownKeys(armProps).forEach((prop) => {
       globalThis.game.dnd5e.config.validProperties.equipment.add(prop);
       globalThis.game.dnd5e.config.itemProperties[prop] =
-        COMMON.translateObject(armProps[prop]);
+        Common.translateObject(armProps[prop]);
     });
 
     /* extend dnd5e damage types
@@ -141,7 +200,7 @@ export class ROS5E {
      */
     foundry.utils.mergeObject(
       globalThis.game.dnd5e.config.damageTypes,
-      COMMON.translateObject({
+      Common.translateObject({
         permc: "ROS5E.Corruption.PermDamage",
         tempc: "ROS5E.Corruption.TempDamage",
       }),
@@ -157,7 +216,7 @@ export class ROS5E {
     });
 
     /* Store new armor properties */
-    globalThis.game.ros5e.CONFIG.ARMOR_PROPS = COMMON.translateObject({
+    globalThis.game.ros5e.CONFIG.ARMOR_PROPS = Common.translateObject({
       con: "ROS5E.Item.ArmorProps.Concealable",
       cmb: "ROS5E.Item.ArmorProps.Cumbersome",
       noi: "ROS5E.Item.ArmorProps.Noisy",
@@ -173,14 +232,14 @@ export class ROS5E {
     }, {});
 
     /* Replace currency names */
-    globalThis.game.ros5e.CONFIG.CURRENCY = COMMON.translateObject({
+    globalThis.game.ros5e.CONFIG.CURRENCY = Common.translateObject({
       gp: "ROS5E.Currency.Thaler",
       sp: "ROS5E.Currency.Shilling",
       cp: "ROS5E.Currency.Orteg",
     });
 
     /* Apply currency overrides to dnd5e config */
-    if (COMMON.setting("useSymbaroumCurrency")) {
+    if (Common.setting("useSymbaroumCurrency")) {
       for (const [key, label] of Object.entries(
         globalThis.game.ros5e.CONFIG.CURRENCY,
       )) {
@@ -283,18 +342,18 @@ export class ROS5E {
         },
       },
       corruptionOverride: {
-        root: `flags.${COMMON.DATA.name}.corruptionOverride`,
-        type: `flags.${COMMON.DATA.name}.corruptionOverride.type`,
-        value: `flags.${COMMON.DATA.name}.corruptionOverride.value`, //getter only for actors
-        mode: `flags.${COMMON.DATA.name}.corruptionOverride.mode`, //for custom corruption items
+        root: `flags.${Common.constants.name}.corruptionOverride`,
+        type: `flags.${Common.constants.name}.corruptionOverride.type`,
+        value: `flags.${Common.constants.name}.corruptionOverride.value`, //getter only for actors
+        mode: `flags.${Common.constants.name}.corruptionOverride.mode`, //for custom corruption items
       },
-      manner: `flags.${COMMON.DATA.name}.manner`,
-      shadow: `flags.${COMMON.DATA.name}.shadow`,
+      manner: `flags.${Common.constants.name}.manner`,
+      shadow: `flags.${Common.constants.name}.shadow`,
       favored: `system.favored`,
-      armorProps: `flags.${COMMON.DATA.name}.armorProps`,
+      armorProps: `flags.${Common.constants.name}.armorProps`,
       sybSoulless: {
-        dataPath: `flags.${COMMON.DATA.name}.sybSoulless`,
-        scope: COMMON.DATA.name,
+        dataPath: `flags.${Common.constants.name}.sybSoulless`,
+        scope: Common.constants.name,
         key: "sybSoulless",
       },
     };

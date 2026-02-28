@@ -1,4 +1,4 @@
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 //import { logger } from '../logger.js';
 
 export class DamageRollSyb5e {
@@ -21,7 +21,7 @@ export class DamageRollSyb5e {
       },
     };
 
-    COMMON.patch(target, targetPath, patches);
+    Common.patch(target, targetPath, patches);
   }
 
   static configureDamage(wrapped, ...args) {
@@ -31,10 +31,10 @@ export class DamageRollSyb5e {
       this.terms.push(
         new NumericTerm(
           { number: this.data.mod },
-          { flavor: COMMON.localize("ROS5E.Item.WeaponProps.DeepImpact") },
+          { flavor: Common.localize("ROS5E.Item.WeaponProps.DeepImpact") },
         ),
       );
-      this.options.flavor += ` (${COMMON.localize("ROS5E.Item.WeaponProps.DeepImpact")})`;
+      this.options.flavor += ` (${Common.localize("ROS5E.Item.WeaponProps.DeepImpact")})`;
     }
 
     return wrapped(...args);

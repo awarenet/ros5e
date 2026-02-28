@@ -1,7 +1,7 @@
 import { ROS5E } from "../config.js";
 import { logger } from "../logger.js";
 import { Corruption } from "./corruption.js";
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 
 export class Spellcasting {
   static NAME = "Spellcasting";
@@ -23,7 +23,10 @@ export class Spellcasting {
 
   //Add context menu options for spells (favor and talisman)
   static _getContextMenuOptions(item, options) {
-    if (item.type == "spell" && !item.actor.flags[COMMON.DATA.name].noFavors) {
+    if (
+      item.type == "spell" &&
+      !item.actor.flags[Common.constants.name].noFavors
+    ) {
       options.push({
         callback: () => {
           const type = item.system.level == 0 ? "cantrips" : "spells";
@@ -38,8 +41,8 @@ export class Spellcasting {
         group: "common",
         icon: '<i class="fas fa-heart fa-fw"></i>',
         name: Corruption.isFavored(item)
-          ? COMMON.localize("ROS5E.Spell.UnfavorAction")
-          : COMMON.localize("ROS5E.Spell.FavorAction"),
+          ? Common.localize("ROS5E.Spell.UnfavorAction")
+          : Common.localize("ROS5E.Spell.FavorAction"),
       });
 
       const talismans = item.actor.getTalismans();
@@ -57,8 +60,8 @@ export class Spellcasting {
           group: "common",
           icon: '<i class="fas fa-book-sparkles fa-fw"></i>',
           name: Corruption.isTalisman(item)
-            ? COMMON.localize("ROS5E.Talisman.Remove")
-            : COMMON.localize("ROS5E.Talisman.Add"),
+            ? Common.localize("ROS5E.Talisman.Remove")
+            : Common.localize("ROS5E.Talisman.Add"),
         });
       }
 
@@ -78,8 +81,8 @@ export class Spellcasting {
           group: "common",
           icon: '<i class="fas fa-book-sparkles fa-fw"></i>',
           name: Corruption.isRune(item)
-            ? COMMON.localize("ROS5E.Rune.Remove")
-            : COMMON.localize("ROS5E.Rune.Add"),
+            ? Common.localize("ROS5E.Rune.Remove")
+            : Common.localize("ROS5E.Rune.Add"),
         });
       }
     }

@@ -6,21 +6,18 @@ const NAME = "ros5e";
 const TITLE = "Symbaroum 5E Ruins of Symbaroum - Core System";
 const PATH = `modules/${NAME}`;
 
-export class COMMON {
+export class Common {
   /** CONSTANTS **/
-  static DATA = {
+  static constants = {
     name: NAME,
     path: PATH,
     title: TITLE,
+    brewPath: `${PATH}/brew`,
   };
 
   static NAME = this.name;
 
   static register() {
-    COMMON.globals();
-  }
-
-  static globals() {
     globalThis.game.ros5e = {
       debug: {},
     };
@@ -29,28 +26,28 @@ export class COMMON {
   /** HELPER FUNCTIONS **/
   static setting(key, value = null) {
     if (value !== null) {
-      return game.settings.set(COMMON.DATA.name, key, value);
+      return game.settings.set(Common.constants.name, key, value);
     }
 
-    return game.settings.get(COMMON.DATA.name, key);
+    return game.settings.get(Common.constants.name, key);
   }
 
   static localize(stringId, data = {}) {
     return game.i18n.format(stringId, data);
   }
 
-  static applySettings(settingsData, moduleKey = COMMON.DATA.name) {
+  static applySettings(settingsData, moduleKey = Common.constants.name) {
     Object.entries(settingsData).forEach(([key, data]) => {
       game.settings.register(moduleKey, key, {
-        name: COMMON.localize(`ROS5E.setting.${key}.name`),
-        hint: COMMON.localize(`ROS5E.setting.${key}.hint`),
+        name: Common.localize(`ROS5E.setting.${key}.name`),
+        hint: Common.localize(`ROS5E.setting.${key}.hint`),
         ...data,
       });
     });
   }
 
   static translateObject(obj) {
-    Object.keys(obj).forEach((key) => (obj[key] = COMMON.localize(obj[key])));
+    Object.keys(obj).forEach((key) => (obj[key] = Common.localize(obj[key])));
     return obj;
   }
 
@@ -74,7 +71,7 @@ export class COMMON {
         const mode = data.mode ?? type;
 
         libWrapper.register(
-          COMMON.DATA.name,
+          Common.constants.name,
           `${path}.${name}`,
           data.value,
           mode,

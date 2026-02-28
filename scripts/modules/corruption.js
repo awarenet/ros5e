@@ -1,4 +1,4 @@
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 
 export class Corruption {
   static NAME = "Corruption";
@@ -60,7 +60,7 @@ export class Corruption {
     let mod = level + scaling;
     var shadowedSlope =
       itemData.actor.items.filter(
-        (i) => i.flags[COMMON.DATA.name]?.shadowedSlope === true ?? false,
+        (i) => i.flags[Common.constants.name]?.shadowedSlope === true ?? false,
       ).length > 0;
     if (
       shadowedSlope &&
@@ -87,7 +87,7 @@ export class Corruption {
     if (!itemData.actor) return false;
     const type = itemData.system.level == 0 ? "cantrips" : "spells";
     const favoredList =
-      itemData.actor.getFlag(COMMON.DATA.name, `favored.${type}`) ?? [];
+      itemData.actor.getFlag(Common.constants.name, `favored.${type}`) ?? [];
     return favoredList.includes(itemData.id);
   }
 
@@ -97,7 +97,7 @@ export class Corruption {
       return false;
     const talismanList =
       itemData.actor.subclasses["artifact-crafter"].getFlag(
-        COMMON.DATA.name,
+        Common.constants.name,
         "talismans.used",
       ) ?? [];
     return talismanList.includes(itemData.id);

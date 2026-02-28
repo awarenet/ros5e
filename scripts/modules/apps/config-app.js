@@ -1,5 +1,5 @@
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
-import { COMMON } from "../../common.js";
+import { Common } from "../../common.js";
 
 export class SybConfigApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
@@ -30,7 +30,7 @@ export class SybConfigApp extends HandlebarsApplicationMixin(ApplicationV2) {
   /** @override */
   async _prepareContext(options) {
     const context = await super._prepareContext(options);
-    context.useSymbaroumCurrency = COMMON.setting("useSymbaroumCurrency");
+    context.useSymbaroumCurrency = Common.setting("useSymbaroumCurrency");
     return context;
   }
 
@@ -41,7 +41,7 @@ export class SybConfigApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   static async _onSubmitForm(event, form, formData) {
     const data = formData.object;
-    await COMMON.setting("useSymbaroumCurrency", data.useSymbaroumCurrency);
+    await Common.setting("useSymbaroumCurrency", data.useSymbaroumCurrency);
 
     // Reload to apply changes since currency is applied at init
     // Or we could try to apply them dynamically, but reload is safer for init-time configs.

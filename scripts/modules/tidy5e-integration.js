@@ -1,4 +1,4 @@
-import { COMMON } from "../common.js";
+import { Common } from "../common.js";
 import { SybCorruptionDialog } from "./apps/syb-corruption-dialog.js";
 
 export class Tidy5eIntegration {
@@ -12,7 +12,7 @@ export class Tidy5eIntegration {
       Tidy5eIntegration.registerFavored(api);
       Tidy5eIntegration.registerRunes(api);
     });
-    if (COMMON.setting("useSymbaroumCurrency")) {
+    if (Common.setting("useSymbaroumCurrency")) {
       Hooks.on("renderActorSheetV2", (app, element, data, forced) => {
         // remove unused currency fields
         document.querySelector(
@@ -29,7 +29,7 @@ export class Tidy5eIntegration {
   static registerCorruption(api) {
     api.registerActorContent(
       new api.models.HandlebarsContent({
-        path: `${COMMON.DATA.path}/templates/actors/parts/tidy-corruption-container.hbs`,
+        path: `${Common.constants.path}/templates/actors/parts/tidy-corruption-container.hbs`,
         injectParams: {
           selector: `.ability.cha`,
           position: "afterend",
@@ -44,7 +44,7 @@ export class Tidy5eIntegration {
         // context doesn't have the extension method for get ros5eActor so we have to do it manually
         getData(context) {
           context.isSybActor = context.actor.flags
-            ? context.actor.flags[COMMON.DATA.name]?.ros5eActor > 0
+            ? context.actor.flags[Common.constants.name]?.ros5eActor > 0
             : false;
           context.corruptionThreshold = context.actor.corruptionThreshold;
           return context;
@@ -57,7 +57,7 @@ export class Tidy5eIntegration {
   static registerTalisman(api) {
     api.registerActorContent(
       new api.models.HandlebarsContent({
-        path: `${COMMON.DATA.path}/templates/actors/parts/tidy-talisman-container.hbs`,
+        path: `${Common.constants.path}/templates/actors/parts/tidy-talisman-container.hbs`,
         injectParams: {
           selector: `.info.pills .pill:last-child`,
           position: "beforebegin",
@@ -75,7 +75,7 @@ export class Tidy5eIntegration {
   static registerRunes(api) {
     api.registerActorContent(
       new api.models.HandlebarsContent({
-        path: `${COMMON.DATA.path}/templates/actors/parts/tidy-rune-container.hbs`,
+        path: `${Common.constants.path}/templates/actors/parts/tidy-rune-container.hbs`,
         injectParams: {
           selector: `.info.pills .pill:last-child`,
           position: "beforebegin",
@@ -99,7 +99,7 @@ export class Tidy5eIntegration {
   static registerFavored(api) {
     api.registerActorContent(
       new api.models.HandlebarsContent({
-        path: `${COMMON.DATA.path}/templates/actors/parts/tidy-favored-container.hbs`,
+        path: `${Common.constants.path}/templates/actors/parts/tidy-favored-container.hbs`,
         injectParams: {
           selector: `.info.pills .pill:last-child`,
           position: "beforebegin",
@@ -119,7 +119,7 @@ export class Tidy5eIntegration {
   static registerExtRest(api) {
     api.registerActorContent(
       new api.models.HandlebarsContent({
-        path: `${COMMON.DATA.path}/templates/actors/parts/tidy-extended-rest-container.hbs`,
+        path: `${Common.constants.path}/templates/actors/parts/tidy-extended-rest-container.hbs`,
         injectParams: {
           selector: `[data-tooltip="DND5E.REST.Long.Label"]`,
           position: "afterend",
@@ -134,7 +134,7 @@ export class Tidy5eIntegration {
         getData(context) {
           // context doesn't have the extension method for get ros5eActor so we have to do it manually
           context.isSybActor = context.actor.flags
-            ? context.actor.flags[COMMON.DATA.name]?.ros5eActor > 0
+            ? context.actor.flags[Common.constants.name]?.ros5eActor > 0
             : false;
           return context;
         },
