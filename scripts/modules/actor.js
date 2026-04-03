@@ -493,8 +493,7 @@ export class ActorSyb5e {
 
     /* If the current actor has the 'soulless' trait, mirror this damage to current/max health */
     const { scope, key } = game.ros5e.CONFIG.PATHS.sybSoulless;
-    if (actor.getFlag(scope, key)) {
-      /* compute the total change in corruption */
+    const sybSoulless = actor.getFlag(scope, key);
     if (sybSoulless) {
       const current = actor.corruption;
       const gainedCorruption =
@@ -502,6 +501,7 @@ export class ActorSyb5e {
         current.temp +
         (permanent ?? current.permanent) -
         current.permanent;
+      const totalCorruption =
         (temp ?? current.temp) + (permanent ?? current.permanent);
 
       const hpPath = "system.attributes.hp";
@@ -511,6 +511,7 @@ export class ActorSyb5e {
         foundry.utils.getProperty(update, hpPath) ?? {},
         { inplace: false },
       );
+
       /* Apply the change to current HP */
       currentHp -= gainedCorruption * sybSoulless;
 
