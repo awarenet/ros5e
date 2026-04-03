@@ -131,6 +131,14 @@ export class ActorSyb5e {
           min: 0,
           label: "ROS5E.Corruption.TempDamage",
         }),
+        permanent: new foundry.data.fields.NumberField({
+          required: true,
+          nullable: false,
+          integer: true,
+          initial: 0,
+          min: 0,
+          label: "ROS5E.Corruption.PermDamage",
+        }),
         bonus: new foundry.data.fields.NumberField({
           required: true,
           nullable: false,
@@ -487,39 +495,35 @@ export class ActorSyb5e {
     const { scope, key } = game.ros5e.CONFIG.PATHS.sybSoulless;
     if (actor.getFlag(scope, key)) {
       /* compute the total change in corruption */
+    if (sybSoulless) {
       const current = actor.corruption;
       const gainedCorruption =
         (temp ?? current.temp) -
         current.temp +
         (permanent ?? current.permanent) -
         current.permanent;
+        (temp ?? current.temp) + (permanent ?? current.permanent);
 
-      logger.debug("Soulless Initial Values:", actor, update);
       const hpPath = "system.attributes.hp";
 
-      let {
-        value: currentHp,
-        tempmax: currentMaxDelta,
-        max: currentMax,
-      } = foundry.utils.mergeObject(
+      let { value: currentHp, max: currentMax } = foundry.utils.mergeObject(
         foundry.utils.getProperty(actor, hpPath),
         foundry.utils.getProperty(update, hpPath) ?? {},
         { inplace: false },
       );
-      currentMaxDelta = (currentMaxDelta ?? 0) - gainedCorruption;
+      /* Apply the change to current HP */
+      currentHp -= gainedCorruption * sybSoulless;
+
+      const targetMaxDelta = -totalCorruption * sybSoulless;
 
       /* clamp current HP between max HP and 0 */
-      currentHp = Math.max(
-        Math.min(currentHp, currentMax + currentMaxDelta),
-        0,
-      );
+      currentHp = Math.max(Math.min(currentHp, currentMax + targetMaxDelta), 0);
 
       /* add in our hp changes to the update object */
       foundry.utils.setProperty(update, hpPath, {
         value: currentHp,
-        tempmax: currentMaxDelta,
+        tempmax: targetMaxDelta,
       });
-      logger.debug("Soulless Update:", update);
     }
   }
 }

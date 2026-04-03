@@ -28,4 +28,11 @@ Hooks.on("init", () => {
     logger.info(Common.localize("ROS5E.Init.SubModule", { name: cl.NAME }));
     cl.register();
   });
+
+  // register tests
+  if (game.modules.get("quench")?.active) {
+    import("../tests/tests.js").then(() => {
+      logger.info(Common.localize("ROS5E.Init.TestsLoaded"));
+    });
+  }
 });

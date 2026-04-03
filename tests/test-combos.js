@@ -1,0 +1,202 @@
+import { backgroundScripts } from "./background-scripts.js";
+import { raceScripts } from "./race-scripts.js";
+import { classScripts } from "./class-scripts.js";
+import { subclassScripts } from "./subclass-scripts.js";
+
+export const testCombos = [
+  {
+    race: "Abductee",
+    background: "Runaway",
+    class: "Mystic",
+    subclass: "Artifact Crafter",
+  },
+  {
+    race: "Changeling",
+    background: "Broken Home",
+    class: "Mystic",
+    subclass: "Self-taught",
+  },
+  {
+    race: "Dwarf",
+    background: "Dreams of Doom",
+    class: "Mystic",
+    subclass: "Sorcerer",
+  },
+  {
+    race: "Elf",
+    background: "Avenger",
+    class: "Mystic",
+    subclass: "Staff Mage",
+  },
+  {
+    race: "Goblin",
+    background: "Scout",
+    class: "Mystic",
+    subclass: "Symbolist",
+  },
+  { race: "Ogre", background: "Laborer", class: "Mystic", subclass: "Theurg" },
+  {
+    race: "Troll",
+    background: "Artifact Collector",
+    class: "Mystic",
+    subclass: "Troll Singer",
+  },
+  {
+    race: "Undead",
+    background: "Revenant",
+    class: "Mystic",
+    subclass: "Witch",
+  },
+  {
+    race: "Rebirthed",
+    background: "Convert",
+    class: "Mystic",
+    subclass: "Wizard",
+  },
+  {
+    race: "Human",
+    background: "Common Folk",
+    class: "Mystic",
+    subclass: "Blood Mage",
+  },
+  {
+    race: "Abductee",
+    background: "Mage's Assistant",
+    class: "Captain",
+    subclass: "Merchant Master",
+  },
+  {
+    race: "Changeling",
+    background: "Exile",
+    class: "Captain",
+    subclass: "Officer",
+  },
+  {
+    race: "Dwarf",
+    background: "Life-debt",
+    class: "Captain",
+    subclass: "Outlaw",
+  },
+  {
+    race: "Elf",
+    background: "Mediator",
+    class: "Captain",
+    subclass: "Poet-warrior",
+  },
+  {
+    race: "Human",
+    background: "Faithful of Prios",
+    class: "Hunter",
+    subclass: "Bounty Hunter",
+  },
+  {
+    race: "Goblin",
+    background: "Wild",
+    class: "Hunter",
+    subclass: "Ironsworn",
+  },
+  {
+    race: "Ogre",
+    background: "Sellsword",
+    class: "Hunter",
+    subclass: "Monster Hunter",
+  },
+  {
+    race: "Troll",
+    background: "Journey of Discovery",
+    class: "Hunter",
+    subclass: "Witch Hunter",
+  },
+  {
+    race: "Human",
+    background: "Refugee",
+    class: "Scoundrel",
+    subclass: "Explorer",
+  },
+  {
+    race: "Changeling",
+    background: "Outcast",
+    class: "Scoundrel",
+    subclass: "Former Cultist",
+  },
+  {
+    race: "Elf",
+    background: "Scholar of Ordo Magica",
+    class: "Scoundrel",
+    subclass: "Guild Thief",
+  },
+  {
+    race: "Goblin",
+    background: "Learned in Magic",
+    class: "Scoundrel",
+    subclass: "Sapper",
+  },
+  {
+    race: "Dwarf",
+    background: "Houses of Nobility",
+    class: "Scoundrel",
+    subclass: "Spy",
+  },
+  {
+    race: "Ogre",
+    background: "Merchant",
+    class: "Scoundrel",
+    subclass: "Thug",
+  },
+  {
+    race: "Rebirthed",
+    background: "Raised by Common Folk",
+    class: "Scoundrel",
+    subclass: "Treasure-hunter",
+  },
+  {
+    race: "Human",
+    background: "Sellsword",
+    class: "Warrior",
+    subclass: "Berserker",
+  },
+  {
+    race: "Troll",
+    background: "Laborer",
+    class: "Warrior",
+    subclass: "Duelist",
+  },
+  {
+    race: "Undead",
+    background: "Outcast",
+    class: "Warrior",
+    subclass: "Knight",
+  },
+  {
+    race: "Abductee",
+    background: "Common Folk",
+    class: "Warrior",
+    subclass: "Rune Smith",
+  },
+  { race: "Elf", background: "Wild", class: "Warrior", subclass: "Templar" },
+  {
+    race: "Changeling",
+    background: "Runaway",
+    class: "Warrior",
+    subclass: "Tattooed Fighter",
+  },
+  {
+    race: "Dwarf",
+    background: "Refugee",
+    class: "Warrior",
+    subclass: "Weapon Master",
+  },
+  {
+    race: "Goblin",
+    background: "Dreams of Doom",
+    class: "Warrior",
+    subclass: "Wrathguard",
+  },
+].map((c) => ({
+  ...c,
+  name: `${c.race} ${c.background} ${c.class} ${c.subclass}`,
+  backgroundScript: backgroundScripts[c.background],
+  raceScript: raceScripts[c.race],
+  classScript: classScripts[c.class],
+  subclassScript: subclassScripts[c.subclass],
+}));

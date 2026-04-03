@@ -33,6 +33,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "wis",
       "foundryFlags": {
         "ros5e.talismans": {
@@ -184,6 +185,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "int",
       "foundryEffects": [
         {
@@ -485,6 +487,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "cha",
       "subclassFeatures": [
         "Sorcerer|Mystic|RuinsOfSymbaroumC|Sorcerer|RuinsOfSymbaroumSC|1",
@@ -625,6 +628,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "int",
       "subclassFeatures": [
         "Spellcasting|Mystic|RuinsOfSymbaroumC|Staff Mage|RuinsOfSymbaroumSC|1",
@@ -637,7 +641,7 @@
       ],
       "additionalSpells": [
         {
-          "known": {
+          "innate": {
             "1": ["detect magic|RuinsOfSymbaroumS"]
           }
         }
@@ -866,6 +870,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "int",
       "foundryFlags": {
         "ros5e.runes": {
@@ -874,7 +879,7 @@
       },
       "additionalSpells": [
         {
-          "known": {
+          "innate": {
             "1": ["detect magic|RuinsOfSymbaroumS"]
           }
         }
@@ -1091,6 +1096,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "wis",
       "subclassFeatures": [
         "Theurg|Mystic|RuinsOfSymbaroumC|Theurg|RuinsOfSymbaroumSC|1",
@@ -1104,7 +1110,7 @@
       ],
       "additionalSpells": [
         {
-          "known": {
+          "innate": {
             "1": ["bless|RuinsOfSymbaroumS"]
           }
         }
@@ -1225,6 +1231,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "cha",
       "foundryFlags": {
         "ros5e": {
@@ -1358,6 +1365,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "wis",
       "subclassFeatures": [
         "Witch|Mystic|RuinsOfSymbaroumC|Witch|RuinsOfSymbaroumSC|1",
@@ -1450,6 +1458,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "int",
       "subclassFeatures": [
         "Wizard|Mystic|RuinsOfSymbaroumC|Wizard|RuinsOfSymbaroumSC|1",
@@ -1465,7 +1474,7 @@
       ],
       "additionalSpells": [
         {
-          "known": {
+          "innate": {
             "1": ["bless|RuinsOfSymbaroumS"],
             "3": ["arcane lock|RuinsOfSymbaroumS"],
             "5": [
@@ -1830,6 +1839,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Scoundrel",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "cha",
       "subclassFeatures": [
         "Precise Shot|Scoundrel|RuinsOfSymbaroumC|Explorer|RuinsOfSymbaroumSC|1",
@@ -1845,6 +1855,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Scoundrel",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "cha",
       "foundryEffects": [
         {
@@ -1899,7 +1910,7 @@
       ],
       "additionalSpells": [
         {
-          "known": {
+          "innate": {
             "1": ["detect magic|RuinsOfSymbaroumS"]
           }
         }
@@ -2320,6 +2331,7 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Warrior",
       "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
       "spellcastingAbility": "wis",
       "subclassFeatures": [
         "Armored Mystic|Warrior|RuinsOfSymbaroumC|Templar|RuinsOfSymbaroumSC|1",
@@ -2364,7 +2376,7 @@
       ],
       "additionalSpells": [
         {
-          "known": {
+          "innate": {
             "1": ["bless|RuinsOfSymbaroumS"]
           }
         }
@@ -2669,6 +2681,172 @@
         "Blood Combat|Warrior|RuinsOfSymbaroumC|Wrathguard|RuinsOfSymbaroumSC|3",
         "Relentless|Warrior|RuinsOfSymbaroumC|Wrathguard|RuinsOfSymbaroumSC|13",
         "Champion of the Wild|Warrior|RuinsOfSymbaroumC|Wrathguard|RuinsOfSymbaroumSC|17"
+      ]
+    },
+    {
+      "name": "Blood Mage",
+      "shortName": "Blood Mage",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "casterProgression": "full",
+      "spellcastingAbility": "int",
+      "subclassFeatures": [
+        "Blood Mage|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|1",
+        "Titles|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|1",
+        "Corruption|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|1",
+        "Bonus Spell|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|1",
+        "Lifeblood Reservoir|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|3",
+        "Blood Rites|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|3",
+        "Sanguine Resonance|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|3",
+        "Siphon Vitality|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|6",
+        "Crimson Command|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|9",
+        "Resurgent Sacrifice|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|13",
+        "Crimson Equilibrium|Mystic|RuinsOfSymbaroumC|Blood Mage|RuinsOfSymbaroumSC|17"
+      ],
+      "subclassSpells": [
+        "accurate strike|RuinsOfSymbaroumS",
+        "chill touch|RuinsOfSymbaroumS",
+        "message|RuinsOfSymbaroumS",
+        "poison spray|RuinsOfSymbaroumS",
+        "light|RuinsOfSymbaroumS",
+        "thaumaturgy|RuinsOfSymbaroumS",
+        "mage hand|RuinsOfSymbaroumS",
+        "prestidigitation|RuinsOfSymbaroumS",
+        "blade ward|RuinsOfSymbaroumS",
+        "friends|RuinsOfSymbaroumS",
+        "infestation|RuinsOfSymbaroumS",
+        "mind sliver|RuinsOfSymbaroumS",
+        "primal savagery|RuinsOfSymbaroumS",
+        "resistance|RuinsOfSymbaroumS",
+        "spare the dying|RuinsOfSymbaroumS",
+        "animal friendship|RuinsOfSymbaroumS",
+        "bane|RuinsOfSymbaroumS",
+        "charm person|RuinsOfSymbaroumS",
+        "command|RuinsOfSymbaroumS",
+        "cure wounds|RuinsOfSymbaroumS",
+        "false life|RuinsOfSymbaroumS",
+        "healing word|RuinsOfSymbaroumS",
+        "heroism|RuinsOfSymbaroumS",
+        "inflict wounds|RuinsOfSymbaroumS",
+        "longstrider|RuinsOfSymbaroumS",
+        "sleep|RuinsOfSymbaroumS",
+        "arms of hadar|RuinsOfSymbaroumS",
+        "beast bond|RuinsOfSymbaroumS",
+        "cause fear|RuinsOfSymbaroumS",
+        "compelled duel|RuinsOfSymbaroumS",
+        "detect poison and disease|RuinsOfSymbaroumS",
+        "expeditious retreat|RuinsOfSymbaroumS",
+        "find familiar|RuinsOfSymbaroumS",
+        "hex|RuinsOfSymbaroumS",
+        "jump|RuinsOfSymbaroumS",
+        "mage armor|RuinsOfSymbaroumS",
+        "aid|RuinsOfSymbaroumS",
+        "animal messenger|RuinsOfSymbaroumS",
+        "black breath|RuinsOfSymbaroumS",
+        "blood bond|RuinsOfSymbaroumS",
+        "enhance ability|RuinsOfSymbaroumS",
+        "hold person|RuinsOfSymbaroumS",
+        "inherit wound|RuinsOfSymbaroumS",
+        "arcane vigor|RuinsOfSymbaroumS",
+        "barkskin|RuinsOfSymbaroumS",
+        "beast sense|RuinsOfSymbaroumS",
+        "blindness/deafness|RuinsOfSymbaroumS",
+        "calm emotions|RuinsOfSymbaroumS",
+        "crown of madness|RuinsOfSymbaroumS",
+        "darkvision|RuinsOfSymbaroumS",
+        "detect thoughts|RuinsOfSymbaroumS",
+        "gentle repose|RuinsOfSymbaroumS",
+        "homunculus servant|RuinsOfSymbaroumS",
+        "kinetic jaunt|RuinsOfSymbaroumS",
+        "lesser restoration|RuinsOfSymbaroumS",
+        "mind spike|RuinsOfSymbaroumS",
+        "nystul's magic aura|RuinsOfSymbaroumS",
+        "protection from poison|RuinsOfSymbaroumS",
+        "suggestion|RuinsOfSymbaroumS",
+        "warding bond|RuinsOfSymbaroumS",
+        "wither and bloom|RuinsOfSymbaroumS",
+        "animate dead|RuinsOfSymbaroumS",
+        "bestow curse|RuinsOfSymbaroumS",
+        "larvae boil|RuinsOfSymbaroumS",
+        "mass healing word|RuinsOfSymbaroumS",
+        "purging fire|RuinsOfSymbaroumS",
+        "vampiric touch|RuinsOfSymbaroumS",
+        "aura of vitality|RuinsOfSymbaroumS",
+        "catnap|RuinsOfSymbaroumS",
+        "enemies abound|RuinsOfSymbaroumS",
+        "fear|RuinsOfSymbaroumS",
+        "feign death|RuinsOfSymbaroumS",
+        "haste|RuinsOfSymbaroumS",
+        "intellect fortress|RuinsOfSymbaroumS",
+        "life transference|RuinsOfSymbaroumS",
+        "remove curse|RuinsOfSymbaroumS",
+        "revivify|RuinsOfSymbaroumS",
+        "slow|RuinsOfSymbaroumS",
+        "speak with dead|RuinsOfSymbaroumS",
+        "water breathing|RuinsOfSymbaroumS",
+        "blight|RuinsOfSymbaroumS",
+        "confusion|RuinsOfSymbaroumS",
+        "dominate beast|RuinsOfSymbaroumS",
+        "lifegiver|RuinsOfSymbaroumS",
+        "aura of life|RuinsOfSymbaroumS",
+        "aura of purity|RuinsOfSymbaroumS",
+        "charm monster|RuinsOfSymbaroumS",
+        "compulsion|RuinsOfSymbaroumS",
+        "death ward|RuinsOfSymbaroumS",
+        "raulothim's psychic lance|RuinsOfSymbaroumS",
+        "shadow of moil|RuinsOfSymbaroumS",
+        "commune with spirits|RuinsOfSymbaroumS",
+        "dominate person|RuinsOfSymbaroumS",
+        "fire soul|RuinsOfSymbaroumS",
+        "hold monster|RuinsOfSymbaroumS",
+        "insect plague|RuinsOfSymbaroumS",
+        "geas|RuinsOfSymbaroumS",
+        "mass cure wounds|RuinsOfSymbaroumS",
+        "modify memory|RuinsOfSymbaroumS",
+        "antilife shell|RuinsOfSymbaroumS",
+        "awaken|RuinsOfSymbaroumS",
+        "contagion|RuinsOfSymbaroumS",
+        "danse macabre|RuinsOfSymbaroumS",
+        "enervation|RuinsOfSymbaroumS",
+        "greater restoration|RuinsOfSymbaroumS",
+        "negative energy flood|RuinsOfSymbaroumS",
+        "raise dead|RuinsOfSymbaroumS",
+        "reincarnate|RuinsOfSymbaroumS",
+        "skill empowerment|RuinsOfSymbaroumS",
+        "synaptic static|RuinsOfSymbaroumS",
+        "atonement|RuinsOfSymbaroumS",
+        "circle of death|RuinsOfSymbaroumS",
+        "create undead|RuinsOfSymbaroumS",
+        "disintegrate|RuinsOfSymbaroumS",
+        "heal|RuinsOfSymbaroumS",
+        "mass suggestion|RuinsOfSymbaroumS",
+        "create homunculus|RuinsOfSymbaroumS",
+        "eyebite|RuinsOfSymbaroumS",
+        "harm|RuinsOfSymbaroumS",
+        "magic jar|RuinsOfSymbaroumS",
+        "mental prison|RuinsOfSymbaroumS",
+        "soul cage|RuinsOfSymbaroumS",
+        "soul stone|RuinsOfSymbaroumS",
+        "finger of death|RuinsOfSymbaroumS",
+        "power word fortify|RuinsOfSymbaroumS",
+        "power word pain|RuinsOfSymbaroumS",
+        "regenerate|RuinsOfSymbaroumS",
+        "resurrection|RuinsOfSymbaroumS",
+        "blood storm|RuinsOfSymbaroumS",
+        "dominate monster|RuinsOfSymbaroumS",
+        "abi-dalzim's horrid wilting|RuinsOfSymbaroumS",
+        "antipathy/sympathy|RuinsOfSymbaroumS",
+        "befuddlement|RuinsOfSymbaroumS",
+        "clone|RuinsOfSymbaroumS",
+        "feeblemind|RuinsOfSymbaroumS",
+        "glibness|RuinsOfSymbaroumS",
+        "power word stun|RuinsOfSymbaroumS",
+        "mass heal|RuinsOfSymbaroumS",
+        "power word heal|RuinsOfSymbaroumS",
+        "power word kill|RuinsOfSymbaroumS",
+        "psychic scream|RuinsOfSymbaroumS",
+        "true resurrection|RuinsOfSymbaroumS"
       ]
     }
   ],
@@ -4446,55 +4624,22 @@
       "subclassSource": "RuinsOfSymbaroumSC",
       "level": 6,
       "entries": [
-        "At 6th level, a Sorcerer can draw on their Corruption in order Symbaroum's last emperor.",
-        "After the fall of Symbaroum, to power their spells.",
-        "You can cast spells up to a level total they withdrew to their castle deep inside Davokar.",
-        "It was not equal to or lower than your permanent Corruption without gaining any Corruption.",
+        "At 6th level, a Sorcerer can draw on their Corruption in order to power their spells.",
+        "You can cast spells up to a level total equal to or lower than your permanent Corruption without gaining any Corruption.",
         "Each spell must be equal to or lower than your maximum spell level.",
         "When you take an extended rest your total of cast spells resets to zero.",
-        "Example: If you have 5 permanent Corruption then you could cast up to five 1st level spells, two 2nd level spells Mages have expanded their area of search to include the and one 1st level spell, one 3rd level spell and one 2nd level spell, or any other combination totaling to five spell warrior monks with their characteristic rune staffs can levels.",
+        "Example: If you have 5 permanent Corruption then you could cast up to five 1st level spells, two 2nd level spells and one 1st level spell, one 3rd level spell and one 2nd level spell, or any other combination totaling to five spell levels.",
         "Then you would need an extended rest before doing so again."
       ],
       "foundrySystem": {
         "uses": {
           "recovery": [
             {
-              "period": "ext",
+              "period": "er",
               "type": "recoverAll"
             }
           ],
-          "value": 0,
-          "max": 0
-        }
-      }
-    },
-    {
-      "name": "The Power of Corruption",
-      "source": "RuinsOfSymbaroumSC",
-      "className": "Mystic",
-      "classSource": "RuinsOfSymbaroumC",
-      "subclassShortName": "Sorcerer",
-      "subclassSource": "RuinsOfSymbaroumSC",
-      "level": 6,
-      "entries": [
-        "At 6th level, a Sorcerer can draw on their Corruption in order Symbaroum's last emperor.",
-        "After the fall of Symbaroum, to power their spells.",
-        "You can cast spells up to a level total they withdrew to their castle deep inside Davokar.",
-        "It was not equal to or lower than your permanent Corruption without gaining any Corruption.",
-        "Each spell must be equal to or lower than your maximum spell level.",
-        "When you take an extended rest your total of cast spells resets to zero.",
-        "Example: If you have 5 permanent Corruption then you could cast up to five 1st level spells, two 2nd level spells Mages have expanded their area of search to include the and one 1st level spell, one 3rd level spell and one 2nd level spell, or any other combination totaling to five spell warrior monks with their characteristic rune staffs can levels.",
-        "Then you would need an extended rest before doing so again."
-      ],
-      "foundrySystem": {
-        "uses": {
-          "recovery": [
-            {
-              "period": "ext",
-              "type": "recoverAll"
-            }
-          ],
-          "max": 1
+          "max": "@attributes.corruption.permanent"
         }
       }
     },
@@ -8150,6 +8295,235 @@
           },
           "max": 24
         }
+      ]
+    },
+    {
+      "name": "Blood Mage",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 1,
+      "entries": [
+        "Blood Mages are mystics who reject the notion that power must be drawn from distant spirits, ancient symbols, or the perilous flows of raw corruption. Instead, they turn inward—into the pulsing, intimate force of life itself. To a Blood Mage, blood is not merely a vessel but a language, a conduit through which will, pain, sacrifice, and power converge. Every spell is paid for in essence, every miracle etched in veins rather than sigils.",
+        "These mystics view life force as the most honest form of magic: finite, volatile, and costly. They mark their grimoires with their own blood, binding knowledge to flesh, and learn to read the rhythms of living bodies as others read runes or stars. In battle, a Blood Mage does not simply hurl power outward—they bleed for it, quickening their spells, silencing gestures, and bending the vitality of foes to their advantage. Wounds are resources, death a reservoir waiting to be tapped.",
+        "In Davokar, Blood Mages are feared almost as much as they are needed. Prios' faithful denounce them as heretics who profane the sanctity of life, while Ordo Magica watches them closely for signs of uncontrolled corruption. Yet among witches, battlefield surgeons, and desperate mystics, blood magic persists—because it works when all other power fails. A Blood Mage walks a narrow path, balancing survival against sacrifice, knowing that every spell cast hastens the day when there is nothing left to give.",
+        "Power flows through their veins—but so does the price."
+      ]
+    },
+    {
+      "name": "Titles",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 1,
+      "entries": [
+        "Blood Mages are rarely known by simple names. Their practices invite fear, reverence, and revulsion in equal measure, and most who walk this path adopt—or are given—titles that reflect the price of their power. Such epithets may be self-chosen, whispered by allies, or spoken only behind closed doors.",
+        "Common titles include:",
+        {
+          "type": "list",
+          "items": [
+            "Veinbinder – One who binds magic through flesh and pulse rather than symbols and words.",
+            "Sanguinary Mystic – A formal term used by scholars and inquisitors when recording forbidden practices.",
+            "The Red Savant – A learned Blood Mage whose mastery is marked by restraint as much as sacrifice.",
+            "Heart-Listener – A name given to those who read intent and deception through rhythm and breath.",
+            "Bloodwright – One who crafts spells as others forge steel, tempering power with pain.",
+            "Scar-Scribe – A mage who inscribes knowledge directly upon their own body rather than parchment.",
+            "Life-Tithe Caster – A disparaging title used by Prios' faithful, implying theft rather than mastery.",
+            "The Crimson Scholar – Often used within clandestine circles to denote deep theoretical understanding."
+          ]
+        },
+        "Among the people of Davokar, a Blood Mage is just as likely to be known by a fearful nickname—Leech, Red Witch, or Corpse-Drinker—as by any formal title. Most Blood Mages accept this as the inevitable cost of practicing a magic that leaves visible marks on both body and soul."
+      ]
+    },
+    {
+      "name": "Corruption",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 1,
+      "entries": [
+        "To a Blood Mage, Corruption is neither an abstract cosmic punishment nor a distant moral failing—it is a measurable consequence. Where other mystics fear Corruption as a creeping, unknowable stain, Blood Mages understand it as imbalance: power drawn without sufficient payment, magic taken without sacrifice. Blood magic exists as an answer to this problem, not an escape from it.",
+        "Most Blood Mages believe that Corruption arises when magic is externalized—when a mystic channels forces that do not belong to them, whether from Davokar, forgotten gods, or ancient relics. By contrast, a Blood Mage pays the price up front, drawing power from their own vitality or from the lingering essence of the fallen. Pain, exhaustion, and blood loss are not side effects; they are safeguards. In this philosophy, suffering replaces corruption, and control replaces temptation.",
+        "That belief, however, is not entirely true.",
+        "While blood magic often results in less visible or immediate Corruption, it encourages a more insidious danger: normalization of sacrifice. Over time, many Blood Mages grow comfortable with loss—first their own, then others'. The line between necessary cost and convenient cruelty blurs, and some begin to justify excess as efficiency. Ordo Magica records suggest that Blood Mages rarely succumb to sudden corruption, but instead slide slowly into moral erosion, convinced they remain in control long after restraint has failed.",
+        "As a result, Blood Mages tend to treat Corruption with cold pragmatism. They track it, measure it, and plan around it rather than fear it. Many keep meticulous records of spells cast, blood spent, and limits tested, believing discipline to be their greatest protection. Others adopt personal taboos—never spilling innocent blood, never drawing from the same corpse twice, never casting without leaving a scar—as anchors against excess.",
+        "To the wider world, this attitude is deeply unsettling. A mystic who fears Corruption can be reasoned with; one who accounts for it feels dangerously close to mastery. Whether Blood Mages truly walk a safer path, or simply a quieter road to damnation, remains a matter of fierce debate in Symbaroum's darkest halls."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 1,
+      "entries": [
+        "Blood Mages do not shape magic through intellect alone, nor do they bargain with spirits or gods for borrowed power. Their spells are fueled by endurance, pain tolerance, and the disciplined control of their own vitality. Blood Mages continue to rely on Intelligence as their spellcasting ability.",
+        "Intelligence reflects a Blood Mage's understanding of anatomy, ritual timing, arcane theory, and the precise limits of sacrifice. It governs how carefully blood is spent, how efficiently life force is converted into effect, and how well the mage avoids catastrophic overreach. Two Blood Mages may spill the same amount of blood, but only the more disciplined will achieve a clean, controlled result.",
+        "Constitution, while not used directly for spellcasting, remains central to the Blood Mage's practice. It determines how much life they can afford to lose, how long they can sustain their art, and how often they can push themselves beyond safe limits. In effect, Constitution measures capacity, while Intelligence measures mastery—a distinction Blood Mages consider vital to their survival.",
+        "This compromise satisfies Ordo Magica's insistence on arcane rigor while preserving the Blood Mage's core identity: a mystic who pays for power with flesh, but wields it with cold, calculated precision."
+      ]
+    },
+    {
+      "name": "Bonus Spell",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 1,
+      "entries": [
+        "At first level you learn the Bane spell in addition to your chosen spells"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "1": ["bane|RuinsOfSymbaroumS"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lifeblood Reservoir",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 3,
+      "entries": [
+        "Your life essence powers your blood magic, setting a limit on how many hit dice you can use for such abilities each day. Your Lifeblood Reservoir is a pool of hit dice equal to your proficiency bonus plus your Constitution modifier. You can expend hit dice from this pool to use your blood magic abilities. This pool is not separate from your regular Wizard hit dice; it represents a daily limit on the hit dice you can use for blood magic. For example, if you have a proficiency bonus of +3 and a Constitution modifier of +2, your Lifeblood Reservoir would contain 5 hit dice, even if your total number of Wizard hit dice is higher. Your Lifeblood Reservoir replenishes its hit dice after you complete a long rest."
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": "@attributes.prof + @abilities.con.mod",
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blood Rites",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 3,
+      "entries": [
+        "Your mastery over hemomancy allows you to channel your own life force to streamline your spellcasting. When you cast a spell, you can choose to expend one hit die from your Lifeblood Reservoir to remove the need for either the verbal or somatic components of the spell. If you expend an additional hit die, you can eliminate both the verbal and somatic components."
+      ]
+    },
+    {
+      "name": "Sanguine Resonance",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 3,
+      "entries": [
+        "Your mastery of blood magic grants you heightened perception of life energies. As an action, you can expend one hit die from your Lifeblood Reservoir to activate this feature. For a number of minutes equal to your Intelligence modifier (minimum of 1), you gain the ability to sense the presence of creatures within 30 feet of you. This sense provides you with the following information:",
+        {
+          "type": "list",
+          "items": [
+            "The number of creatures within range.",
+            "Their general direction relative to you.",
+            "Information on if the creatures are paralyzed, petrified, or poisoned.",
+            "An estimation of their current hit points relative to their maximum hit points, categorized as Full, Above Half, Half, Below Half, or None."
+          ]
+        },
+        "This sense can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. While this feature is active, you have advantage on Wisdom (Medicine) checks to assess or treat creatures within the detection radius and on Wisdom (Insight) checks, as you can gauge their intentions through their heartbeats. This feature only works on creatures that have blood."
+      ],
+      "foundrySystem": {
+        "activation.type": "action",
+        "activation.cost": 1,
+        "duration": {
+          "value": "@abilities.int.mod",
+          "units": "minute"
+        }
+      }
+    },
+    {
+      "name": "Siphon Vitality",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 6,
+      "entries": [
+        "Your mastery of blood magic allows you to draw power from the passing of others. When a creature that you can see within 30 feet of you is reduced to 0 hit points, you can use your reaction to siphon their remaining life force. You regain one expended hit die from your Lifeblood Reservoir. This feature can only be used on creatures that have blood and cannot be used on constructs, elementals, oozes, or undead."
+      ],
+      "foundrySystem": {
+        "activation.type": "reaction",
+        "activation.cost": 1
+      }
+    },
+    {
+      "name": "Crimson Command",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 9,
+      "entries": [
+        "Your control over blood magic extends to the very essence of others' beings, allowing you to impose your will upon them. As an action, you can expend one hit die from your Lifeblood Reservoir to telepathically command one creature that you have sensed with your Sanguine Resonance feature, provided they are within 60 feet of you. The target must succeed on an Intelligence saving throw against your spell save DC or be forced to follow a simple, one-word command on its next turn, such as \"Grovel,\" \"Halt,\" or \"Flee.\" This feature only works on creatures that have blood and are not immune to being charmed."
+      ],
+      "foundrySystem": {
+        "activation.type": "action",
+        "activation.cost": 1,
+        "range.value": 60,
+        "range.units": "ft"
+      }
+    },
+    {
+      "name": "Resurgent Sacrifice",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 13,
+      "entries": [
+        "Your mastery over the delicate balance of life allows you to cheat death, if only at a great cost. If you are reduced to 0 hit points but not killed outright, you can use your reaction to expend one hit die from your Lifeblood Reservoir to instead drop to 1 hit point. Alternatively, when an ally within 30 feet of you is reduced to 0 hit points but not killed outright, you can use your reaction and sacrifice a number of your own hit points equal to twice your Wizard level to allow that ally to instead drop to 1 hit point. Once you use this feature, you cannot use it again until you finish a long rest."
+      ],
+      "foundrySystem": {
+        "activation.type": "reaction",
+        "activation.cost": 1,
+        "uses": {
+          "max": 1,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Crimson Equilibrium",
+      "source": "RuinsOfSymbaroumSC",
+      "className": "Mystic",
+      "classSource": "RuinsOfSymbaroumC",
+      "subclassShortName": "Blood Mage",
+      "subclassSource": "RuinsOfSymbaroumSC",
+      "level": 17,
+      "entries": [
+        "At 17th level, your command over the flows of life and corruption reaches its zenith. When you would gain temporary Corruption from casting a spell or using an ability, you can choose to expend hit dice from your Lifeblood Reservoir. For each hit die expended, you reduce the amount of temporary Corruption gained by 1d4. If this reduces the Corruption gained to 0 or less, you gain no temporary Corruption from that source. You can use this feature after you know how much Corruption you would gain, but before it is added to your total."
       ]
     }
   ],

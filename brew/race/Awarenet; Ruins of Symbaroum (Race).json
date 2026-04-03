@@ -293,7 +293,7 @@
             {
               "key": "flags.ros5e.sybSoulless",
               "mode": 5,
-              "value": "true"
+              "value": 1
             }
           ],
           "descriptionEntries": [
@@ -850,7 +850,7 @@
             {
               "key": "flags.ros5e.sybSoulless",
               "mode": 5,
-              "value": "true"
+              "value": 1
             }
           ],
           "descriptionEntries": [
@@ -883,6 +883,139 @@
               "key": "system.attributes.hitDice.max",
               "mode": "OVERRIDE",
               "value": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebirthed",
+      "source": "RuinsOfSymbaroumR",
+      "page": 90,
+      "ability": [
+        {
+          "con": 2,
+          "choose": {
+            "from": ["str", "dex", "int", "wis", "cha"],
+            "count": 1
+          }
+        }
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "size": ["M"],
+      "languageProficiencies": [
+        {
+          "anyStandard": 1
+        }
+      ],
+      "entries": [
+        "The Rebirthed are those who have bypassed the normal laws of death. Whether through a miracle of the Young Gods or a strange resonance within the Davokar, your soul has re-anchored itself. You are not a mindless creature of hunger, but a \"Second-Lifer\" whose connection to the world is both physical and spiritual. Your Shadow controls you.",
+        {
+          "name": "Rebirthed Traits",
+          "type": "entries",
+          "entries": [
+            {
+              "name": "Ability Score Increase",
+              "type": "entries",
+              "entries": [
+                "Your Constitution score increases by 2. Increase any other ability score by 1."
+              ]
+            },
+            {
+              "name": "Age",
+              "type": "entries",
+              "entries": [
+                "Rebirthed are usually human in origin. You do not age and can theoretically exist as long as your physical form is maintained."
+              ]
+            },
+            {
+              "name": "Size",
+              "type": "entries",
+              "entries": [
+                "Rebirthed are of human stock and thus vary widely in height and build. Your size is Medium."
+              ]
+            },
+            {
+              "name": "Speed",
+              "type": "entries",
+              "entries": ["Your base walking speed is 30 feet."]
+            },
+            {
+              "name": "Darkvision",
+              "type": "entries",
+              "entries": [
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+              ]
+            },
+            {
+              "name": "Languages",
+              "type": "entries",
+              "entries": [
+                "Rebirthed speak the language they used in life, usually either Ambrian or Barbarian."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Body Takeover",
+          "type": "entries",
+          "entries": [
+            "Your Shadow is strong, but it is not you. You can exert your will over your body, but it takes effort.",
+            "When you go unconcius or the spell Dispel Magic is cast on you, your Shadow recedes. You maintain your HP and if you're HP was zero it becomes 1.",
+            "You lose the ability to cast spells and your mental stats become 8-13 with a total of 30 in whichever order you choose (this cannot change after you decide).",
+            "Your Shadow reforms and retakes control on a long rest."
+          ]
+        },
+        {
+          "name": "Resilient Shadow",
+          "type": "entries",
+          "entries": [
+            "For the Rebirthed, Corruption represents the fraying of the bond between Shadow and Body.",
+            "Your current Corruption total reduces your current and maximum hit points on a 1:2 basis (e.g., 4 points of Corruption reduces your max HP by 2)."
+          ]
+        },
+        {
+          "name": "Second Life",
+          "type": "entries",
+          "entries": [
+            "You are a bridge between life and death.",
+            "You do not need to eat or breathe.",
+            "Instead of sleeping, you enter a meditative state for 4 hours."
+          ]
+        }
+      ],
+      "foundryEffects": [
+        {
+          "name": "Resilient Shadow",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.sybSoulless",
+              "mode": 5,
+              "value": 0.5
+            }
+          ],
+          "descriptionEntries": [
+            {
+              "name": "Resilient Shadow",
+              "type": "entries",
+              "entries": [
+                "For the Rebirthed, Corruption represents the fraying of the bond between Shadow and Body.",
+                "Your current Corruption total reduces your current and maximum hit points on a 1:2 basis (e.g., 4 points of Corruption reduces your max HP by 2)."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Symbaroum Actor",
+          "icon": "icons/svg/item-bag.svg",
+          "transfer": true,
+          "changes": [
+            {
+              "key": "flags.ros5e.ros5eActor",
+              "mode": 5,
+              "value": "true"
             }
           ]
         }
