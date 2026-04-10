@@ -1,6 +1,6 @@
-# Ruins of Symbaroum Core Rules (A DnD5e Total Conversion)
+# Ruins of Symbaroum Foundry VTT Module
 
-This module implements the core mechanics of the **Ruins of Symbaroum** conversion for Foundry VTT (DnD5e system). It adds support for corruption, revised resting rules, and integrated data for classes, subclasses, and races.
+This module implements the core mechanics of the **Ruins of Symbaroum** conversion for Foundry VTT (DnD5e system). It adds support for corruption, revised resting rules, and integrated data.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ The module only supports use of the tidy-5e-sheet sheet (not classic).
 1. Open the Foundry VTT Setup screen.
 2. Go to the **Add-on Modules** tab.
 3. Click **Install Module**.
-4. Paste the following Manifest URL: `https://raw.githubusercontent.com/awarenet/ros5e/main/module.json`
+4. Paste the following Manifest URL: `https://raw.githubusercontent.com/awarenet/ros5e/latest/module.json`
 5. Click **Install**.
 6. Once enabled, the module will automatically set the local homebrew directory to the module's brew folder.
 
