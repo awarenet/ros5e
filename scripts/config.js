@@ -161,6 +161,42 @@ export class ROS5E {
       "ROS5E.Proficiency.WeaponAlchemical",
     );
 
+    /* Add in unique Ruins of Symbaroum tool proficiencies */
+    const rosTools = {
+      artifactCatalog: Common.localize("ROS5E.Proficiency.ArtifactCatalog"),
+      bestiary: Common.localize("ROS5E.Proficiency.Bestiary"),
+      fieldLaboratory: Common.localize("ROS5E.Proficiency.FieldLaboratory"),
+      fieldLibrary: Common.localize("ROS5E.Proficiency.FieldLibrary"),
+      trapperManual: Common.localize("ROS5E.Proficiency.TrapperManual"),
+      birchbarkhorn: Common.localize("ROS5E.Proficiency.BirchBarkHorn"),
+      brasshorn: Common.localize("ROS5E.Proficiency.BrassHorn"),
+      fiddle: Common.localize("ROS5E.Proficiency.Fiddle"),
+      hurdygurdy: Common.localize("ROS5E.Proficiency.HurdyGurdy"),
+      mouthharp: Common.localize("ROS5E.Proficiency.MouthHarp"),
+      spinet: Common.localize("ROS5E.Proficiency.Spinet"),
+    };
+
+    foundry.utils.mergeObject(
+      globalThis.game.dnd5e.config.toolProficiencies,
+      rosTools,
+    );
+
+    foundry.utils.mergeObject(globalThis.game.dnd5e.config.toolIds.music, {
+      birchbarkhorn: Common.localize("ROS5E.Proficiency.BirchBarkHorn"),
+      brasshorn: Common.localize("ROS5E.Proficiency.BrassHorn"),
+      fiddle: Common.localize("ROS5E.Proficiency.Fiddle"),
+      hurdygurdy: Common.localize("ROS5E.Proficiency.HurdyGurdy"),
+      mouthharp: Common.localize("ROS5E.Proficiency.MouthHarp"),
+      spinet: Common.localize("ROS5E.Proficiency.Spinet"),
+    });
+
+    globalThis.game.dnd5e.config.toolIds.music.spinet = Common.localize(
+      "ROS5E.Proficiency.Spinet",
+    );
+
+    globalThis.game.dnd5e.config.featureTypes.corruption = Common.localize(
+      "ROS5E.Feature.Type.Corruption",
+    );
     /* Extend dnd5e weapon properties */
     const weaProps = {
       are: { label: "ROS5E.Item.WeaponProps.AreaEffect" },

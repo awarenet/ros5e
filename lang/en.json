@@ -42,7 +42,18 @@
       }
     },
     "Proficiency": {
-      "WeaponAlchemical": "Alchemical Weapons"
+      "WeaponAlchemical": "Alchemical Weapons",
+      "ArtifactCatalog": "Artifact Catalog",
+      "Bestiary": "Bestiary",
+      "FieldLaboratory": "Field Laboratory",
+      "FieldLibrary": "Field Library",
+      "Spinet": "Spinet",
+      "TrapperManual": "Trapper's Manual",
+      "BirchBarkHorn": "Birch-bark Horn",
+      "BrassHorn": "Brass Horn",
+      "Fiddle": "Fiddle",
+      "HurdyGurdy": "Hurdy-gurdy",
+      "MouthHarp": "Mouth-harp"
     },
     "Item": {
       "Rarity": {

@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "RuinsOfSymbaroumI",
+        "full": "Awarenet; Ruins of Symbaroum (Items)",
+        "abbreviation": "RoS:I",
+        "authors": ["Free League Publishing"],
+        "version": "1.0.0",
+        "url": "https://freeleaguepublishing.com",
+        "edition": "classic"
+      }
+    ],
+    "dateAdded": 1705220000,
+    "dateLastModified": 1705220000,
+    "edition": "classic"
+  },
+  "item": [
+    {
+      "name": "Artifact Catalog",
+      "source": "RuinsOfSymbaroumI",
+      "type": "T",
+      "value": 2000,
+      "weight": 4,
+      "rarity": "common",
+      "entries": [
+        "This well-thumbed copy compiling all the troll smith Xavaundo’s knowledge was recorded by Master Balinda of Ordo Magica and gives you proficiency with artifact crafting."
+      ]
+    },
+    {
+      "name": "Bestiary",
+      "source": "RuinsOfSymbaroumI",
+      "type": "T",
+      "value": 1000,
+      "weight": 3,
+      "rarity": "common",
+      "entries": [
+        "A comprehensive guide to the creatures and monsters found in the Davokar and the surrounding lands, providing vital information for hunters and scholars."
+      ]
+    },
+    {
+      "name": "Field Laboratory",
+      "source": "RuinsOfSymbaroumI",
+      "type": "T",
+      "value": 2500,
+      "weight": 20,
+      "rarity": "common",
+      "entries": [
+        "Burner, retort stand, pipettes, mortar and other instruments needed by an alchemist. The field laboratory allows alchemical operations while in the field."
+      ]
+    },
+    {
+      "name": "Field Library",
+      "source": "RuinsOfSymbaroumI",
+      "type": "T",
+      "value": 2000,
+      "weight": 25,
+      "rarity": "common",
+      "entries": [
+        "Half a dozen reference books along with a dozen scrolls on more specialized topics. The field library allows you to make reference checks in the field."
+      ]
+    },
+    {
+      "name": "Spinet",
+      "source": "RuinsOfSymbaroumI",
+      "type": "INS",
+      "value": 1500,
+      "weight": 200,
+      "rarity": "common",
+      "entries": [
+        "The spinet is a smaller version of the harpsichord, a keyboard instrument in which the strings are plucked by a quill rather than struck with a hammer. It is nonetheless a bulky instrument, requiring a wagon for transport."
+      ]
+    },
+    {
+      "name": "Trapper's Manual",
+      "source": "RuinsOfSymbaroumI",
+      "type": "T",
+      "value": 5000,
+      "weight": 3,
+      "rarity": "common",
+      "entries": [
+        "A used copy of the famous ogre Crueljaw’s lustful tome, containing a lengthy and insightful record of traps, from simple mare snares and needle-traps in box lids, to massive contraptions suited for a king’s burial mound. Learning from this book allows you to detect and set traps."
+      ]
+    },
+    {
+      "name": "Birch-bark horn",
+      "source": "RuinsOfSymbaroumI",
+      "type": "INS",
+      "value": 10,
+      "weight": 2,
+      "rarity": "common",
+      "entries": [
+        "Commoners in the Ambrian countryside use these horns for multiple purposes, but mainly to scare away beasts and call on their livestock. The horn is also used to send messages over long distances."
+      ]
+    },
+    {
+      "name": "Brass horn",
+      "source": "RuinsOfSymbaroumI",
+      "type": "INS",
+      "value": 100,
+      "weight": 2,
+      "rarity": "common",
+      "entries": ["A decent bellowing instrument for pompous situations."]
+    },
+    {
+      "name": "Fiddle",
+      "source": "RuinsOfSymbaroumI",
+      "type": "INS",
+      "value": 300,
+      "weight": 2,
+      "rarity": "common",
+      "entries": [
+        "A stringed instrument played with a bow, common across the Ambrian countryside but rarely seen in finer salons."
+      ]
+    },
+    {
+      "name": "Hurdy-gurdy",
+      "source": "RuinsOfSymbaroumI",
+      "type": "INS",
+      "value": 300,
+      "weight": 8,
+      "rarity": "common",
+      "entries": [
+        "A stringed instrument that produces sound by a hand-cranked-turned, rosined wheel rubbing against the strings."
+      ]
+    },
+    {
+      "name": "Mouth-harp",
+      "source": "RuinsOfSymbaroumI",
+      "type": "INS",
+      "value": 50,
+      "weight": 1,
+      "rarity": "common",
+      "entries": [
+        "A small instrument placed in the mouth, played by plucking a metal tongue while using the mouth as a resonator."
+      ]
+    }
+  ]
+}
