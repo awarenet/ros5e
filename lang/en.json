@@ -119,7 +119,12 @@
       "Custom": "Custom",
       "GainQuestion": "Suffer Corruption",
       "PermDamage": "Permanent Corruption",
-      "TempDamage": "Temporary Corruption"
+      "TempDamage": "Temporary Corruption",
+      "Modifiers": "Active Modifiers",
+      "ModifiersDesc": "Additional corruption from active effects.",
+      "Total": "Total",
+      "BaseThreshold": "Base Threshold",
+      "TotalThreshold": "Total Threshold"
     },
     "Rune": {
       "Label": "Runes",
