@@ -9,7 +9,9 @@ This module is useless without the sourcebooks, support the creators!
 
 To use this module, you must have the following installed and active:
 
-- **System**: [dnd5e](https://foundryvtt.com/packages/dnd5e) (Minimum version 5.2.4)
+- **System**:
+  - Foundry VTT (Supported version 13.x)
+  - [dnd5e](https://foundryvtt.com/packages/dnd5e) (Minimum version 5.2.4)
 - **Required Modules**:
   - [lib-wrapper](https://foundryvtt.com/packages/lib-wrapper)
   - [tidy5e-sheet](https://foundryvtt.com/packages/tidy5e-sheet) (The module only supports use of the new tidy-5e-sheet variant)
