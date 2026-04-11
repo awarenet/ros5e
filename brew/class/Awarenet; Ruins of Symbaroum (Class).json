@@ -37,7 +37,7 @@
         "number": 1,
         "faces": 8
       },
-      "proficiency": ["wis"],
+      "proficiency": ["wis", "int"],
       "startingProficiencies": {
         "armor": ["light"],
         "weapons": ["simple"],

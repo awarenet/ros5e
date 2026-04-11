@@ -125,6 +125,18 @@ TBD
 
 TBD
 
+## Known Issues
+
+### Mystic Saving Throws
+
+Mystics have "Wisdom and Charisma OR Intelligence" proficiency in saving throws. However, the importer doesn't support the choice, so it will add Wisdom and Intelligence as the two saving throws.
+
+If you want Charisma instead of Intelligence, you will need to manually remove the Intelligence saving throw and add the Charisma saving throw.
+
+### Spellcasting Corruption Roll
+
+Currently the result of the d4 corruption roll is not displayed in the chat message.
+
 ## Got Issues or Ideas?
 
 Feel free to open an issue on this github repository.
