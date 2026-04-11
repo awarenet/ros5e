@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "RuinsOfSymbaroumT",
+        "full": "Awarenet; Ruins of Symbaroum (Tables)",
+        "abbreviation": "RoS:T",
+        "authors": ["Free League Publishing"],
+        "version": "1.0.0",
+        "url": "https://freeleaguepublishing.com"
+      }
+    ],
+    "dateAdded": 1705220000,
+    "dateLastModified": 1705220000,
+    "edition": "classic"
+  },
+  "table": [
+    {
+      "name": "Marks of Corruption",
+      "source": "Awarenet",
+      "caption": "Marks of Corruption",
+      "intro": [
+        "When a character gains exceeds their Corruption Threshold, and they fail the saving throw they roll on this table."
+      ],
+      "colLabels": ["{@dice d20}", "Mark of Corruption"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 1,
+              "max": 2
+            }
+          },
+          "No mark, but you gain a point of permanent Corruption. Erase all current temporary Corruption."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 3,
+              "max": 3
+            }
+          },
+          "Thirst for warm blood, must drink warm blood every day or gain a level of exhaustion."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 4,
+              "max": 4
+            }
+          },
+          "Taste for cadavers, must feed on something rancid every day or gain a level of exhaustion."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 5,
+              "max": 5
+            }
+          },
+          "Fangs, or nails in the shape of claws or talons."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 6,
+              "max": 6
+            }
+          },
+          "Taste for raw meat, must feed on fresh meat every day or gain a level of exhaustion."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 7,
+              "max": 7
+            }
+          },
+          "Discolored skin, blemishes and severe rashes. Disadvantage on Charisma checks."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 8,
+              "max": 8
+            }
+          },
+          "A festering wound that does not heal."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 9,
+              "max": 9
+            }
+          },
+          "Boils in mouth, throat and ears that burst at inopportune times. You are deafened."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 10,
+              "max": 10
+            }
+          },
+          "Eyes that actually blacken with anger, hunger or lust. Disadvantage on Charisma checks. Reduce temporary Corruption by 1."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 11,
+              "max": 11
+            }
+          },
+          "Speaks in an unknown, evil-sounding language while sleeping. Reduce temporary Corruption by 1."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 12,
+              "max": 12
+            }
+          },
+          "Degeneration of sight (you are blinded). This condition forces you to rely on other senses instead, like smell and touch. Reduce temporary Corruption by 1."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 13,
+              "max": 13
+            }
+          },
+          "Cold as a corpse or feverishly hot without any signs of sickness or disease. Reduce temporary Corruption by 1."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 14,
+              "max": 14
+            }
+          },
+          "Drawn to tainted artifacts and evil places while sleepwalking. Reduce temporary Corruption by 1."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 15,
+              "max": 15
+            }
+          },
+          "Veins that bulge black when experiencing anger or other strong emotions. Reduce temporary Corruption to half, rounding down."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 16,
+              "max": 16
+            }
+          },
+          "A birthmark that with imagination may look like a dark rune or an evil symbol. Reduce temporary Corruption to half, rounding down."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 17,
+              "max": 17
+            }
+          },
+          "A faint odor of decay follows you, despite you feeling healthy. Disadvantage on social checks. Reduce temporary Corruption to half, rounding down."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 18,
+              "max": 18
+            }
+          },
+          "Dark streaks in the blood, visible when you bleed. Reduce temporary Corruption to half, rounding down."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 19,
+              "max": 19
+            }
+          },
+          "Breath that stinks of sulfur. Disadvantage on social checks. Reduce temporary Corruption to half, rounding down."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 20,
+              "max": 20
+            }
+          },
+          "Eyes that glitter in the dark. Reduce temporary Corruption to half, rounding down."
+        ]
+      ]
+    }
+  ]
+}

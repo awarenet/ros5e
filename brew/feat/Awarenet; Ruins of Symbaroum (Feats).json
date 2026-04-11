@@ -60,7 +60,8 @@
 				{
 					"int": 1
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Archivist",
@@ -74,7 +75,8 @@
 				{
 					"int": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Augur",
@@ -88,7 +90,8 @@
 				{
 					"wis": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Beast Tongue",
@@ -103,7 +106,8 @@
 				{
 					"wis": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Bloodhound",
@@ -117,7 +121,8 @@
 				{
 					"wis": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Blood Ties",
@@ -128,7 +133,8 @@
 				"Because of this link, you can later on choose a feat belonging to the origin of the blood-friend (see page 153).",
 				"It is most likely that the blood tie of the character is linked to another cultural origin, but beasts and other creatures are a possibility.",
 				"The story of how the character came to enter into the relationship is probably interesting and telling of your life history, and maybe also of your morals and worldviews."
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Cat Burglar",
@@ -147,7 +153,8 @@
 				{
 					"thieves' tools": true
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Commanding Voice",
@@ -162,7 +169,8 @@
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Con Artist",
@@ -183,7 +191,8 @@
 						"amount": 1
 					}
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Contacts",
@@ -193,11 +202,11 @@
 				"The character has served in an organization or traveled far and wide, and has therefore spun a wide web of contacts.",
 				"With a successful DC 10 Charisma check, the character implores a contact to help with a specific question, precarious situation or other matter.",
 				"The contact will help to the extent possible, but rarely risks life or limb.",
-				"The contact may not be available directly \u2013 that depends on who is included in the character's web of contacts.",
+				"The contact may not be available directly – that depends on who is included in the character's web of contacts.",
 				"Suitable factions and people when it comes to specifying the character's contacts are: the Queen's Army, the Queen's Rangers, Thieves' Guilds, Witches, Ordo Magica, the Church of Prios, the Noble Houses and Treasure Hunters.",
-				"Double-tongue is a language developed by the Thieves Guild in Yndaros \u2013 you say one thing but mean another.",
+				"Double-tongue is a language developed by the Thieves Guild in Yndaros – you say one thing but mean another.",
 				"This way, sensitive conversations can be held within earshot of outsiders.",
-				"If multiple characters know Double-tongue, they can speak about secrets without risk \u2013 provided that the bystanders do not know the language as well..."
+				"If multiple characters know Double-tongue, they can speak about secrets without risk – provided that the bystanders do not know the language as well..."
 			],
 			"ability": [
 				{
@@ -222,7 +231,8 @@
 						}
 					}
 				]
-			}
+			},
+			"category": "Boon"
 		},
 		{
 			"name": "Enduring March",
@@ -235,14 +245,15 @@
 				{
 					"con": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Enterprise",
 			"source": "RuinsOfSymbaroumF",
 			"page": 146,
 			"entries": [
-				"You own some kind of establishment \u2013 a small tavern, a smaller store or some other simple craft service like a cobbler or trinket shop.",
+				"You own some kind of establishment – a small tavern, a smaller store or some other simple craft service like a cobbler or trinket shop.",
 				"Other alternatives are a theater or a troupe of acrobats.",
 				"The enterprise can be stationary in a place often visited by the characters between adventures, or it can be mobile in the form of a wagon or a river boat if that feels more reasonable.",
 				"During an extended rest, you may make a DC 15 Intelligence or Charisma check.",
@@ -289,7 +300,8 @@
 						}
 					}
 				]
-			}
+			},
+			"category": "Boon"
 		},
 		{
 			"name": "Escape Artist",
@@ -304,7 +316,8 @@
 				{
 					"dex": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "False Identity",
@@ -312,13 +325,14 @@
 			"page": 146,
 			"entries": [
 				"You have a false identity, complete with clothes, equipment and papers to back it up.",
-				"The identity is so well-crafted that it cannot be exposed unless the person who created it (usually a prominent member of the organization or faction to which the character belongs) discloses it \u2013 or if you do something clearly revealing."
+				"The identity is so well-crafted that it cannot be exposed unless the person who created it (usually a prominent member of the organization or faction to which the character belongs) discloses it – or if you do something clearly revealing."
 			],
 			"ability": [
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Fire Forged",
@@ -337,7 +351,8 @@
 			],
 			"resist": [
 				"fire"
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Forbidden Knowledge",
@@ -356,7 +371,8 @@
 				{
 					"int": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Forceful Personality",
@@ -371,7 +387,8 @@
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Green Thumb",
@@ -384,7 +401,8 @@
 				{
 					"wis": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Heirloom",
@@ -399,7 +417,8 @@
 				{
 					"str": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Hideouts",
@@ -409,7 +428,7 @@
 				"Many organizations and networks regularly establish hideouts in Ambria and the outer regions of Davokar; guilds and factions like witches, the Queen's Rangers and most barbarian clans maintain such places for their members.",
 				"The character knows of, and has access to, a series of such hideouts, linked to a specific group.",
 				"There they can lay low and replace or repair vital equipment, including weapons and armor.",
-				"When you need to find a hideout, make a DC 15 Intelligence check \u2013 a success means that you recall the location of a place in the vicinity.",
+				"When you need to find a hideout, make a DC 15 Intelligence check – a success means that you recall the location of a place in the vicinity.",
 				"The location is hidden, safe and contains equipment to a value of 10 thaler; the character decides what is kept in the hideout, items and/or coins.",
 				"If you take something from a hideout, you're expected to replace it later, or at least report what was taken and for what purpose."
 			],
@@ -417,7 +436,8 @@
 				{
 					"int": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Impressionist",
@@ -433,7 +453,8 @@
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Manipulator",
@@ -443,13 +464,14 @@
 				"You know how to manipulate others, using flattery, threats, or a combination thereof.",
 				"It takes time to influence someone; it requires a scene of emotional manipulations to achieve the intended effect.",
 				"Once you've chosen a victim, you have advantage on Charisma checks for that manipulation.",
-				"On the other hand, the influence lasts longer than when simply lying \u2013 the victim accepts the sentiments as its own and will defend them long after the manipulator has left the place."
+				"On the other hand, the influence lasts longer than when simply lying – the victim accepts the sentiments as its own and will defend them long after the manipulator has left the place."
 			],
 			"ability": [
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Medium",
@@ -458,7 +480,8 @@
 			"entries": [
 				"You grew up in the presence of ghosts and have developed a connection to the realm of spirits.",
 				"You have advantage on saving throws and ability checks regarding the spirits or the spirit world."
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Mirage",
@@ -468,9 +491,10 @@
 				"You have a mystical gift and may weave momentary mirages from thin air; flames that emit no heat jump between your hands, tiny figures of light dance in the air, and so on.",
 				"You can also weave false images over smaller objects, for instance making pebbles appear as shining coins.",
 				"You can cast prestidigitation without gaining any Corruption.",
-				"With Mirage, you may make an opposed check \u2013 your Charisma (Deception) vs their Wisdom (Insight) to dupe someone into accepting fake goods or payment in the form of illusory coins, to a maximum \"value\" of a hundred thaler.",
+				"With Mirage, you may make an opposed check – your Charisma (Deception) vs their Wisdom (Insight) to dupe someone into accepting fake goods or payment in the form of illusory coins, to a maximum \"value\" of a hundred thaler.",
 				"Also, Mirage can grant advantage on a Charisma check when you threaten someone with \"powerful magic.\""
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Pathfinder",
@@ -498,20 +522,22 @@
 					],
 					"transfer": true
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Pet",
 			"source": "RuinsOfSymbaroumF",
 			"page": 146,
 			"entries": [
-				"You have a trusty friend in the form of a jakaar or mare cat \u2013 any beast will do, so long as it is CR 1/4 or less.",
+				"You have a trusty friend in the form of a jakaar or mare cat – any beast will do, so long as it is CR 1/4 or less.",
 				"The pet is unswervingly loyal to you.",
 				"In combat and problem-solving you play it almost as a second character, but you must use your bonus action to coax it to make use of its action.",
 				"It shares your initiative count and acts immediately after your turn.",
 				"It does not gain experience points and cannot develop its stats.",
 				"If the pet dies, the character can have it replaced at the start of the next adventure."
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Poison Resilient",
@@ -528,7 +554,8 @@
 			],
 			"resist": [
 				"poison"
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Servant",
@@ -540,7 +567,8 @@
 				"The servant is loyal to you, but is otherwise useless in terms of skills.",
 				"It can perform simple chores, stand guard at night or convey messages to others, but it will not contribute in dangerous situations.",
 				"The servant is played by the Gamemaster and should be provided a suitable personality."
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Shadow Spawn",
@@ -554,7 +582,8 @@
 				{
 					"dex": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Soulmate",
@@ -567,7 +596,8 @@
 				"The counterpart may be a non-player character important to the game or the character of another player; talk to your gaming friends and decide what is best.",
 				"In the latter case, it is enough that one of the characters acquires the boon in question.",
 				"If the soulmate perishes then after a period of grieving you can gain +2 to an ability score of your choice as you redirect your energies."
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Storyteller",
@@ -581,7 +611,8 @@
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Telltale",
@@ -595,7 +626,8 @@
 				{
 					"cha": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Tough",
@@ -609,7 +641,8 @@
 				{
 					"con": 1
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Addiction",
@@ -650,7 +683,8 @@
 						}
 					}
 				]
-			}
+			},
+			"category": "Burden"
 		},
 		{
 			"name": "Arch Enemy",
@@ -668,24 +702,26 @@
 				{
 					"cha": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Bestial",
 			"source": "RuinsOfSymbaroumF",
 			"page": 146,
 			"entries": [
-				"You have a bestial appearance, in the form of one (or a few) conspicuous traits \u2013 jakaar eyes, aboar tusks, lindworm scales on arms and neck, or something else arousing fear and disgust.",
+				"You have a bestial appearance, in the form of one (or a few) conspicuous traits – jakaar eyes, aboar tusks, lindworm scales on arms and neck, or something else arousing fear and disgust.",
 				"Concealing the traits requires you to pass a DC 10 Charisma saving throw.",
 				"If the save is failed, you have disadvantage on all Charisma (Deception, Performance or Persuasion) checks.",
 				"However, the bestial exterior grants advantage on Charisma (Intimidation) checks.",
-				"As soon as they can, those subjected to your intimidation efforts \u2013 whether or not it is successful \u2013 will report you to the Town Watch (or similar authorities) as a suspected abomination."
+				"As soon as they can, those subjected to your intimidation efforts – whether or not it is successful – will report you to the Town Watch (or similar authorities) as a suspected abomination."
 			],
 			"ability": [
 				{
 					"con": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Bloodthirst",
@@ -693,7 +729,7 @@
 			"page": 146,
 			"entries": [
 				"You have a thirst for blood, easily awoken and hard to quench.",
-				"The thirst appears if you take damage and means that you will not spare any enemies \u2013 not even if they surrender.",
+				"The thirst appears if you take damage and means that you will not spare any enemies – not even if they surrender.",
 				"Trying to spare an enemy requires an almost overpowering effort; you must succeed at a DC 20 Wisdom saving throw."
 			],
 			"ability": [
@@ -714,7 +750,8 @@
 						}
 					}
 				]
-			}
+			},
+			"category": "Burden"
 		},
 		{
 			"name": "Code of Honor",
@@ -729,7 +766,8 @@
 				{
 					"wis": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Dark Blood",
@@ -792,7 +830,8 @@
 						}
 					]
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Dark Secret",
@@ -814,7 +853,8 @@
 				{
 					"cha": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Elderly",
@@ -822,14 +862,15 @@
 			"page": 146,
 			"entries": [
 				"You are past your prime and have both good and bad days.",
-				"If the first ability check of the day is a success, it is a good day and everything seems to be alright; if the first check of the day is a failure, it is a bad day \u2013 the gout sets in, all your joints are aching or you are out of breath even when seated.",
+				"If the first ability check of the day is a success, it is a good day and everything seems to be alright; if the first check of the day is a failure, it is a bad day – the gout sets in, all your joints are aching or you are out of breath even when seated.",
 				"You have disadvantage on ability checks until you succeed at one, at which time this effect ends."
 			],
 			"ability": [
 				{
 					"wis": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Impulsive",
@@ -837,7 +878,7 @@
 			"page": 146,
 			"entries": [
 				"You act before thinking.",
-				"This means that as soon as the player declares that the character does something, you act \u2013 and cannot have second thoughts.",
+				"This means that as soon as the player declares that the character does something, you act – and cannot have second thoughts.",
 				"The only way for you to restrain yourself is to take a point of temporary Corruption as your internal conflict allows darkness to seep in."
 			],
 			"ability": [
@@ -866,7 +907,8 @@
 						]
 					}
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Nightmares",
@@ -894,7 +936,8 @@
 						}
 					}
 				]
-			}
+			},
+			"category": "Burden"
 		},
 		{
 			"name": "Mystical Mark",
@@ -909,7 +952,8 @@
 				{
 					"cha": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Seizures",
@@ -930,7 +974,8 @@
 						"amount": 2
 					}
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Sickly",
@@ -944,7 +989,8 @@
 				{
 					"wis": 2
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Slow",
@@ -971,7 +1017,8 @@
 						}
 					]
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Wanted",
@@ -998,7 +1045,8 @@
 						}
 					}
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Ward",
@@ -1011,7 +1059,7 @@
 				"The Gamemaster plays the ward, who has no stats and gains no experience points for adventuring.",
 				"If the ward dies or goes missing, you are afflicted by other problems; sorrow and remorse, mirrored by changing this burden into a suitable burden (the bonus from this burden fades and the bonus from the new burden is added).",
 				"If you protected the person from love, burdens like Addiction or Nightmares can be appropriate.",
-				"And if the protection was related to personal gains, maybe Wanted or Arch Enemy is better \u2013 the relatives of the ward do not easily forget the character's betrayal."
+				"And if the protection was related to personal gains, maybe Wanted or Arch Enemy is better – the relatives of the ward do not easily forget the character's betrayal."
 			],
 			"ability": [
 				{
@@ -1023,7 +1071,8 @@
 						"amount": 2
 					}
 				}
-			]
+			],
+			"category": "Burden"
 		},
 		{
 			"name": "Shadow-sight",
@@ -1064,7 +1113,8 @@
 						]
 					}
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Change Self",
@@ -1087,7 +1137,8 @@
 						}
 					]
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Retribution",
@@ -1118,7 +1169,8 @@
 						}
 					]
 				}
-			}
+			},
+			"category": "Origin"
 		},
 		{
 			"name": "Ancient Magic",
@@ -1137,7 +1189,8 @@
 						}
 					]
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Tough and Stringy",
@@ -1157,7 +1210,8 @@
 						}
 					]
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Big-boned",
@@ -1182,7 +1236,8 @@
 				{
 					"str": 1
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Robust",
@@ -1201,7 +1256,8 @@
 						}
 					]
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Ravenous Hunger",
@@ -1246,7 +1302,8 @@
 						}
 					}
 				}
-			]
+			],
+			"category": "Origin"
 		},
 		{
 			"name": "Battle Speech",
@@ -1294,7 +1351,8 @@
 						}
 					}
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Command Expert",
@@ -1333,7 +1391,8 @@
 						]
 					]
 				}
-			]
+			],
+			"category": "Boon"
 		},
 		{
 			"name": "Parry",
@@ -1349,7 +1408,8 @@
 				{
 					"other": "Either your Strength or Dexterity must be 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Overwatch",
@@ -1358,7 +1418,8 @@
 			"entries": [
 				"You can spend up to two hours each day in a state of heightened awareness, usually as part of your nightly watch duties.",
 				"During this time you cannot be surprised, have advantage on initiative rolls and have advantage (+5) on your passive Perception checks that rely on sight."
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Ranged Expert",
@@ -1369,7 +1430,8 @@
 				"You gain a number of Ranged dice (d6s) equal to your proficiency bonus.",
 				"On your turn you can use your bonus action to add a Ranged die to your ranged attack roll or your weapon damage if you succeed with a ranged attack.",
 				"You regain any spent Ranged dice when you take a short or longer rest."
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Trick Shot",
@@ -1384,7 +1446,8 @@
 				{
 					"other": "Your Dexterity must be 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Combat Magic Expert",
@@ -1396,7 +1459,8 @@
 				"On your turn you can use a bonus action to add a Combat die to your spell attack roll or your spell damage.",
 				"You can use your reaction to add a Combat die to a saving throw to maintain concentration.",
 				"You regain any spent Combat dice when you take a short or longer rest."
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Confessor",
@@ -1414,7 +1478,8 @@
 				{
 					"other": "You have taken the Theurg approach and attained at least 11th level in the mystic class. You cannot take both the Confessor and Inquisitor feats."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Dedicated Focus",
@@ -1428,14 +1493,15 @@
 				{
 					"other": "Your spellcasting ability score must be 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Demonologist",
 			"source": "RuinsOfSymbaroumF",
 			"page": 146,
 			"entries": [
-				"Beyond the world \u2013 or between worlds, if one believes in the existence of multiple worlds \u2013 lays the Yonderworld.",
+				"Beyond the world – or between worlds, if one believes in the existence of multiple worlds – lays the Yonderworld.",
 				"In the Yonderworld soul-eating creatures roam, indistinguishable from abominations to the common man.",
 				"Sorcerers appreciate the likeness, but call them \"daemons\" in acknowledgment of their differing origins.",
 				"The daemons can be forced, lured or invited into the physical world by those who know of passages between the worlds.",
@@ -1451,7 +1517,8 @@
 				{
 					"other": "You have taken the Sorcerer approach and attained at least 7th level in the mystic class."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Extensive Learning",
@@ -1466,7 +1533,8 @@
 				{
 					"other": "Your spellcasting ability score must be 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Inquisitor",
@@ -1483,14 +1551,15 @@
 				{
 					"other": "You have taken the Theurg approach and attained at least 11th level in the mystic class. You cannot take both the Confessor and Inquisitor feats."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Necromancer",
 			"source": "RuinsOfSymbaroumF",
 			"page": 146,
 			"entries": [
-				"The Spirit World is the outer realm of the world, where the dead journey towards their final rest \u2013 if they are not disturbed by a necromancer on the way.",
+				"The Spirit World is the outer realm of the world, where the dead journey towards their final rest – if they are not disturbed by a necromancer on the way.",
 				"Necromancers can force the spirits of the outer realm to return, in order to relay their secrets or to occupy a dead body and serve the death mage as a dragoul or some other undead being.",
 				"An understanding of the mechanics of death also gives the necromancer access to ghastly powers and rituals.",
 				"You learn the rituals spirit walk, animate dead, commune with spirits.",
@@ -1500,7 +1569,8 @@
 				{
 					"other": "You have taken the Sorcerer approach and attained at least 9th level in the mystic class."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Pyromancer",
@@ -1516,7 +1586,8 @@
 				{
 					"other": "You have taken the Wizard approach and attained at least 9th level in the mystic class."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Secrets of the Order",
@@ -1548,7 +1619,8 @@
 				{
 					"other": "You have taken the Staff Mage approach and attained at least 7th level in the mystic class."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Nimble",
@@ -1561,7 +1633,8 @@
 				{
 					"other": "Dexterity 13 or higher. You are extraordinarily dexterous:"
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "If",
@@ -1570,7 +1643,8 @@
 			"entries": [
 				"terity saving throw.",
 				"On a success you take half damage from the fall."
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Shadow Walker",
@@ -1584,7 +1658,8 @@
 				{
 					"other": "Dexterity 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "If",
@@ -1592,7 +1667,8 @@
 			"page": 146,
 			"entries": [
 				"location."
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Skirmish Expert",
@@ -1604,7 +1680,8 @@
 				"When it is your turn, if you are unarmed or are using an improvised weapon, you can use a bonus action to add a Skirmish die to your attack roll or damage roll.",
 				"You regain any spent Skirmish dice when you take a short or longer rest.",
 				"As a master of weapons and strength, you might learn to bring your full weight and strength against your enemy, to hold them steady and prevent them from hurting others or to wield your weapon with deadly grace."
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Bull Rush",
@@ -1617,7 +1694,8 @@
 				{
 					"other": "Strength 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Grappler",
@@ -1633,7 +1711,8 @@
 				{
 					"other": "Strength 13 or higher."
 				}
-			]
+			],
+			"category": "Class"
 		},
 		{
 			"name": "Melee Expert",
@@ -1646,7 +1725,7 @@
 				"You regain any spent Melee dice when you take a short or longer rest.",
 				"According to Master Malliano these signs, carved in the tower ruin in Old Kadizar, seem to name the settlement that lay there at the height of Symbaroum's power.",
 				"He has proposed Agrathor or Ergatharor as possible pronunciations.",
-				"Light fell through cracks in the ceiling, dancing with the dust that covered everything in the room \u2013 the bottles of elixirs, poorly preserved monster trophies and the matron herself, an aged changeling.",
+				"Light fell through cracks in the ceiling, dancing with the dust that covered everything in the room – the bottles of elixirs, poorly preserved monster trophies and the matron herself, an aged changeling.",
 				"It was Kasimer who had led them to the cabin.",
 				"Agniesha remained by the door, apparently uneasy.",
 				"Gormyx spoke for the group, partly because the steady voice of the troll singer made him a great negotiator, partly because he knew more about the Underworld than the rest of them combined.",
@@ -1661,7 +1740,216 @@
 				"This listing includes standard OGL spells, modified OGL spells and brand-new Symbaroum-only spells.",
 				"The last section provides detailed information on any of the OGL spells that were modified to fit Ruins of Symbaroum and all of the new spells.",
 				"It is provided in order by casting spell level and then alphabetically within each level, allowing you to find a spell of an appropriate level quickly."
-			]
+			],
+			"category": "Class"
+		},
+		{
+			"name": "Mark: Thirst for Warm Blood",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Thirst for warm blood, must drink warm blood every day or gain a level of exhaustion."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Taste for Cadavers",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Taste for cadavers, must feed on something rancid every day or gain a level of exhaustion."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Fangs or Claws",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Fangs, or nails in the shape of claws or talons."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Taste for Raw Meat",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Taste for raw meat, must feed on fresh meat every day or gain a level of exhaustion."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Discolored Skin",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Discolored skin, blemishes and severe rashes. Disadvantage on Charisma checks."
+			],
+			"foundryEffects": [
+				{
+					"name": "Discolored Skin",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.abilities.cha.check.roll.mode",
+							"mode": "OVERRIDE",
+							"value": "-1"
+						}
+					]
+				}
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Festering Wound",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"A festering wound that does not heal."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Boils",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Boils in mouth, throat and ears that burst at inopportune times. You are {@condition deafened}."
+			],
+			"foundryEffects": [
+				{
+					"name": "Deafened",
+					"transfer": true,
+					"img": "systems/dnd5e/icons/svg/statuses/deafened.svg",
+					"statuses": [
+						"deafened"
+					]
+				}
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Blackening Eyes",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Eyes that actually blacken with anger, hunger or lust. Disadvantage on Charisma checks."
+			],
+			"foundryEffects": [
+				{
+					"name": "Blackening Eyes",
+					"changes": [
+						{
+							"key": "system.abilities.cha.check.roll.mode",
+							"mode": "OVERRIDE",
+							"value": "-1"
+						}
+					],
+					"transfer": true
+				}
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Sleeping Evil Language",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Speaks in an unknown, evil-sounding language while sleeping."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Degeneration of Sight",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Degeneration of sight (you are blinded). This condition forces you to rely on other senses instead, like smell and touch."
+			],
+			"foundryEffects": [
+				{
+					"name": "Blinded",
+					"statuses": [
+						"blinded"
+					],
+					"img": "systems/dnd5e/icons/svg/statuses/blinded.svg",
+					"transfer": true
+				}
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Abnormal Temperature",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Cold as a corpse or feverishly hot without any signs of sickness or disease."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Sleepwalking to Taint",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Drawn to tainted artifacts and evil places while sleepwalking."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Black Bulging Veins",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Veins that bulge black when experiencing anger or other strong emotions."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Dark Rune Birthmark",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"A birthmark that with imagination may look like a dark rune or an evil symbol."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Odor of Decay",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"A faint odor of decay follows you, despite you feeling healthy. Disadvantage on social checks."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Dark Streaks in Blood",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Dark streaks in the blood, visible when you bleed."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Sulfur Breath",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Breath that stinks of sulfur. Disadvantage on social checks."
+			],
+			"category": "Mark"
+		},
+		{
+			"name": "Mark: Glittering Eyes",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"Eyes that glitter in the dark."
+			],
+			"category": "Mark"
 		}
 	]
 }

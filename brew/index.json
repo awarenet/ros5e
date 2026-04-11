@@ -6,6 +6,7 @@
     "race/Awarenet; Ruins of Symbaroum (Race).json",
     "subclass/Awarenet; Ruins of Symbaroum (Subclass).json",
     "spell/Awarenet; Ruins of Symbaroum (Spells).json",
-    "items/Awarenet; Ruins of Symbaroum (Items).json"
+    "items/Awarenet; Ruins of Symbaroum (Items).json",
+    "table/Awarenet; Ruins of Symbaroum (Tables).json"
   ]
 }
