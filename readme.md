@@ -33,7 +33,7 @@ The module only supports use of the tidy-5e-sheet sheet (not classic).
 ### 1. Importing Data
 
 Custom data for Ruins of Symbaroum (Races, Subclasses, Spells, etc.) is included in this module. Use Plutonium to import this data into your game.
-The sources are prefixed with Awarenet; Ruins of Symbaroum.
+The sources in Plutonium are prefixed with Awarenet; Ruins of Symbaroum.
 
 Once you import an RoS race or class, the actor will get a flag that will cause the actor sheet to display the correct data.
 
@@ -58,6 +58,12 @@ Clicking the corruption resource will open the corruption dialog, which allows y
 Corruption is automatically tracked on the character. When casting spells or using certain abilities, the module will prompt or automatically calculate the corruption gain based on your class features (e.g., Troll Singers have specific checks).
 
 More on specific mechanics below.
+
+#### Marks of Corruption
+
+A roll table is included in the module for rolling on the marks of corruption table. Use Plutonium to import it.
+
+Feats are also included in the module for adding marks of corruption to characters. Use Plutonium to import them.
 
 ### 3. Resting
 
@@ -118,3 +124,7 @@ TBD
 #### Troll Singers
 
 TBD
+
+## Got Issues or Ideas?
+
+Feel free to open an issue on this github repository.
