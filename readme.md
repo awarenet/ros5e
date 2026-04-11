@@ -2,6 +2,9 @@
 
 This module implements the core mechanics of the **Ruins of Symbaroum** conversion for Foundry VTT (DnD5e system). It adds support for corruption, revised resting rules, and integrated data.
 
+Head over to [Free League Publishing](https://freeleaguepublishing.com) to get the core rulebooks.
+This module is useless without the sourcebooks, support the creators!
+
 ## Prerequisites
 
 To use this module, you must have the following installed and active:
