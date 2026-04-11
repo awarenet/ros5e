@@ -12,12 +12,10 @@ To use this module, you must have the following installed and active:
 - **System**: [dnd5e](https://foundryvtt.com/packages/dnd5e) (Minimum version 5.2.4)
 - **Required Modules**:
   - [lib-wrapper](https://foundryvtt.com/packages/lib-wrapper)
-  - [tidy5e-sheet](https://foundryvtt.com/packages/tidy5e-sheet)
+  - [tidy5e-sheet](https://foundryvtt.com/packages/tidy5e-sheet) (The module only supports use of the new tidy-5e-sheet variant)
   - plutonium (Required for importing Symbaroum brew data)
 
-**NOTE**: Please do not contact the developers of these modules for support with this module.
-
-The module only supports use of the tidy-5e-sheet sheet (not classic).
+**NOTE**: Please do not contact the developers of the above modules for support with this module, feel free to raise an issue on this github repository.
 
 ## Installation
 
