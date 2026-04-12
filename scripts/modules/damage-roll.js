@@ -24,8 +24,8 @@ export class DamageRollSyb5e {
     Common.patch(target, targetPath, patches);
   }
 
+  /* if this is a deep impact weapon on a crit, add in an extra '@mod' term */
   static configureDamage(wrapped, ...args) {
-    /* if this is a deep impact weapon on a crit, add in an extra '@mod' term */
     if (this.isCritical && this.data.item?.properties?.has("dim")) {
       this.terms.push(new OperatorTerm({ operator: "+" }));
       this.terms.push(

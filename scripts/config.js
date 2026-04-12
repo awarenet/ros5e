@@ -18,6 +18,9 @@ export class ROS5E {
     return globalThis.game.ros5e.CONFIG;
   }
 
+  /**
+   * Return template paths for preloading
+   */
   static templates() {
     const loadTemplates =
       foundry.applications?.handlebars?.loadTemplates ??
@@ -25,7 +28,9 @@ export class ROS5E {
     return loadTemplates([`${Common.constants.path}/templates/apps/rest.hbs`]);
   }
 
-  /* registering our settings */
+  /**
+   * Register world and client settings for the ROS5E module
+   */
   static settings() {
     game.settings.registerMenu("ros5e", "symbaroumSettings", {
       name: "ROS5E.setting.config-menu-label.name",
@@ -48,12 +53,20 @@ export class ROS5E {
     Common.applySettings(settingsData);
   }
 
+  /**
+   * Register system hooks used by ROS5E
+   */
   static hooks() {
     Hooks.on("i18nInit", ROS5E._preTranslateConfig);
     Hooks.on("ready", ROS5E.setPlutoniumConfig);
     Hooks.on("ready", ROS5E.bootstrapResources);
+    Hooks.once("ready", ROS5E.loadBrewItemProperties);
+    Hooks.on("preCreateItem", ROS5E.applyCustomItemProperties);
   }
 
+  /**
+   * Ensure Plutonium is configured to load the Ruins of Symbaroum homebrew compendium.
+   */
   static async setPlutoniumConfig() {
     if (!game.user.isGM) {
       return;
@@ -100,6 +113,9 @@ export class ROS5E {
     }
   }
 
+  /**
+   * Appends the specific local ROS5E brew item paths to Plutonium.
+   */
   static setBrewSources() {
     globalThis.plutonium.config.setValue(
       "dataSources",
@@ -112,8 +128,11 @@ export class ROS5E {
       Common.constants.brewPath,
     );
   }
-  /// this is gross. have to override dnd5e config after it's loaded but there is no hook for it.
-  /// it's the only way to add new consumable resources.
+
+  /**
+   * Gross hack: Need to override dnd5e config after it's loaded as there is no hook for it.
+   * This is currently the only way to cleanly append new consumable resources.
+   */
   static async bootstrapResources() {
     const sleep = (delay) =>
       new Promise((resolve) => setTimeout(resolve, delay));
@@ -127,6 +146,9 @@ export class ROS5E {
     );
   }
 
+  /**
+   * Configures DND5E translation keys and overrides for Symbaroum terminology
+   */
   static _preTranslateConfig() {
     globalThis.game.dnd5e.config.limitedUsePeriods.er = {
       label: Common.localize("ROS5E.Rest.Extended"),
@@ -181,7 +203,7 @@ export class ROS5E {
       rosTools,
     );
 
-    foundry.utils.mergeObject(globalThis.game.dnd5e.config.toolIds.music, {
+    foundry.utils.mergeObject(globalThis.game.dnd5e.config.toolIds, {
       birchbarkhorn: Common.localize("ROS5E.Proficiency.BirchBarkHorn"),
       brasshorn: Common.localize("ROS5E.Proficiency.BrassHorn"),
       fiddle: Common.localize("ROS5E.Proficiency.Fiddle"),
@@ -190,13 +212,6 @@ export class ROS5E {
       spinet: Common.localize("ROS5E.Proficiency.Spinet"),
     });
 
-    globalThis.game.dnd5e.config.toolIds.music.spinet = Common.localize(
-      "ROS5E.Proficiency.Spinet",
-    );
-
-    globalThis.game.dnd5e.config.featureTypes.corruption = Common.localize(
-      "ROS5E.Feature.Type.Corruption",
-    );
     /* Extend dnd5e weapon properties */
     const weaProps = {
       are: { label: "ROS5E.Item.WeaponProps.AreaEffect" },
@@ -229,26 +244,6 @@ export class ROS5E {
       globalThis.game.dnd5e.config.validProperties.equipment.add(prop);
       globalThis.game.dnd5e.config.itemProperties[prop] =
         Common.translateObject(armProps[prop]);
-    });
-
-    /* extend dnd5e damage types
-     * -> This supports both the damage and healing types
-     */
-    foundry.utils.mergeObject(
-      globalThis.game.dnd5e.config.damageTypes,
-      Common.translateObject({
-        permc: "ROS5E.Corruption.PermDamage",
-        tempc: "ROS5E.Corruption.TempDamage",
-      }),
-    );
-
-    /* add in "None" spell school (mainly for Troll Singer Songs) */
-    foundry.utils.mergeObject(globalThis.game.dnd5e.config.spellSchools, {
-      non: {
-        fullKey: "none",
-        label: "None",
-        icon: "/icons/svg/cancel.svg",
-      },
     });
 
     /* Store new armor properties */
@@ -293,7 +288,9 @@ export class ROS5E {
     }
   }
 
-  /* setting our global config data */
+  /**
+   * Sets all global variables and configs needed for the ROS5E ecosystem
+   */
   static async globals() {
     globalThis.game.ros5e.CONFIG = {};
     globalThis.game.ros5e.CONFIG.LEVEL_SHORT = [
@@ -343,8 +340,6 @@ export class ROS5E {
         max: 0,
         bonus: 0,
       },
-      manner: "",
-      shadow: "",
     };
 
     /* The default values for ros5e item data */
@@ -411,5 +406,95 @@ export class ROS5E {
       section: "DND5E.RacialTraits",
       type: Boolean,
     };
+  }
+
+  /**
+   * Asynchronously fetches ROS weapon/armor JSON configurations during startup.
+   * This is used later by the item creation hook to map missing properties.
+   */
+  static async loadBrewItemProperties() {
+    try {
+      const response = await fetch(
+        "modules/ros5e/brew/items/Awarenet; Ruins of Symbaroum (Items).json",
+      );
+      const jsonData = await response.json();
+
+      const moduleProps = [
+        "dim",
+        "ens",
+        "con",
+        "bal",
+        "msv",
+        "res",
+        "ret",
+        "sge",
+        "are",
+        "imm",
+        "rel",
+        "crw",
+        "cmb",
+        "noi",
+        "wei",
+        "fin",
+      ];
+      ROS5E._dynamicPropsMap = {};
+
+      for (const item of jsonData.item || []) {
+        if (!item.property) continue;
+        const customProps = item.property
+          .map((p) => p.split("|")[0])
+          .filter((p) => moduleProps.includes(p));
+
+        if (customProps.length > 0) {
+          ROS5E._dynamicPropsMap[item.name] = customProps;
+        }
+      }
+    } catch (e) {
+      console.warn(
+        "ROS5E | Failed to load brew items for dynamic property mapping",
+        e,
+      );
+    }
+  }
+
+  /**
+   * preCreateItem Hook target that analyzes incoming items and forces custom
+   * properties back onto the payload if Plutonium stripped them.
+   */
+  static applyCustomItemProperties(item, data, options, userId) {
+    if (game.user.id !== userId) return;
+
+    // Retrieve flag either via API or raw
+    const sourceData =
+      item.getFlag("plutonium", "source") ||
+      (item.flags && item.flags.plutonium && item.flags.plutonium.source);
+
+    if (sourceData !== "RuinsOfSymbaroumI") return;
+
+    // Use our dynamically loaded brew properties
+    if (!ROS5E._dynamicPropsMap) return;
+    const newCustomProps = ROS5E._dynamicPropsMap[item.name];
+
+    if (newCustomProps && newCustomProps.length > 0) {
+      if (item.system.properties instanceof Set) {
+        // dnd5e version 3+ syntax (Set)
+        const newProperties = new Set(item.system.properties);
+        newCustomProps.forEach((p) => newProperties.add(p));
+        item.updateSource({ "system.properties": newProperties });
+      } else if (Array.isArray(item.system.properties)) {
+        // Array fallback
+        const newProperties = [...item.system.properties];
+        newCustomProps.forEach((p) => {
+          if (!newProperties.includes(p)) newProperties.push(p);
+        });
+        item.updateSource({ "system.properties": newProperties });
+      } else {
+        // Object fallback (dnd5e 1.x or 2.x fallback)
+        const newProperties =
+          foundry.utils.deepClone(item.system.properties) || {};
+        newCustomProps.forEach((p) => (newProperties[p] = true));
+        item.updateSource({ "system.properties": newProperties });
+      }
+    }
   }
 }

@@ -1,5 +1,3 @@
-import { ROS5E } from "../config.js";
-import { logger } from "../logger.js";
 import { Corruption } from "./corruption.js";
 import { Common } from "../common.js";
 
@@ -118,73 +116,5 @@ export class Spellcasting {
           }
         });
     });
-  }
-
-  /* MECHANICS HELPERS */
-
-  /* get max spell level based
-   * on highest class progression
-   * NOTE: this is probably excessive
-   *   but since its a single display value
-   *   we want to show the higest value
-   * @param classData {array<classItemData>}
-   */
-
-  static _maxSpellLevelByClass(classData = []) {
-    const maxLevel = classData.reduce(
-      (acc, cls) => {
-        const progression = cls.spellcasting.progression;
-        const progressionArray =
-          ROS5E.CONFIG.SPELL_PROGRESSION[progression] ?? false;
-        if (progressionArray) {
-          const spellLevel =
-            ROS5E.CONFIG.SPELL_PROGRESSION[progression][cls.system.levels] ?? 0;
-
-          return spellLevel > acc.level
-            ? { level: spellLevel, fullCaster: progression == "full" }
-            : acc;
-        }
-
-        /* nothing to accumulate */
-        return acc;
-      },
-      { level: 0, fullCaster: false },
-    );
-
-    const result = {
-      level: maxLevel.level,
-      label: ROS5E.CONFIG.LEVEL_SHORT[maxLevel.level],
-      fullCaster: maxLevel.fullCaster,
-    };
-
-    return result;
-  }
-
-  /* highest spell level for an NPC:
-   * if a leveled caster, use that level as Full Caster
-   * if not and spellcasting stat is != 'none', use CR as full caster
-   * otherwise, no spellcasting
-   *
-   * @param actor5eData {Object} (i.e. actor.system)
-   */
-  static _maxSpellLevelNPC(actor5eData) {
-    const casterLevel = actor5eData.details.spellLevel ?? 0;
-
-    /* has caster levels, assume full caster */
-    let result = {
-      level: 0,
-      label: "",
-      fullCaster: casterLevel > 0,
-    };
-
-    /* modify max spell level if full caster or has a casting stat */
-    if (result.fullCaster) {
-      /* if we are a full caster, use our caster level */
-      result.level = game.ros5e.CONFIG.SPELL_PROGRESSION.full[casterLevel];
-    }
-
-    result.label = game.ros5e.CONFIG.LEVEL_SHORT[result.level];
-
-    return result;
   }
 }

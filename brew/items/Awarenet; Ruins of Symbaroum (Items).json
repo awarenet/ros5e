@@ -5,7 +5,9 @@
         "json": "RuinsOfSymbaroumI",
         "full": "Awarenet; Ruins of Symbaroum (Items)",
         "abbreviation": "RoS:I",
-        "authors": ["Free League Publishing"],
+        "authors": [
+          "Free League Publishing"
+        ],
         "version": "1.0.0",
         "url": "https://freeleaguepublishing.com"
       }
@@ -23,7 +25,7 @@
       "weight": 4,
       "rarity": "common",
       "entries": [
-        "This well-thumbed copy compiling all the troll smith Xavaundo’s knowledge was recorded by Master Balinda of Ordo Magica and gives you proficiency with artifact crafting."
+        "This well-thumbed copy compiling all the troll smith Xavaundo\u2019s knowledge was recorded by Master Balinda of Ordo Magica and gives you proficiency with artifact crafting."
       ]
     },
     {
@@ -78,7 +80,7 @@
       "weight": 3,
       "rarity": "common",
       "entries": [
-        "A used copy of the famous ogre Crueljaw’s lustful tome, containing a lengthy and insightful record of traps, from simple mare snares and needle-traps in box lids, to massive contraptions suited for a king’s burial mound. Learning from this book allows you to detect and set traps."
+        "A used copy of the famous ogre Crueljaw\u2019s lustful tome, containing a lengthy and insightful record of traps, from simple mare snares and needle-traps in box lids, to massive contraptions suited for a king\u2019s burial mound. Learning from this book allows you to detect and set traps."
       ]
     },
     {
@@ -99,7 +101,9 @@
       "value": 100,
       "weight": 2,
       "rarity": "common",
-      "entries": ["A decent bellowing instrument for pompous situations."]
+      "entries": [
+        "A decent bellowing instrument for pompous situations."
+      ]
     },
     {
       "name": "Fiddle",
@@ -132,6 +136,1342 @@
       "rarity": "common",
       "entries": [
         "A small instrument placed in the mouth, played by plucking a metal tongue while using the mouth as a resonator."
+      ]
+    },
+    {
+      "name": "Club",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 10,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "property": [
+        "L"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Dagger",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 200,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "P",
+      "range": "20/60",
+      "property": [
+        "L",
+        "F",
+        "T"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Greatclub",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 20,
+      "weight": 10.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "B",
+      "property": [
+        "2H"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Handaxe",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 500,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "S",
+      "range": "20/60",
+      "property": [
+        "L",
+        "T"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Javelin",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 50,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "range": "30/120",
+      "property": [
+        "T"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Light hammer",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 200,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "range": "20/60",
+      "property": [
+        "L",
+        "T"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Mace",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 500,
+      "weight": 4.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "B",
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Quarterstaff",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 20,
+      "weight": 4.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "B",
+      "property": [
+        "2H"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Sickle",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 100,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "S",
+      "property": [
+        "L"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Spear",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 100,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "range": "20/60",
+      "dmg2": "1d8",
+      "property": [
+        "T",
+        "V"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Crossbow, light",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 1500,
+      "weight": 5.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "range": "80/320",
+      "property": [
+        "2H",
+        "A",
+        "LD"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Dart",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 5,
+      "weight": 0.25,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "P",
+      "range": "20/60",
+      "property": [
+        "F",
+        "T"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Horseman's Bow",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 1000,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "range": "80/320",
+      "property": [
+        "2H",
+        "A"
+      ],
+      "entries": [
+        "Shorter than a longbow, this weapon can be used while mounted and also works well on foot within the forest of Davokar."
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Sling",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 10,
+      "weight": 0.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "range": "30/120",
+      "property": [
+        "A"
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Spear Sling",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 500,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "range": "40/160",
+      "property": [
+        "A",
+        "dim|RoS:I"
+      ],
+      "entries": [
+        "The barbarians of eastern Davokar, and especially the members of clan Karohar, prefer the use of spear slings \u2013 a throwing arm with a hook that is attached to the end of a short spear in order to throw it with tremendous force."
+      ],
+      "weaponCategory": "simple"
+    },
+    {
+      "name": "Assassin's Blade",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2000,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "property": [
+        "F",
+        "con|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The slender grip and the feather-thin steel of the blade makes this weapon easy to conceal without sacrificing its bite. It is easily strapped to the wrist or ankle, or even attached behind the neck with a lump of resin. Special girdles or hidden pockets in clothes work just as well. The weapon can be smuggled past guards, to be used on secret missions or to be handed over to a prisoner."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Axe",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2000,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "entries": [
+        "Preferred weapon of many barbarians."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Chain Staff",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2000,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "B",
+      "property": [
+        "R",
+        "ens|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The chain staff was developed by elves and has been adopted by some barbarian clans. The weapon is composed of a staff with a short chain attached to each end, making it possible to use the weapon to ensnare a target. The chains often end in a weight or a short blade, making it even more deadly."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Crow's Beak",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 500,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "property": [
+        "dim|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "A less elegant, but still effective weapon is the crow's beak, also known as a Kandorian war pick after the city in Alberetor where it was first forged. The crow's beak is a club whose metal head is fitted with a spike or a beak of steel, in order to punch through armor more easily. After the escape to Yndaros, the smiths of the Kandorian war pick settled down in the district of Old Kadizar where they have continued to craft their dreaded weapons."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Double-axe",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 3000,
+      "weight": 7.0,
+      "rarity": "common",
+      "dmg1": "1d12",
+      "dmgType": "S",
+      "property": [
+        "2H",
+        "msv|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The barbarian double-axe (not to be confused with the more common pole axe with its single-edged axe head) is aptly named after its twin axe heads and is presumed to be a legacy from the fallen Symbaroum. In those days the double-axe was a weapon as well as a symbol of status and standing. Even though the knowledge of metallurgy has dwindled since the fall of Symbaroum these powerful weapons can still be forged, often made for particularly prominent warriors. Ambrians consider the double-axe crude and savage, fit for barbarians and few else, but its shape is well known because of its similarity to the royal rune, Labrys."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Estoc",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 3000,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "property": [
+        "F",
+        "dim|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "This is a fencing sword but with a tapered blade that ends in a wedge-shaped tip, intended to penetrate the target\u2019s armor."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Executioner's Sword",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 6000,
+      "weight": 4.0,
+      "rarity": "common",
+      "dmg1": "1d12",
+      "dmgType": "S",
+      "property": [
+        "2H",
+        "msv|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "This giant sword is used by executioners to end the lives of nobles \u2013 the axe is for merchants and artisans, the rope for commoners \u2013 but there are also those who wield the weapon on the battlefield."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Fencing Sword",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2500,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "property": [
+        "F"
+      ],
+      "entries": [
+        "In Yndaros, the Ambrian fencing sword is considered to be of the highest fashion, an instrument with superior precision made from strong but flexible steel. It is often combined with the duelist\u2019s favorite, the parrying dagger, which gives the lightly armored fighter a stronger defense in combat."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Flail",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1000,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "B",
+      "property": [
+        "ens|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The single-handed cousin of the great flail."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Grappling Axe",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 3000,
+      "weight": 4.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "dmg2": "1d10",
+      "property": [
+        "V"
+      ],
+      "entries": [
+        "This long-shafted axe is often used during assaults. It can be held one-handed, together with a shield, or alone when climbing ladders to the battlement where it is gripped in both hands to clear the top of the wall. Older models from The Great War were used in sea battles and have a grappling hook on the back of the axe head, in order to secure safe passage from one ship to another."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Great Flail",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2000,
+      "weight": 8.0,
+      "rarity": "common",
+      "dmg1": "1d12",
+      "dmgType": "B",
+      "property": [
+        "2H",
+        "H",
+        "ens|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The great flail is a larger version of the regular flail. As might be expected, the heavier flail is slower but has a greater impact on the unfortunates who are hit by its massive head."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Greatsword",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 5000,
+      "weight": 6.0,
+      "rarity": "common",
+      "dmg1": "2d6",
+      "dmgType": "S",
+      "property": [
+        "2H",
+        "H"
+      ],
+      "entries": [
+        "This double-handed blade is the weapon of choice for some of the most famous knights of Ambria."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Halberd",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2000,
+      "weight": 6.0,
+      "rarity": "common",
+      "dmg1": "1d10",
+      "dmgType": "S",
+      "property": [
+        "2H",
+        "R",
+        "H"
+      ],
+      "entries": [
+        "Known as the pole axe among barbarians, it combines the point of a spear with the head of an axe. It cannot thrust as quickly as the spear, but its sweeping chop can have a devastating effect."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Lance",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1000,
+      "weight": 6.0,
+      "rarity": "common",
+      "dmg1": "1d12",
+      "dmgType": "P",
+      "property": [
+        "R",
+        "H"
+      ],
+      "entries": [
+        "The value of this weapon should not be underestimated \u2013 the largest monstrosities of the Dark Lords were often slain by lances in the hands of brave knights. The weapon was also used by the Ambrian cavalry to gain dominance over the lowlands and drive barbarians, packs of predators and abominations into the forest of Davokar."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Long Hammer",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2500,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "B",
+      "dmg2": "1d10",
+      "property": [
+        "V"
+      ],
+      "entries": [
+        "This mighty weapon can be used in one hand together with a shield but will come into its own only when held in a two-handed grip."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Longsword",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1500,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "dmg2": "1d10",
+      "property": [
+        "V"
+      ],
+      "entries": [
+        "The master smiths of the Pansars forge the finest weapons in Ambria, and the longswords of the Queen's Guard are an exquisite testament to that fact, at least when wielded by the right warrior. The weapon is preferably handled with both hands but can also be used single-handedly with a shield."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Maul",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1000,
+      "weight": 10.0,
+      "rarity": "common",
+      "dmg1": "2d6",
+      "dmgType": "B",
+      "property": [
+        "2H",
+        "H"
+      ],
+      "entries": [
+        "This weapon is a long-handled hammer with a heavy head of wood, lead, or iron."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Parrying Dagger",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 500,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "P",
+      "property": [
+        "L",
+        "bal|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The parrying dagger, with its wide and v-shaped cross-guard, has become very popular in Yndaros, and is often wielded together with a fencing sword."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Pike",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1500,
+      "weight": 18.0,
+      "rarity": "common",
+      "dmg1": "1d10",
+      "dmgType": "P",
+      "property": [
+        "2H",
+        "R",
+        "H"
+      ],
+      "entries": [
+        "The slender shaft and fire-tempered steel point of the Ambrian pike slides towards the target with great precision."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Shortsword",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1000,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "property": [
+        "L",
+        "F"
+      ],
+      "entries": [
+        "A straight blade with a sharp point for thrusting attacks."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Stiletto",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 500,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "P",
+      "property": [
+        "F",
+        "dim|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "The slender and agile stiletto is a dagger whose razor sharp point stabs deeply \u2013 the weapon of an assassin."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Whip",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 200,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d4",
+      "dmgType": "S",
+      "property": [
+        "F",
+        "R",
+        "ens|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "This whip has been adapted from the common herding or slave-driving whip; its function is not only to drive but also to snare the target. Also, its length gives it a considerable flicking power able to wound lightly armored targets."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Arbalest",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 5000,
+      "weight": 18.0,
+      "rarity": "common",
+      "dmg1": "1d10",
+      "dmgType": "P",
+      "range": "100/400",
+      "property": [
+        "2H",
+        "H",
+        "A",
+        "LD",
+        "dim|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "This is a heavy Ambrian crossbow with a bow of feather-light steel, which gives its bolts a bit of extra punch."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Blowpipe",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 1000,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1",
+      "dmgType": "P",
+      "range": "25/100",
+      "property": [
+        "A",
+        "LD"
+      ],
+      "entries": [
+        "The purpose of this weapon is to fire a poisoned dart towards a target. The dart deals minimal damage itself, but penetrates any protection worn on a successful hit. See page 182 for more details on poisons."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Bolas",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 500,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1",
+      "dmgType": "B",
+      "range": "30/90",
+      "property": [
+        "F",
+        "T",
+        "res|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "This weapon is used in Davokar when someone wants to capture the prey alive; or in order to slow down a target before moving in for the kill. The bolas are made of two or more weights tied together with ropes that, together, are hurled at the target\u2019s legs or arms in order to hinder movement. Normally, such a weapon is thrown at the opponent\u2019s legs and if the attack roll is successful, the target becomes prone and restrained. It is harder to hit the arms of the target \u2013 this requires an attack roll at regular range with disadvantage. On a success the target cannot use their arms. Removing the bolas requires an action to attempt a DC 13 Strength (Athletics) or Dexterity (Acrobatics) check."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Composite Bow",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 3000,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "range": "80/320",
+      "property": [
+        "2H",
+        "A",
+        "dim|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "Among the wagon-riding Varaks and Saars who live on the plains west of Davokar, bow-making is a highly esteemed art form. The composite bow is made from layers of horn and sinews over a wooden core; it is shorter and not as precise as the longbow but more powerful. Its size makes it perfect for use while on horseback, the driver\u2019s seat of a wagon or the narrow platform of a battle chariot."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Crossbow, hand",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 7500,
+      "weight": 3.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "range": "30/120",
+      "property": [
+        "L",
+        "A",
+        "LD"
+      ],
+      "entries": [
+        "Among the thieves and gangs of Yndaros, a smaller and more easily concealed version of the crossbow is used. It can be held and fired in one hand, but requires two to load and has nearly the same punch as the standard crossbow. Assassins often apply poison to the bolts, making the weapon very effective for its size."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Crossbow, heavy",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 2500,
+      "weight": 18.0,
+      "rarity": "common",
+      "dmg1": "1d10",
+      "dmgType": "P",
+      "range": "100/400",
+      "property": [
+        "2H",
+        "H",
+        "A",
+        "LD"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Crossbow, repeating",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 10000,
+      "weight": 20.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "range": "80/320",
+      "property": [
+        "2H",
+        "A"
+      ],
+      "entries": [
+        "This is a mechanically advanced version of the crossbow. The weapon has a push lever underneath, for quicker reloading. Only the most skilled blacksmiths are able to construct such technically advanced weaponry."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Longbow",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 2000,
+      "weight": 2.0,
+      "rarity": "common",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "range": "150/600",
+      "property": [
+        "2H",
+        "H",
+        "A"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Net",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 100,
+      "weight": 3.0,
+      "rarity": "common",
+      "range": "5/15",
+      "property": [
+        "T",
+        "ens|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Throwing Wing",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 1000,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1d6",
+      "dmgType": "B",
+      "range": "30/90",
+      "property": [
+        "T",
+        "ret|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "These weapons are designed to return to the user if they miss their target. In the depths of Davokar, throwing wings made from hardened wood are used to hunt small game, while the ones used in combat have a knife-sharp edge of steel all around the wing. A proficient user can catch a returning wing as an object interaction."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Breaching Pot (buried)",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 10000,
+      "weight": 20.0,
+      "rarity": "common",
+      "dmg1": "3d10",
+      "dmgType": "B",
+      "property": [
+        "sge|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Breaching Pot (ground)",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 10000,
+      "weight": 20.0,
+      "rarity": "common",
+      "dmg1": "3d8",
+      "dmgType": "F",
+      "property": [
+        "are|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Grenade",
+      "source": "RuinsOfSymbaroumI",
+      "type": "M",
+      "value": 2500,
+      "weight": 1.0,
+      "rarity": "common",
+      "dmg1": "1d10",
+      "dmgType": "F",
+      "range": "30/90",
+      "property": [
+        "T",
+        "are|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Ballista",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 20000,
+      "weight": 450.0,
+      "rarity": "common",
+      "dmg1": "2d12",
+      "dmgType": "P",
+      "range": "200/800",
+      "property": [
+        "A",
+        "sge|RuinsOfSymbaroumI",
+        "imm|RuinsOfSymbaroumI",
+        "rel|RuinsOfSymbaroumI",
+        "crw|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Catapult",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 40000,
+      "weight": 2000.0,
+      "rarity": "common",
+      "dmg1": "3d8",
+      "dmgType": "B",
+      "range": "300/1200",
+      "property": [
+        "A",
+        "sge|RuinsOfSymbaroumI",
+        "are|RuinsOfSymbaroumI",
+        "imm|RuinsOfSymbaroumI",
+        "rel|RuinsOfSymbaroumI",
+        "crw|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Missile Battery",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 15000,
+      "weight": 300.0,
+      "rarity": "common",
+      "dmg1": "3d8",
+      "dmgType": "F",
+      "range": "150/600",
+      "property": [
+        "A",
+        "are|RuinsOfSymbaroumI",
+        "imm|RuinsOfSymbaroumI",
+        "rel|RuinsOfSymbaroumI",
+        "crw|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Trebuchet",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 35000,
+      "weight": 2500.0,
+      "rarity": "common",
+      "dmg1": "3d12",
+      "dmgType": "B",
+      "range": "300/1200",
+      "property": [
+        "A",
+        "sge|RuinsOfSymbaroumI",
+        "are|RuinsOfSymbaroumI",
+        "imm|RuinsOfSymbaroumI",
+        "rel|RuinsOfSymbaroumI",
+        "crw|RuinsOfSymbaroumI"
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Blessed Robe",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 1000,
+      "weight": 5.0,
+      "rarity": "common",
+      "ac": 11,
+      "entries": [
+        "The priestly robes of the theurgs are blessed and protected by benevolent forces so that the Church\u2019s finest can travel safely throughout the kingdom, and beyond."
+      ]
+    },
+    {
+      "name": "Concealed Armor",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 2000,
+      "weight": 4.0,
+      "rarity": "common",
+      "property": [
+        "con|RuinsOfSymbaroumI"
+      ],
+      "ac": 11,
+      "entries": [
+        "Sorcerers have many reasons to stay hidden. To do this, they often weave mystically reinforced threads into their cloths, resulting in tunics and capes that look ordinary but offer protection. Other groups, such as spies, would love to have access to such garments, so they can avoid unwanted attention while still being ready for battle."
+      ]
+    },
+    {
+      "name": "Order Cloak",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 1000,
+      "weight": 5.0,
+      "rarity": "common",
+      "ac": 11,
+      "entries": [
+        "Most novice mages of Ordo Magica are given a protective cloak in time for their first long journey. These cloaks are embroidered with warding runes, which increases the chance of the novice surviving to complete their appointed task."
+      ]
+    },
+    {
+      "name": "Skald's Cuirass",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 3000,
+      "weight": 20.0,
+      "rarity": "common",
+      "ac": 12,
+      "entries": [
+        "Troll singers are often warrior poets and many wear a flexible armor of woven cloth- or leather-strips, strengthened with protective harmonies. The Skald\u2019s Cuirass is durable without hampering the wearers\u2019 movement, making it popular among other groups as well. For instance, wealthy duelists in Yndaros often color their cuirasses in personal colors, so that they can be recognized from afar."
+      ]
+    },
+    {
+      "name": "Studded Leather",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 2000,
+      "weight": 15.0,
+      "rarity": "common",
+      "ac": 12,
+      "entries": [
+        "Also known as brigandine, this armor has metal plates riveted (the \u2018studs\u2019) to a leather overcoat and cloth inner lining."
+      ]
+    },
+    {
+      "name": "Witch Gown",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 1000,
+      "weight": 5.0,
+      "rarity": "common",
+      "ac": 11,
+      "entries": [
+        "The witches of the clans bind protective spirits in carved pieces of bone and the skulls of fallen enemies, and attach them to their clothing for effective protection."
+      ]
+    },
+    {
+      "name": "Wolf Skin",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 100,
+      "weight": 15.0,
+      "rarity": "common",
+      "property": [
+        "cmb|RuinsOfSymbaroumI"
+      ],
+      "ac": 12,
+      "stealth": true,
+      "entries": [
+        "For poor barbarian scouts the cheap, cumbersome wolf skin armor is a common alternative; skin that has been tanned in the most simple way and sewn together into some kind of passable protection."
+      ]
+    },
+    {
+      "name": "Woven Silk",
+      "source": "RuinsOfSymbaroumI",
+      "type": "LA",
+      "value": 5000,
+      "weight": 6.0,
+      "rarity": "common",
+      "ac": 12,
+      "entries": [
+        "Woven silk is the finest light armor available, since the close weave of its threads withstands stabs and cuts far better than its weight suggests. Woven silk has been used by both barbarians and Ambrians for a long time and some scholars speculate that the technique originally comes from the elves, possibly dating as far back as the days of the Iron Pact."
+      ]
+    },
+    {
+      "name": "Chain Shirt",
+      "source": "RuinsOfSymbaroumI",
+      "type": "MA",
+      "value": 5000,
+      "weight": 20.0,
+      "rarity": "common",
+      "ac": 13,
+      "entries": [
+        "A simple short-sleeved shirt of chainmail that hangs down to mid-thigh."
+      ]
+    },
+    {
+      "name": "Crow Armor",
+      "source": "RuinsOfSymbaroumI",
+      "type": "MA",
+      "value": 500,
+      "weight": 30.0,
+      "rarity": "common",
+      "property": [
+        "cmb|RuinsOfSymbaroumI"
+      ],
+      "ac": 14,
+      "stealth": true,
+      "entries": [
+        "Medium armor is more expensive than light, which is the reason why many warriors have picked, riveted and bound together a so-called \u201ccrow armor\u201d of their own. It is cheap, but far more difficult to move around in."
+      ]
+    },
+    {
+      "name": "Double Chain Mail",
+      "source": "RuinsOfSymbaroumI",
+      "type": "MA",
+      "value": 12500,
+      "weight": 40.0,
+      "rarity": "common",
+      "property": [
+        "noi|RuinsOfSymbaroumI"
+      ],
+      "ac": 14,
+      "stealth": true,
+      "entries": [
+        "Double-threaded chainmail can only be crafted by the most skilled blacksmiths; with thinner rings that interlock in layers they craft an armor which is as flexible as chainmail but even more durable."
+      ]
+    },
+    {
+      "name": "Lacquered Silk Cuirass",
+      "source": "RuinsOfSymbaroumI",
+      "type": "MA",
+      "value": 6000,
+      "weight": 18.0,
+      "rarity": "common",
+      "ac": 14,
+      "entries": [
+        "Barbarian warriors that have earned their place in the guard of a wealthy clan chieftain can sometimes be seen wearing a cuirass of lacquered silk, an armor that despite its apparent lightness protects like a breast plate. According to legend, the secret of lacquered silk was given to humankind by the elves, in a time when the Iron Pact was still strong and humans battled the parasitic darkness of Symbaroum."
+      ]
+    },
+    {
+      "name": "Laminated Armor",
+      "source": "RuinsOfSymbaroumI",
+      "type": "MA",
+      "value": 15000,
+      "weight": 40.0,
+      "rarity": "common",
+      "ac": 15,
+      "entries": [
+        "This is an older armor-type, nowadays often replaced by the cheaper scale mail or the flexible chainmail. However, some old laminated sets of armor are still around and there are blacksmiths who actually prefer them because of their greater protective capability. Some of Ambria\u2019s noble houses still dress in this type of armor, for sentimental\u2026 or, as they claim, \u201ctraditional\u201d reasons. Laminated armor can only protect the torso, shoulders and hips \u2013 arms and legs are usually dressed in studded leather (included in the Armor Class rating) to maintain mobility."
+      ]
+    },
+    {
+      "name": "Scale Mail",
+      "source": "RuinsOfSymbaroumI",
+      "type": "MA",
+      "value": 5000,
+      "weight": 45.0,
+      "rarity": "common",
+      "property": [
+        "noi|RuinsOfSymbaroumI"
+      ],
+      "ac": 15,
+      "stealth": true,
+      "entries": [
+        "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+      ]
+    },
+    {
+      "name": "Chain and Plate",
+      "source": "RuinsOfSymbaroumI",
+      "type": "HA",
+      "value": 25000,
+      "weight": 50.0,
+      "rarity": "common",
+      "ac": 15,
+      "entries": [
+        "A long-sleeved, knee-length set of chainmail with plates at sensitive joint areas like shoulders, elbows, knees, etc."
+      ]
+    },
+    {
+      "name": "Field Armor",
+      "source": "RuinsOfSymbaroumI",
+      "type": "HA",
+      "value": 50000,
+      "weight": 70.0,
+      "rarity": "common",
+      "property": [
+        "cmb|RuinsOfSymbaroumI",
+        "wei|RuinsOfSymbaroumI"
+      ],
+      "ac": 17,
+      "stealth": true,
+      "strength": 13,
+      "entries": [
+        "Field armor is a full plate forged with pleated sheets, making it less flexible than full plate, but even more impervious to slashing strikes and blows."
+      ]
+    },
+    {
+      "name": "Field Armor of the Pansars",
+      "source": "RuinsOfSymbaroumI",
+      "type": "HA",
+      "value": 75000,
+      "weight": 70.0,
+      "rarity": "common",
+      "property": [
+        "noi|RuinsOfSymbaroumI",
+        "wei|RuinsOfSymbaroumI"
+      ],
+      "ac": 18,
+      "stealth": true,
+      "strength": 15,
+      "entries": [
+        "The master smiths working for the Pansars can forge full plate armor using pleated steel sheets while retaining the flexibility of standard plated armor."
+      ]
+    },
+    {
+      "name": "Full Plate",
+      "source": "RuinsOfSymbaroumI",
+      "type": "HA",
+      "value": 50000,
+      "weight": 65.0,
+      "rarity": "common",
+      "property": [
+        "noi|RuinsOfSymbaroumI",
+        "wei|RuinsOfSymbaroumI"
+      ],
+      "ac": 16,
+      "stealth": true,
+      "strength": 15,
+      "entries": [
+        "Full plate consists of shaped, interlocking metal plates to cover the entire body."
+      ]
+    },
+    {
+      "name": "Buckler",
+      "source": "RuinsOfSymbaroumI",
+      "type": "S",
+      "value": 400,
+      "weight": 2.0,
+      "rarity": "common",
+      "ac": 1,
+      "entries": [
+        "This small shield is usually held directly in front of the fist and is favored by those fencers who don\u2019t carry a parrying dagger."
+      ]
+    },
+    {
+      "name": "Shield",
+      "source": "RuinsOfSymbaroumI",
+      "type": "S",
+      "value": 1000,
+      "weight": 6.0,
+      "rarity": "common",
+      "ac": 2,
+      "entries": [
+        "This is a round or kite-shaped wooden device strapped to your forearm and usually big enough to cover your entire torso."
+      ]
+    }
+  ],
+  "itemProperty": [
+    {
+      "abbreviation": "dim",
+      "name": "Deep Impact",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Deep Impact.</i></b> This weapon is built such that a precise blow can cause extraordinary damage. If you score a critical hit with this weapon you double both the damage dice and the damage modifier."
+      ]
+    },
+    {
+      "abbreviation": "ens",
+      "name": "Ensnaring",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Ensnaring.</i></b> This weapon can wrap around limbs, temporarily pulling an enemy off balance. When you make a critical hit with one of these weapons, if the target is a creature it is knocked prone in addition to taking normal damage."
+      ]
+    },
+    {
+      "abbreviation": "con",
+      "name": "Concealed",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Concealed.</i></b> For weapons: This blade can be hidden on a creature\u2019s body, underneath clothes or armor. Make a Dexterity (Sleight of Hand) check when you hide it, and compare against passive Perception or an active search as needed.\n\nFor armor: This armor can be worn under normal clothing."
+      ]
+    },
+    {
+      "abbreviation": "bal",
+      "name": "Balanced",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Balanced.</i></b> The weapon is so well balanced that it is extra effective when parrying. If you wield this weapon in one hand with a weapon in the other hand increase your AC by 1."
+      ]
+    },
+    {
+      "abbreviation": "msv",
+      "name": "Massive",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Massive.</i></b> Creatures that are Small or Tiny have disadvantage on attack rolls with massive weapons. A massive weapon\u2019s size and bulk make it too large for a Small or Tiny creature to use effectively. When rolling damage for a massive weapon, roll the damage die twice and take the better result. This applies only to the initial damage die, not any bonus damage."
+      ]
+    },
+    {
+      "abbreviation": "res",
+      "name": "Restraining",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Restraining.</i></b> A successful hit with this weapon causes the restrained condition."
+      ]
+    },
+    {
+      "abbreviation": "ret",
+      "name": "Returning",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Returning.</i></b> If you miss with this weapon it returns to your hand."
+      ]
+    },
+    {
+      "abbreviation": "sge",
+      "name": "Siege",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Siege.</i></b> This weapon does double damage to structures."
+      ]
+    },
+    {
+      "abbreviation": "are",
+      "name": "Area Effect",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Area Effect.</i></b> This weapon\u2019s ammunition explodes. Instead of making an attack roll, the user designates an area and each creature in the area makes a Dexterity saving throw with the DC equal to 8 + the user\u2019s proficiency bonus plus their attack modifier. A failed save means the target takes full damage and a successful save means that they take no damage."
+      ]
+    },
+    {
+      "abbreviation": "imm",
+      "name": "Immobile",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Immobile.</i></b> Setting up this weapon or breaking it down can only be done outside of combat (several hours usually)."
+      ]
+    },
+    {
+      "abbreviation": "rel",
+      "name": "Reload",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Reload.</i></b> This weapon requires the crew to take the Reload action after firing it and thus can only be shot every other round."
+      ]
+    },
+    {
+      "abbreviation": "crw",
+      "name": "Crewed",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Crewed.</i></b> These weapons requires several individuals to operate them successfully. The minimum crew is given in parentheses and at least one member must be proficient with siege weapons."
+      ]
+    },
+    {
+      "abbreviation": "cmb",
+      "name": "Cumbersome",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Cumbersome.</i></b> This armor is unwieldy and you have disadvantage on all Dexterity checks while wearing it."
+      ]
+    },
+    {
+      "abbreviation": "noi",
+      "name": "Noisy",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Noisy.</i></b> This armor tends to rattle or otherwise make loud sounds. You have disadvantage on any Dexterity (Stealth) checks involving hearing."
+      ]
+    },
+    {
+      "abbreviation": "wei",
+      "name": "Weighty",
+      "source": "RuinsOfSymbaroumI",
+      "entries": [
+        "<b><i>Weighty.</i></b> This armor is especially heavy, you must have a Strength score equal to or higher than the number given in parentheses or reduce your speed by 10 feet."
       ]
     }
   ]

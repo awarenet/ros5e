@@ -6,6 +6,7 @@ import { Spellcasting } from "./modules/spellcasting.js";
 import { Resting } from "./modules/resting.js";
 import { ActorSyb5e } from "./modules/actor.js";
 import { ItemSyb5e } from "./modules/item.js";
+import { DamageRollSyb5e } from "./modules/damage-roll.js";
 import { Tidy5eIntegration } from "./modules/tidy5e-integration.js";
 import { Corruption } from "./modules/corruption.js";
 
@@ -16,6 +17,7 @@ const SUB_MODULES = [
   logger,
   ActorSyb5e,
   ItemSyb5e,
+  DamageRollSyb5e,
   Corruption,
   Spellcasting,
   Resting,

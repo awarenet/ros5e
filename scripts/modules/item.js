@@ -1,21 +1,10 @@
 import { Common } from "../common.js";
-import { Spellcasting } from "./spellcasting.js";
 import { Corruption } from "./corruption.js";
 export class ItemSyb5e {
   static NAME = "ItemSyb5e";
 
   static register() {
     this.patch();
-    this.hooks();
-  }
-
-  static parent = {};
-
-  static hooks() {
-    //Hooks.on('dnd5e.preDisplayCard', this.flagWithCorruption);
-    Hooks.on("dnd5e.preItemUsageConsumption", this.swapCorruptionConsumption);
-    Hooks.on("dnd5e.itemUsageConsumption", this.generateCorruptionUsage);
-    //Hooks.on('renderChatLog', this.setChatListeners)
   }
 
   static patch() {
