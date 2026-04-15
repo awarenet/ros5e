@@ -7,3 +7,4 @@ _scratch/
 *.DS_Store
 Thumbs.db
 .parsing/
+pdfs/
