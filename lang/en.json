@@ -3,7 +3,17 @@
     "Error": {
       "SpellLevelExceedsMax": "Base spell level exceeds maximum spell level of this actor."
     },
+    "error": {
+      "notSybActor": "This feature is only available for Symbaroum actors."
+    },
     "setting": {
+      "config-menu-label": {
+        "name": "ROS5E Settings",
+        "hint": "Open and configure ROS5E module settings."
+      },
+      "config-submit-button": {
+        "name": "Submit"
+      },
       "debug": {
         "name": "Log Debug Output",
         "hint": "Prints extended debug information to the console."
@@ -26,7 +36,8 @@
     "menu": {},
     "Never": "Never",
     "Init": {
-      "SubModule": "Initializing Sub-Module: {name}"
+      "SubModule": "Initializing Sub-Module: {name}",
+      "TestsLoaded": "Development tests loaded."
     },
     "Sheet": {
       "Origin": "Origin",
@@ -130,6 +141,11 @@
       "Label": "Runes",
       "Add": "Rune",
       "Remove": "Remove Rune"
+    },
+    "Talisman": {
+      "Label": "Talismans",
+      "Add": "Talisman",
+      "Remove": "Remove Talisman"
     },
     "Spell": {
       "FavoredSpell": "Favored Spell",
