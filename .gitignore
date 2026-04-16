@@ -1,3 +1,4 @@
+ai/
 .idea/
 .vscode/
 .vs/
@@ -8,3 +9,4 @@ _scratch/
 Thumbs.db
 .parsing/
 pdfs/
+ai/
