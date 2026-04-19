@@ -5,7 +5,9 @@
         "json": "RuinsOfSymbaroumSC",
         "full": "Ruins of Symbaroum Subclasses",
         "abbreviation": "RoS:SC",
-        "authors": ["Free League Publishing"],
+        "authors": [
+          "Free League Publishing"
+        ],
         "version": "1.0.0",
         "url": "https://freeleaguepublishing.com"
       }
@@ -14,7 +16,9 @@
     "dateLastModified": 1705220000,
     "edition": "classic",
     "dependencies": {
-      "class": ["RuinsOfSymbaroumC"]
+      "class": [
+        "RuinsOfSymbaroumC"
+      ]
     },
     "optionalFeatureTypes": {
       "Explorer:SC": "Explorer:SC",
@@ -475,10 +479,48 @@
         "zone of truth|RuinsOfSymbaroumS"
       ],
       "cantripProgression": [
-        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
       ],
       "spellsKnownProgression": [
-        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ]
     },
     {
@@ -642,7 +684,9 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["detect magic|RuinsOfSymbaroumS"]
+            "1": [
+              "detect magic|RuinsOfSymbaroumS"
+            ]
           }
         }
       ],
@@ -880,7 +924,9 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["detect magic|RuinsOfSymbaroumS"]
+            "1": [
+              "detect magic|RuinsOfSymbaroumS"
+            ]
           }
         }
       ],
@@ -1111,7 +1157,9 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["bless|RuinsOfSymbaroumS"]
+            "1": [
+              "bless|RuinsOfSymbaroumS"
+            ]
           }
         }
       ],
@@ -1475,8 +1523,12 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["bless|RuinsOfSymbaroumS"],
-            "3": ["arcane lock|RuinsOfSymbaroumS"],
+            "1": [
+              "bless|RuinsOfSymbaroumS"
+            ],
+            "3": [
+              "arcane lock|RuinsOfSymbaroumS"
+            ],
             "5": [
               {
                 "choose": {
@@ -1911,12 +1963,33 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["detect magic|RuinsOfSymbaroumS"]
+            "1": [
+              "detect magic|RuinsOfSymbaroumS"
+            ]
           }
         }
       ],
       "cantripProgression": [
-        2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ],
       "spellsKnownProgressionFixedByLevel": {
         "1": {
@@ -2377,12 +2450,33 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["bless|RuinsOfSymbaroumS"]
+            "1": [
+              "bless|RuinsOfSymbaroumS"
+            ]
           }
         }
       ],
       "cantripProgression": [
-        2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ],
       "spellsKnownProgressionFixedByLevel": {
         "1": {
@@ -2914,7 +3008,9 @@
               ]
             },
             "check": {
-              "ability": ["wis"],
+              "ability": [
+                "wis"
+              ],
               "dc": {
                 "formula": "10"
               }
@@ -2935,7 +3031,9 @@
               ]
             },
             "check": {
-              "ability": ["int"],
+              "ability": [
+                "int"
+              ],
               "dc": {
                 "formula": "10"
               }
@@ -3052,7 +3150,11 @@
           "choose": [
             {
               "count": 1,
-              "from": ["medicine", "nature", "survival"]
+              "from": [
+                "medicine",
+                "nature",
+                "survival"
+              ]
             }
           ]
         }
@@ -3151,7 +3253,9 @@
       "entries": [
         "At 13th level you and any ally within 30 feet of you are immune to the frightened condition."
       ],
-      "conditionImmune": ["frightened"]
+      "conditionImmune": [
+        "frightened"
+      ]
     },
     {
       "name": "Unwavering",
@@ -3193,7 +3297,9 @@
               ]
             },
             "check": {
-              "ability": ["con"]
+              "ability": [
+                "con"
+              ]
             }
           }
         ]
@@ -3220,7 +3326,11 @@
           "choose": [
             {
               "count": 1,
-              "from": ["deception", "stealth", "survival"]
+              "from": [
+                "deception",
+                "stealth",
+                "survival"
+              ]
             }
           ]
         }
@@ -3398,7 +3508,9 @@
                     "enabled": true,
                     "formula": "1d6"
                   },
-                  "types": ["psychic"]
+                  "types": [
+                    "psychic"
+                  ]
                 }
               ]
             },
@@ -3484,7 +3596,9 @@
             "name": "Use Dancing Blade",
             "type": "check",
             "check": {
-              "associated": ["itm"]
+              "associated": [
+                "itm"
+              ]
             },
             "activation": {
               "type": "special"
@@ -3513,7 +3627,9 @@
       "subclassShortName": "Bounty Hunter",
       "subclassSource": "RuinsOfSymbaroumSC",
       "level": 3,
-      "entries": ["You gain proficiency with the Deception skill."],
+      "entries": [
+        "You gain proficiency with the Deception skill."
+      ],
       "skillProficiencies": [
         {
           "deception": true
@@ -3547,7 +3663,9 @@
                     "enabled": true,
                     "formula": "1d6"
                   },
-                  "types": ["bludgeoning"]
+                  "types": [
+                    "bludgeoning"
+                  ]
                 }
               ]
             },
@@ -3733,7 +3851,9 @@
               "type": "special"
             },
             "check": {
-              "associated": ["inv"]
+              "associated": [
+                "inv"
+              ]
             }
           }
         ]
@@ -3858,7 +3978,9 @@
       "subclassShortName": "Monster Hunter",
       "subclassSource": "RuinsOfSymbaroumSC",
       "level": 3,
-      "entries": ["You gain proficiency with the Sleight of Hand skill."],
+      "entries": [
+        "You gain proficiency with the Sleight of Hand skill."
+      ],
       "skillProficiencies": [
         {
           "sleight of hand": true
@@ -4124,7 +4246,9 @@
                     "enabled": true,
                     "formula": "1d@scale.witch-hunter.retributiveRageDamageDie"
                   },
-                  "types": ["psychic"]
+                  "types": [
+                    "psychic"
+                  ]
                 }
               ]
             },
@@ -4268,7 +4392,9 @@
             "name": "Talisman Identify",
             "type": "check",
             "check": {
-              "associated": ["inv"]
+              "associated": [
+                "inv"
+              ]
             },
             "activation": {
               "type": "special"
@@ -4492,7 +4618,9 @@
                   "enabled": true,
                   "formula": "1d6"
                 },
-                "types": ["psychic"]
+                "types": [
+                  "psychic"
+                ]
               }
             ]
           },
@@ -4590,7 +4718,10 @@
       "skillProficiencies": [
         {
           "choose": {
-            "from": ["deception", "intimidation"],
+            "from": [
+              "deception",
+              "intimidation"
+            ],
             "count": 1
           }
         }
@@ -4713,7 +4844,9 @@
                     "enabled": true,
                     "formula": "(@corruption.permanent)d6"
                   },
-                  "types": ["necrotic"]
+                  "types": [
+                    "necrotic"
+                  ]
                 }
               ]
             },
@@ -4870,7 +5003,12 @@
                     "enabled": true,
                     "formula": "1d(@scale.staff-mage.runestaffDieFaces"
                   },
-                  "types": ["acid", "cold", "fire", "lightning"]
+                  "types": [
+                    "acid",
+                    "cold",
+                    "fire",
+                    "lightning"
+                  ]
                 }
               ]
             },
@@ -4949,7 +5087,12 @@
                     "enabled": true,
                     "formula": "1d(@scale.staff-mage.runestaffDieFaces"
                   },
-                  "types": ["acid", "cold", "fire", "lightning"]
+                  "types": [
+                    "acid",
+                    "cold",
+                    "fire",
+                    "lightning"
+                  ]
                 }
               ]
             },
@@ -4990,7 +5133,12 @@
                     "enabled": true,
                     "formula": "1d(@scale.staff-mage.runestaffDieFaces"
                   },
-                  "types": ["acid", "cold", "fire", "lightning"]
+                  "types": [
+                    "acid",
+                    "cold",
+                    "fire",
+                    "lightning"
+                  ]
                 }
               ]
             },
@@ -5156,7 +5304,9 @@
                 "enabled": true,
                 "formula": "@attributes.prof"
               },
-              "types": ["healing"]
+              "types": [
+                "healing"
+              ]
             },
             "range": {
               "units": "self"
@@ -5208,7 +5358,9 @@
                     "enabled": true,
                     "formula": "1d8"
                   },
-                  "types": ["radiant"]
+                  "types": [
+                    "radiant"
+                  ]
                 }
               ]
             },
@@ -5610,7 +5762,9 @@
                 "enabled": true,
                 "formula": "1d8 + @attributes.ability.wis.mod"
               },
-              "types": ["healing"]
+              "types": [
+                "healing"
+              ]
             },
             "consumption": {
               "spellSlot": false,
@@ -5719,18 +5873,51 @@
         "The DC is based on the spell level, using the chart below (the DC is equal to double the spell level plus 12).",
         {
           "type": "table",
-          "colLabels": ["Spell Level", "DC"],
-          "colStyles": ["text-align-left", "text-align-left"],
+          "colLabels": [
+            "Spell Level",
+            "DC"
+          ],
+          "colStyles": [
+            "text-align-left",
+            "text-align-left"
+          ],
           "rows": [
-            ["1st", "14"],
-            ["2nd", "16"],
-            ["3rd", "18"],
-            ["4th", "20"],
-            ["5th", "22"],
-            ["6th", "24"],
-            ["7th", "26"],
-            ["8th", "28"],
-            ["9th", "30"]
+            [
+              "1st",
+              "14"
+            ],
+            [
+              "2nd",
+              "16"
+            ],
+            [
+              "3rd",
+              "18"
+            ],
+            [
+              "4th",
+              "20"
+            ],
+            [
+              "5th",
+              "22"
+            ],
+            [
+              "6th",
+              "24"
+            ],
+            [
+              "7th",
+              "26"
+            ],
+            [
+              "8th",
+              "28"
+            ],
+            [
+              "9th",
+              "30"
+            ]
           ],
           "caption": "Constitution DC for Corruption"
         }
@@ -6326,7 +6513,9 @@
               "type": "special"
             },
             "check": {
-              "associated": ["inv"]
+              "associated": [
+                "inv"
+              ]
             }
           }
         ]
@@ -6571,7 +6760,9 @@
               "itemUses": 1
             },
             "check": {
-              "associated": ["alchemist"]
+              "associated": [
+                "alchemist"
+              ]
             },
             "dc": "@scale.former-cultist.alchemyDC"
           }
@@ -6616,7 +6807,9 @@
               "itemUses": 1
             },
             "check": {
-              "associated": ["pois"]
+              "associated": [
+                "pois"
+              ]
             },
             "dc": 15
           },
@@ -6629,7 +6822,9 @@
                     "enabled": true,
                     "formula": "(@scale.former-cultist.poisonDieCount)d6"
                   },
-                  "types": ["poison"]
+                  "types": [
+                    "poison"
+                  ]
                 }
               ]
             }
@@ -6728,7 +6923,9 @@
                     "enabled": true,
                     "formula": "1d6"
                   },
-                  "types": ["bludgeoning"]
+                  "types": [
+                    "bludgeoning"
+                  ]
                 }
               ]
             }
@@ -6839,7 +7036,9 @@
             },
             "dc": 15,
             "check": {
-              "associated": ["smith"]
+              "associated": [
+                "smith"
+              ]
             }
           }
         ]
@@ -6963,7 +7162,9 @@
       "subclassShortName": "Spy",
       "subclassSource": "RuinsOfSymbaroumSC",
       "level": 1,
-      "entries": ["Spies gain proficiency in the Deception skill."],
+      "entries": [
+        "Spies gain proficiency in the Deception skill."
+      ],
       "skillProficiencies": [
         {
           "deception": true
@@ -7025,7 +7226,9 @@
             },
             "type": "check",
             "check": {
-              "associated": ["sleight of hand"]
+              "associated": [
+                "sleight of hand"
+              ]
             }
           }
         ]
@@ -7075,7 +7278,9 @@
               "itemUses": 1
             },
             "check": {
-              "associated": ["pois"]
+              "associated": [
+                "pois"
+              ]
             },
             "dc": 15
           },
@@ -7088,7 +7293,9 @@
                     "enabled": true,
                     "formula": "(@scale.spy.poisonDieCount)d6"
                   },
-                  "types": ["poison"]
+                  "types": [
+                    "poison"
+                  ]
                 }
               ]
             }
@@ -7136,7 +7343,9 @@
               "type": "reaction"
             },
             "check": {
-              "associated": ["acr"]
+              "associated": [
+                "acr"
+              ]
             }
           }
         ]
@@ -7222,7 +7431,9 @@
               "itemUses": 1
             },
             "check": {
-              "associated": ["alchemist"]
+              "associated": [
+                "alchemist"
+              ]
             },
             "dc": "@scale.treasure-hunter.alchemyDC"
           }
@@ -7317,27 +7528,80 @@
             "When you make a melee weapon attack using Strength, you gain a bonus to the damage roll.",
             "The bonus damage is 1 + half of your proficiency bonus, rounded down.",
             "You have resistance to bludgeoning, piercing, and slashing damage.",
-            "If you are able to cast spells, you can't cast them or concentrate on them while in a rage.",
-            "Your rage lasts for 1 minute.",
-            "Once you have used your rage a number of times equal to your proficiency bonus, you must finish a long or extended rest before you can use this feature again."
+            "If you are able to cast spells, you can't cast them or concentrate on them while in a rage."
           ]
         },
+        "Your rage lasts for 1 minute.",
         "You can also end your rage on your turn as a bonus action.",
         "Once you have used your rage a number of times equal to your proficiency bonus, you must finish a long or extended rest before you can use this feature again."
       ],
       "foundrySystem": {
-        "activation.type": "bonus",
-        "activation.cost": 1,
+        "activities": [
+          {
+            "activation": {
+              "type": "bonus"
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": 1
+                }
+              ]
+            },
+            "type": "utility",
+            "effects":["rageBerserker000"]
+          }
+        ],
         "uses": {
-          "recovery": [
-            {
-              "period": "lr",
-              "type": "recoverAll"
-            }
-          ],
+          "value": 1,
+          "per": "lr",
           "max": "@attributes.prof"
         }
-      }
+      },
+      "foundryEffects": [
+        {
+          "foundryId": "rageBerserker000",
+          "name": "Rage",
+          "duration": {
+            "seconds": 60
+          },
+          "disabled": true,
+          "changes": [
+            {
+              "key": "data.bonuses.mwak.damage",
+              "mode": "ADD",
+              "value": "1+floor(@attributes.prof/2)"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "slashing"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "bludgeoning"
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "ADD",
+              "value": "piercing"
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": "ADD",
+              "value": 1
+            },
+            {
+              "key": "system.abilities.str.save.roll.mode",
+              "mode": "ADD",
+              "value": 1
+            }
+          ],
+          "transfer": true
+        }
+      ]
     },
     {
       "name": "Reckless Attack",
@@ -7447,7 +7711,9 @@
             },
             "type": "check",
             "check": {
-              "associated": ["sleight of hand"]
+              "associated": [
+                "sleight of hand"
+              ]
             }
           }
         ]
@@ -7505,7 +7771,9 @@
       "entries": [
         "At 17th level, you are immune to the prone condition, as you've trained yourself to roll with any blows and then immediately regain your stance."
       ],
-      "conditionImmune": ["prone"]
+      "conditionImmune": [
+        "prone"
+      ]
     },
     {
       "name": "Bodyguard",
@@ -7666,7 +7934,9 @@
             },
             "dc": 15,
             "check": {
-              "associated": ["smith"]
+              "associated": [
+                "smith"
+              ]
             }
           }
         ]
@@ -7713,7 +7983,9 @@
               "type": "bonus"
             },
             "check": {
-              "ability": ["str"]
+              "ability": [
+                "str"
+              ]
             }
           }
         ],
@@ -7782,7 +8054,9 @@
               "type": "reaction"
             },
             "check": {
-              "ability": ["str"]
+              "ability": [
+                "str"
+              ]
             }
           }
         ]
@@ -7894,7 +8168,9 @@
                     "enabled": true,
                     "formula": "1d(@scale.tattooed-fighter.runeTattooDamageDie)"
                   },
-                  "types": ["radiant"]
+                  "types": [
+                    "radiant"
+                  ]
                 }
               ]
             },
@@ -7937,7 +8213,9 @@
                 "enabled": true,
                 "formula": "@attributes.prof"
               },
-              "types": ["healing"]
+              "types": [
+                "healing"
+              ]
             },
             "range": {
               "units": "self"
@@ -8114,7 +8392,9 @@
               "type": "reaction"
             },
             "check": {
-              "associated": ["acr"]
+              "associated": [
+                "acr"
+              ]
             }
           }
         ]
@@ -8289,7 +8569,10 @@
       "ability": [
         {
           "choose": {
-            "from": ["str", "con"],
+            "from": [
+              "str",
+              "con"
+            ],
             "count": 1,
             "amount": 4
           },
@@ -8385,7 +8668,9 @@
       "additionalSpells": [
         {
           "innate": {
-            "1": ["bane|RuinsOfSymbaroumS"]
+            "1": [
+              "bane|RuinsOfSymbaroumS"
+            ]
           }
         }
       ]
@@ -8531,7 +8816,9 @@
     {
       "name": "Combat Hymn",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["TS:SC"],
+      "featureType": [
+        "TS:SC"
+      ],
       "entries": [
         "There is a raw and untamed power in singing, and some mystics learn to sing while fighting to gain considerable extra strength when battling the enemy.",
         "When you sing this song, you and up to six allies gain a bonus equal to half your proficiency bonus (rounded up) to your attack rolls and weapon damage rolls.",
@@ -8542,7 +8829,9 @@
     {
       "name": "Dancing Weapon",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["TS:SC"],
+      "featureType": [
+        "TS:SC"
+      ],
       "entries": [
         "When you sing this song, a simple one-handed weapon that belongs to you becomes animated and can hover up to 6 feet above the ground.",
         "Other than this, it remains as it was.",
@@ -8555,7 +8844,9 @@
     {
       "name": "Heroic Hymn",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["TS:SC"],
+      "featureType": [
+        "TS:SC"
+      ],
       "entries": [
         "When you sing this song you and up to six friendly creatures gain advantage on Dexterity, Constitution or Wisdom saving throws (the same saving throw for each).",
         "You must take a short or longer rest before singing this song again."
@@ -8564,7 +8855,9 @@
     {
       "name": "Retribution Hymn",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["TS:SC"],
+      "featureType": [
+        "TS:SC"
+      ],
       "entries": [
         "Choose an enemy creature that you can see.",
         "It must make a Charisma saving throw.",
@@ -8576,7 +8869,9 @@
     {
       "name": "Sustaining Hymn",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["TS:SC"],
+      "featureType": [
+        "TS:SC"
+      ],
       "entries": [
         "When you begin this spell and on the start of your turn as long as you continue singing this song, you and up to six allies gain a number of temporary hit points equal to your proficiency bonus plus your Charisma modifier.",
         "You must take a short or longer rest before singing this song again."
@@ -8585,7 +8880,9 @@
     {
       "name": "Weakening Hymn",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["TS:SC"],
+      "featureType": [
+        "TS:SC"
+      ],
       "entries": [
         "As an action, you can force up to seven creatures of your choice to make a Charisma saving throw.",
         "On a failure they have disadvantage on all saving throws until the song ends.",
@@ -8601,7 +8898,9 @@
     {
       "name": "The Green Path",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "These powers focus on your connection with nature/spirits.",
         {
@@ -8627,7 +8926,9 @@
     {
       "name": "The Red Path",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "These powers focus on your healing features.",
         {
@@ -8653,7 +8954,9 @@
     {
       "name": "The White Path",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "These powers focus on your connection with nature/spirits.",
         {
@@ -8679,7 +8982,9 @@
     {
       "name": "Lay On Hands",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "As an action you can restore 1 plus your Wisdom modifier hit points to a creature.",
         "You can do this a number of times equal to your proficiency bonus before you must take a long or extended rest to use this feature again."
@@ -8688,7 +8993,9 @@
     {
       "name": "Nature's Embrace",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "If you take a long rest in the wilderness, you can use your knowledge of natural restoratives to have a number of creatures up to your proficiency bonus regain a Hit Die.",
         "You can include yourself in this benefit."
@@ -8697,7 +9004,9 @@
     {
       "name": "Song of Spring",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "You can use your action to restore 10 × your proficiency bonus of hit points to a number of allies equal to your proficiency bonus that can see and hear you.",
         "You must then take an extended rest to use this feature again."
@@ -8706,7 +9015,9 @@
     {
       "name": "Censure Undead",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "As an action, you rebuke the undead.",
         "Each undead within 30 feet that can see and/or hear you must make a Wisdom saving throw against your spell save DC.",
@@ -8720,7 +9031,9 @@
     {
       "name": "Call Spirits",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "You can seek to communicate with the local spirits and learn something useful from them.",
         "You must spend 10 minutes preparing the area and then you invite the spirits to join you.",
@@ -8732,7 +9045,9 @@
     {
       "name": "Purification",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "Use your action to touch one melee weapon.",
         "For the next minute, that weapon does radiant damage and adds 1d4 plus your proficiency bonus to its damage total.",
@@ -8742,7 +9057,9 @@
     {
       "name": "Shapeshifter",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "You assume the shape of a natural beast you have seen before.",
         "You can use this feature a number of times equal to your proficiency bonus before you have to take a short or long rest.",
@@ -8754,11 +9071,31 @@
               "type": "table",
               "caption": "Beast Shapes",
               "page": 0,
-              "colLabels": ["Mystic Level", "Max CR", "Limitations", "Example"],
+              "colLabels": [
+                "Mystic Level",
+                "Max CR",
+                "Limitations",
+                "Example"
+              ],
               "rows": [
-                ["3rd", "1/4", "No flying or swimming", "Mare Cat"],
-                ["5th", "1/2", "No flying", "Skullan"],
-                ["8th", "1", "-", "Giant Vulture"]
+                [
+                  "3rd",
+                  "1/4",
+                  "No flying or swimming",
+                  "Mare Cat"
+                ],
+                [
+                  "5th",
+                  "1/2",
+                  "No flying",
+                  "Skullan"
+                ],
+                [
+                  "8th",
+                  "1",
+                  "-",
+                  "Giant Vulture"
+                ]
               ]
             }
           ]
@@ -8788,7 +9125,9 @@
     {
       "name": "Nature's Lullaby",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "By singing softly and focusing on a particular abomination that can hear you, you can attempt to soothe it.",
         "If the creature acts aggressively or you stop singing (to cast a spell, for example), the effect ends."
@@ -8797,7 +9136,9 @@
     {
       "name": "Forest Trails",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Witch:SC"],
+      "featureType": [
+        "Witch:SC"
+      ],
       "entries": [
         "You can find or create trails in Davokar or wherever you go that make travel easier.",
         "You and a number of companions equal to your proficiency bonus have advantage on saving throws against Exhaustion due to travel."
@@ -8806,7 +9147,9 @@
     {
       "name": "Marksman",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SC"],
+      "featureType": [
+        "Explorer:SC"
+      ],
       "entries": [
         "Marksmen have their natural position in every army, scouting party and band of brigands.",
         "You can inflict serious damage on enemies with a bow or crossbow, hoping to either bring them down or at least make sure that they do not reach your allies who are equipped only for melee combat."
@@ -8814,16 +9157,24 @@
       "optionalfeatureProgression": [
         {
           "name": "Marksman Ability",
-          "featureType": ["Explorer:MM"],
+          "featureType": [
+            "Explorer:MM"
+          ],
           "progression": {
             "1": 1,
             "9": 2,
             "13": 3
           },
           "required": {
-            "1": ["Aim|RuinsOfSymbaroumSC"],
-            "9": ["Improved Critical|RuinsOfSymbaroumSC"],
-            "13": ["Long Range|RuinsOfSymbaroumSC"]
+            "1": [
+              "Aim|RuinsOfSymbaroumSC"
+            ],
+            "9": [
+              "Improved Critical|RuinsOfSymbaroumSC"
+            ],
+            "13": [
+              "Long Range|RuinsOfSymbaroumSC"
+            ]
           }
         }
       ]
@@ -8831,7 +9182,9 @@
     {
       "name": "Monster Lore",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SC"],
+      "featureType": [
+        "Explorer:SC"
+      ],
       "entries": [
         "The character is schooled in the lore of beasts and knows the secrets of most monsters.",
         "Many monsters possess special abilities and unique attacks as well as weaknesses which are good to know about when trying to bring them down."
@@ -8839,7 +9192,9 @@
       "optionalfeatureProgression": [
         {
           "name": "Monster Lore Ability",
-          "featureType": ["Explorer:ML"],
+          "featureType": [
+            "Explorer:ML"
+          ],
           "isClassFeatureVariant": true,
           "progression": {
             "6": 1,
@@ -8863,7 +9218,9 @@
     {
       "name": "Sixth Sense",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SC"],
+      "featureType": [
+        "Explorer:SC"
+      ],
       "entries": [
         "When moving through dark forests or mountain tunnels, one's eyes are no longer very useful.",
         "Lighting a lantern or torch may attract dangers, so the explorer had better learn to rely on their other senses.",
@@ -8873,16 +9230,24 @@
       "optionalfeatureProgression": [
         {
           "name": "Sixth Sense Ability",
-          "featureType": ["Explorer:SS"],
+          "featureType": [
+            "Explorer:SS"
+          ],
           "progression": {
             "6": 1,
             "9": 2,
             "13": 3
           },
           "required": {
-            "6": ["Blindsight|RuinsOfSymbaroumSC"],
-            "9": ["Awareness|RuinsOfSymbaroumSC"],
-            "13": ["Improved Blindsight|RuinsOfSymbaroumSC"]
+            "6": [
+              "Blindsight|RuinsOfSymbaroumSC"
+            ],
+            "9": [
+              "Awareness|RuinsOfSymbaroumSC"
+            ],
+            "13": [
+              "Improved Blindsight|RuinsOfSymbaroumSC"
+            ]
           }
         }
       ]
@@ -8890,7 +9255,9 @@
     {
       "name": "Aim",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:MM"],
+      "featureType": [
+        "Explorer:MM"
+      ],
       "entries": [
         "At the start of your turn you can use your bonus action to aim. Your speed becomes 0 and you now have advantage on ranged weapon attacks."
       ]
@@ -8898,7 +9265,9 @@
     {
       "name": "Improved Critical",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:MM"],
+      "featureType": [
+        "Explorer:MM"
+      ],
       "entries": [
         "At 9th level you score a critical hit on ranged weapon attacks with a natural roll of 19 or 20 on the die."
       ]
@@ -8906,7 +9275,9 @@
     {
       "name": "Long Range",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:MM"],
+      "featureType": [
+        "Explorer:MM"
+      ],
       "entries": [
         "At 13th level you no longer suffer disadvantage for being at long range."
       ]
@@ -8914,7 +9285,9 @@
     {
       "name": "Assess (Beasts, Giants, Humanoids, Plants)",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:ML"],
+      "featureType": [
+        "Explorer:ML"
+      ],
       "entries": [
         "Make an Intelligence (Nature) check with the DC equal to 10 plus the challenge rating (rounding down for fractional ratings) of any beast, giant, humanoid or plant.",
         "On a success, the GM must inform you of any vulnerabilities, resistances or immunities the creature possesses and provide you with a general assessment of its threat to the party ('minimal', 'average', or 'severe')."
@@ -8923,7 +9296,9 @@
     {
       "name": "Assess (Dragons, Elementals, Fey, Monstrosities)",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:ML"],
+      "featureType": [
+        "Explorer:ML"
+      ],
       "entries": [
         "Make an Intelligence (Nature) check with the DC equal to 10 plus the challenge rating (rounding down for fractional ratings) of any dragons, elementals, fey and monstrosities.",
         "On a success, the GM must inform you of any vulnerabilities, resistances or immunities the creature possesses and provide you with a general assessment of its threat to the party ('minimal', 'average', or 'severe').\""
@@ -8932,7 +9307,9 @@
     {
       "name": "Assess (Aberrations, Constructs, Oozes, Undead)",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:ML"],
+      "featureType": [
+        "Explorer:ML"
+      ],
       "entries": [
         "Make an Intelligence (Nature) check with the DC equal to 10 plus the challenge rating (rounding down for fractional ratings) of any aberrations, constructs, oozes and undead.",
         "On a success, the GM must inform you of any vulnerabilities, resistances or immunities the creature possesses and provide you with a general assessment of its threat to the party ('minimal', 'average', or 'severe').\""
@@ -8941,7 +9318,9 @@
     {
       "name": "Blindsight",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SS"],
+      "featureType": [
+        "Explorer:SS"
+      ],
       "entries": [
         "You can see in dim light as if it were normal light. In complete darkness, you rely on your other senses to give you blindsight within 30 feet. ",
         "You never receive disadvantage on Wisdom (Perception) checks due to darkness."
@@ -8950,19 +9329,29 @@
     {
       "name": "Awareness",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SS"],
-      "entries": ["At 9th level, you are always aware of your environment"]
+      "featureType": [
+        "Explorer:SS"
+      ],
+      "entries": [
+        "At 9th level, you are always aware of your environment"
+      ]
     },
     {
       "name": "Improved Blindsight",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SS"],
-      "entries": ["At 13th level, your blindsight increases to a 90 foot range"]
+      "featureType": [
+        "Explorer:SS"
+      ],
+      "entries": [
+        "At 13th level, your blindsight increases to a 90 foot range"
+      ]
     },
     {
       "name": "Fence Work",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SW"],
+      "featureType": [
+        "Explorer:SW"
+      ],
       "entries": [
         "Become proficient with Deception if you are not yet.",
         "You have a Market contact"
@@ -8976,7 +9365,9 @@
     {
       "name": "Overhead Work",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:OW"],
+      "featureType": [
+        "Explorer:OW"
+      ],
       "entries": [
         "Become proficient with Acrobatics if you are not yet.",
         "Your climb speed is equal to your normal speed."
@@ -8993,13 +9384,20 @@
     {
       "name": "Special Work",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:SpW"],
-      "entries": ["You focus on higher-end targets.", "Gain a Noble contact"]
+      "featureType": [
+        "Explorer:SpW"
+      ],
+      "entries": [
+        "You focus on higher-end targets.",
+        "Gain a Noble contact"
+      ]
     },
     {
       "name": "Streetwise Work",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Explorer:StW"],
+      "featureType": [
+        "Explorer:StW"
+      ],
       "entries": [
         "Become proficient with Sleight of Hand if you are not yet.",
         "You have an Alleyway contact."
@@ -9013,7 +9411,9 @@
     {
       "name": "Turn Undead",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Templar:TU"],
+      "featureType": [
+        "Templar:TU"
+      ],
       "entries": [
         "You can use the power of the Lawgiver to rebuke the undying.",
         "As an action, you present your holy symbol and speak a prayer censuring the undead.",
@@ -9038,7 +9438,9 @@
     {
       "name": "Medicus",
       "source": "RuinsOfSymbaroumSC",
-      "featureType": ["Templar:M"],
+      "featureType": [
+        "Templar:M"
+      ],
       "entries": [
         "You can invest some of your faith into healing energies that do not incur any chance of Corruption to you.",
         "If you spend an action binding a wound, you restore one Hit Die to the treated creature.",

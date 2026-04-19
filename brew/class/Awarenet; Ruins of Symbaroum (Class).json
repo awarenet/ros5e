@@ -5,7 +5,9 @@
         "json": "RuinsOfSymbaroumC",
         "full": "Ruins of Symbaroum Classes",
         "abbreviation": "RoS:C",
-        "authors": ["Free League Publishing"],
+        "authors": [
+          "Free League Publishing"
+        ],
         "version": "1.0.0",
         "url": "https://freeleaguepublishing.com"
       }
@@ -37,10 +39,17 @@
         "number": 1,
         "faces": 8
       },
-      "proficiency": ["wis", "int"],
+      "proficiency": [
+        "wis",
+        "int"
+      ],
       "startingProficiencies": {
-        "armor": ["light"],
-        "weapons": ["simple"],
+        "armor": [
+          "light"
+        ],
+        "weapons": [
+          "simple"
+        ],
         "skills": [
           {
             "choose": {
@@ -75,11 +84,17 @@
                 "quantity": 20
               }
             ],
-            "b": ["quarterstaff|phb"]
+            "b": [
+              "quarterstaff|phb"
+            ]
           },
           {
-            "a": ["scholar's pack|phb"],
-            "b": ["explorer's pack|phb"]
+            "a": [
+              "scholar's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
           },
           {
             "_": [
@@ -104,26 +119,126 @@
             "Max Spell Level"
           ],
           "rows": [
-            ["Spellcasting, Approach", 2, 1, 1],
-            ["Ritual Casting", 3, 1, 1],
-            ["Approach", 4, 2, 2],
-            ["Ability Score Improvement or Feat", 5, 2, 2],
-            ["Ritual Casting", 6, 3, 3],
-            ["Approach", 6, 3, 3],
-            ["Ritual Casting", 6, 4, 4],
-            ["Ability Score Improvement or Feat", 6, 4, 4],
-            ["Approach", 6, 5, 5],
-            ["Ability Score Improvement or Feat", 6, 5, 5],
-            ["Ritual Casting", 6, 6, 6],
-            ["Ability Score Improvement or Feat", 6, 6, 6],
-            ["Approach", 6, 7, 7],
-            ["Ritual Casting", 6, 7, 7],
-            ["\u2014", 6, 8, 8],
-            ["Ability Score Improvement or Feat", 6, 8, 8],
-            ["Approach", 6, 9, 9],
-            ["Spell Mastery", 6, 9, 9],
-            ["Ability Score Improvement or Feat", 6, 10, 9],
-            ["Signature Spells", 6, 10, 9]
+            [
+              "Spellcasting, Approach",
+              2,
+              1,
+              1
+            ],
+            [
+              "Ritual Casting",
+              3,
+              1,
+              1
+            ],
+            [
+              "Approach",
+              4,
+              2,
+              2
+            ],
+            [
+              "Ability Score Improvement or Feat",
+              5,
+              2,
+              2
+            ],
+            [
+              "Ritual Casting",
+              6,
+              3,
+              3
+            ],
+            [
+              "Approach",
+              6,
+              3,
+              3
+            ],
+            [
+              "Ritual Casting",
+              6,
+              4,
+              4
+            ],
+            [
+              "Ability Score Improvement or Feat",
+              6,
+              4,
+              4
+            ],
+            [
+              "Approach",
+              6,
+              5,
+              5
+            ],
+            [
+              "Ability Score Improvement or Feat",
+              6,
+              5,
+              5
+            ],
+            [
+              "Ritual Casting",
+              6,
+              6,
+              6
+            ],
+            [
+              "Ability Score Improvement or Feat",
+              6,
+              6,
+              6
+            ],
+            [
+              "Approach",
+              6,
+              7,
+              7
+            ],
+            [
+              "Ritual Casting",
+              6,
+              7,
+              7
+            ],
+            [
+              "\u2014",
+              6,
+              8,
+              8
+            ],
+            [
+              "Ability Score Improvement or Feat",
+              6,
+              8,
+              8
+            ],
+            [
+              "Approach",
+              6,
+              9,
+              9
+            ],
+            [
+              "Spell Mastery",
+              6,
+              9,
+              9
+            ],
+            [
+              "Ability Score Improvement or Feat",
+              6,
+              10,
+              9
+            ],
+            [
+              "Signature Spells",
+              6,
+              10,
+              9
+            ]
           ]
         }
       ],
@@ -158,10 +273,48 @@
         "Signature Spells|Mystic|RuinsOfSymbaroumC|20"
       ],
       "cantripProgression": [
-        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
       ],
       "spellsKnownProgression": [
-        2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
       ],
       "casterProgression": "full"
     },
@@ -187,10 +340,20 @@
         "number": 1,
         "faces": 8
       },
-      "proficiency": ["dex", "str"],
+      "proficiency": [
+        "dex",
+        "str"
+      ],
       "startingProficiencies": {
-        "armor": ["light", "medium", "shield"],
-        "weapons": ["simple", "martial"],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
         "skills": [
           {
             "choose": {
@@ -219,8 +382,12 @@
         ],
         "defaultData": [
           {
-            "a": ["fencing sword|RuinsOfSymbaroumC"],
-            "b": ["shortsword|phb"]
+            "a": [
+              "fencing sword|RuinsOfSymbaroumC"
+            ],
+            "b": [
+              "shortsword|phb"
+            ]
           },
           {
             "a": [
@@ -239,8 +406,12 @@
             ]
           },
           {
-            "a": ["dungeoneer's pack|phb"],
-            "b": ["explorer's pack|phb"]
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
           },
           {
             "a": [
@@ -250,34 +421,78 @@
                 "quantity": 2
               }
             ],
-            "b": ["lacquered silk cuirass|RuinsOfSymbaroumC"]
+            "b": [
+              "lacquered silk cuirass|RuinsOfSymbaroumC"
+            ]
           }
         ]
       },
       "classTableGroups": [
         {
-          "colLabels": ["Features"],
+          "colLabels": [
+            "Features"
+          ],
           "rows": [
-            ["Wilderness Explorer, Approach"],
-            ["Hunter's Instinct"],
-            ["Approach"],
-            ["Ability Score Improvement or Feat"],
-            ["Extra Attack (2)"],
-            ["Expertise, Approach"],
-            ["Land's Stride"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Ability Score Improvement or Feat"],
-            ["Hide in Plain Sight"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Vanish"],
-            ["Feral Senses"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Extra Attack (3)"],
-            ["Ability Score Improvement or Feat"],
-            ["Expert Hunter"]
+            [
+              "Wilderness Explorer, Approach"
+            ],
+            [
+              "Hunter's Instinct"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Extra Attack (2)"
+            ],
+            [
+              "Expertise, Approach"
+            ],
+            [
+              "Land's Stride"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Hide in Plain Sight"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Vanish"
+            ],
+            [
+              "Feral Senses"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Extra Attack (3)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Expert Hunter"
+            ]
           ]
         }
       ],
@@ -338,9 +553,14 @@
         "number": 1,
         "faces": 8
       },
-      "proficiency": ["dex", "cha"],
+      "proficiency": [
+        "dex",
+        "cha"
+      ],
       "startingProficiencies": {
-        "armor": ["light"],
+        "armor": [
+          "light"
+        ],
         "weapons": [
           "simple",
           "hand crossbows",
@@ -348,7 +568,9 @@
           "rapiers",
           "shortswords"
         ],
-        "tools": ["thieves' tools"],
+        "tools": [
+          "thieves' tools"
+        ],
         "skills": [
           {
             "choose": {
@@ -380,8 +602,12 @@
         ],
         "defaultData": [
           {
-            "a": ["fencing sword|RuinsOfSymbaroumC"],
-            "b": ["shortsword|phb"]
+            "a": [
+              "fencing sword|RuinsOfSymbaroumC"
+            ],
+            "b": [
+              "shortsword|phb"
+            ]
           },
           {
             "a": [
@@ -391,12 +617,20 @@
                 "quantity": 20
               }
             ],
-            "b": ["shortsword|phb"]
+            "b": [
+              "shortsword|phb"
+            ]
           },
           {
-            "a": ["burglar's pack|phb"],
-            "b": ["dungeoneer's pack|phb"],
-            "c": ["explorer's pack|phb"]
+            "a": [
+              "burglar's pack|phb"
+            ],
+            "b": [
+              "dungeoneer's pack|phb"
+            ],
+            "c": [
+              "explorer's pack|phb"
+            ]
           },
           {
             "a": [
@@ -407,34 +641,99 @@
               },
               "thieves' tools|phb"
             ],
-            "b": ["woven silk armor|RuinsOfSymbaroumC"]
+            "b": [
+              "woven silk armor|RuinsOfSymbaroumC"
+            ]
           }
         ]
       },
       "classTableGroups": [
         {
-          "colLabels": ["Backstab", "Features"],
+          "colLabels": [
+            "Backstab",
+            "Features"
+          ],
           "rows": [
-            ["1d6", "Expertise, Backstab, Approach"],
-            ["1d6", "Cunning Action"],
-            ["2d6", "Approach"],
-            ["2d6", "Ability Score Improvement or Feat"],
-            ["3d6", "Uncanny Dodge"],
-            ["3d6", "Expertise, Approach"],
-            ["4d6", "Evasion"],
-            ["4d6", "Ability Score Improvement or Feat"],
-            ["5d6", "Approach"],
-            ["5d6", "Ability Score Improvement or Feat"],
-            ["6d6", "Reliable Talent"],
-            ["6d6", "Ability Score Improvement or Feat"],
-            ["7d6", "Approach"],
-            ["7d6", "Blindsense"],
-            ["8d6", "Slippery Mind"],
-            ["8d6", "Ability Score Improvement or Feat"],
-            ["9d6", "Approach"],
-            ["9d6", "Elusive"],
-            ["10d6", "Ability Score Improvement or Feat"],
-            ["10d6", "Stroke of Luck"]
+            [
+              "1d6",
+              "Expertise, Backstab, Approach"
+            ],
+            [
+              "1d6",
+              "Cunning Action"
+            ],
+            [
+              "2d6",
+              "Approach"
+            ],
+            [
+              "2d6",
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "3d6",
+              "Uncanny Dodge"
+            ],
+            [
+              "3d6",
+              "Expertise, Approach"
+            ],
+            [
+              "4d6",
+              "Evasion"
+            ],
+            [
+              "4d6",
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "5d6",
+              "Approach"
+            ],
+            [
+              "5d6",
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "6d6",
+              "Reliable Talent"
+            ],
+            [
+              "6d6",
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "7d6",
+              "Approach"
+            ],
+            [
+              "7d6",
+              "Blindsense"
+            ],
+            [
+              "8d6",
+              "Slippery Mind"
+            ],
+            [
+              "8d6",
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "9d6",
+              "Approach"
+            ],
+            [
+              "9d6",
+              "Elusive"
+            ],
+            [
+              "10d6",
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "10d6",
+              "Stroke of Luck"
+            ]
           ]
         }
       ],
@@ -541,10 +840,21 @@
         "number": 1,
         "faces": 8
       },
-      "proficiency": ["str", "con"],
+      "proficiency": [
+        "str",
+        "con"
+      ],
       "startingProficiencies": {
-        "armor": ["light", "medium", "heavy", "shield"],
-        "weapons": ["simple", "martial"],
+        "armor": [
+          "light",
+          "medium",
+          "heavy",
+          "shield"
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
         "skills": [
           {
             "choose": {
@@ -573,7 +883,9 @@
         ],
         "defaultData": [
           {
-            "a": ["chain shirt|phb"],
+            "a": [
+              "chain shirt|phb"
+            ],
             "b": [
               "studded leather armor|phb",
               "longbow|phb",
@@ -613,35 +925,81 @@
             ]
           },
           {
-            "a": ["dungeoneer's pack|phb"],
-            "b": ["explorer's pack|phb"]
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
           }
         ]
       },
       "classTableGroups": [
         {
-          "colLabels": ["Features"],
+          "colLabels": [
+            "Features"
+          ],
           "rows": [
-            ["Battle Wind, Fighting Style, Approach"],
-            ["Action Surge"],
-            ["Approach"],
-            ["Ability Score Improvement or Feat"],
-            ["Extra Attack (2)"],
-            ["Approach"],
-            ["Indomitable"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Ability Score Improvement or Feat"],
-            ["Extra Attack (3)"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Ability Score Improvement or Feat"],
-            ["Action Surge"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Extra Attack (4)"],
-            ["Ability Score Improvement or Feat"],
-            ["Undying Courage"]
+            [
+              "Battle Wind, Fighting Style, Approach"
+            ],
+            [
+              "Action Surge"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Extra Attack (2)"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Indomitable"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Extra Attack (3)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Action Surge"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Extra Attack (4)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Undying Courage"
+            ]
           ]
         }
       ],
@@ -724,10 +1082,20 @@
         "number": 1,
         "faces": 8
       },
-      "proficiency": ["con", "cha"],
+      "proficiency": [
+        "con",
+        "cha"
+      ],
       "startingProficiencies": {
-        "armor": ["light", "medium", "shield"],
-        "weapons": ["simple", "martial"],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
         "skills": [
           {
             "choose": {
@@ -796,7 +1164,9 @@
         ],
         "defaultData": [
           {
-            "a": ["chain shirt|phb"],
+            "a": [
+              "chain shirt|phb"
+            ],
             "b": [
               "studded leather armor|phb",
               "longbow|phb",
@@ -836,35 +1206,81 @@
             ]
           },
           {
-            "a": ["dungeoneer's pack|phb"],
-            "b": ["explorer's pack|phb"]
+            "a": [
+              "dungeoneer's pack|phb"
+            ],
+            "b": [
+              "explorer's pack|phb"
+            ]
           }
         ]
       },
       "classTableGroups": [
         {
-          "colLabels": ["Features"],
+          "colLabels": [
+            "Features"
+          ],
           "rows": [
-            ["Approach, Fighting Style, Tactical Acumen"],
-            ["Field Dressings (d6)"],
-            ["Approach, Bid to Action"],
-            ["Ability Score Improvement or Feat"],
-            ["Extra Attack (2)"],
-            ["Approach"],
-            ["War Stories"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach, Field Dressings (d8)"],
-            ["Ability Score Improvement or Feat"],
-            ["Field Dressings (d10)"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach"],
-            ["Ability Score Improvement or Feat"],
-            ["War Stories (x2)"],
-            ["Ability Score Improvement or Feat"],
-            ["Approach, Field Dressings (d12)"],
-            ["Extra Attack (3)"],
-            ["Ability Score Improvement or Feat"],
-            ["Unending Conflict"]
+            [
+              "Approach, Fighting Style, Tactical Acumen"
+            ],
+            [
+              "Field Dressings (d6)"
+            ],
+            [
+              "Approach, Bid to Action"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Extra Attack (2)"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "War Stories"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach, Field Dressings (d8)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Field Dressings (d10)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "War Stories (x2)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Approach, Field Dressings (d12)"
+            ],
+            [
+              "Extra Attack (3)"
+            ],
+            [
+              "Ability Score Improvement or Feat"
+            ],
+            [
+              "Unending Conflict"
+            ]
           ]
         }
       ],
@@ -912,6 +1328,47 @@
   ],
   "foundryClassFeature": [
     {
+      "name": "Battle Wind",
+      "source": "RuinsOfSymbaroumC",
+      "className": "Captain",
+      "classSource": "RuinsOfSymbaroumC",
+      "level": 1,
+      "activities": [
+        {
+          "name": "Battle Wind",
+          "activation": {
+            "type": "reaction"
+          },
+          "description": {
+            "chatFlavor": "Battle Wind"
+          },
+          "healing": {
+            "types": [
+              "temphp"
+            ],
+            "custom": {
+              "enabled": true,
+              "formula": "2d4 + @abilities.con.mod"
+            }
+          },
+          "range": {
+            "units": "self"
+          },
+          "target": {
+            "affects": {
+              "type": "self"
+            }
+          },
+          "type": "heal",
+          "uses": {
+            "per": "lr",
+            "value": 1,
+            "max": "@attributes.prof"
+          }
+        }
+      ]
+    },
+    {
       "name": "Field Dressings",
       "source": "RuinsOfSymbaroumC",
       "className": "Captain",
@@ -931,7 +1388,9 @@
               "enabled": true,
               "formula": "1d@scale.captain.fieldDressings"
             },
-            "types": ["heal"]
+            "types": [
+              "heal"
+            ]
           },
           "target": {
             "affects": {
@@ -961,7 +1420,9 @@
             "bonus": "10",
             "denomination": "10",
             "number": 10,
-            "types": ["temphp"]
+            "types": [
+              "temphp"
+            ]
           },
           "range": {
             "units": "self"
@@ -1202,7 +1663,9 @@
             "name": "Wilderness Explorer",
             "type": "check",
             "check": {
-              "associated": ["sur"]
+              "associated": [
+                "sur"
+              ]
             },
             "activation": {
               "type": "special"
@@ -1834,33 +2297,7 @@
         "When you are hit by an attack roll you can use your reaction to gain temporary hit points equal to 2d4 + your Constitution modifier.",
         "You immediately gain the temporary hit points and can apply damage from the triggering attack to them.",
         "You can use this feature a number of times equal to your proficiency bonus and then you must take a long or extended rest before using this feature again."
-      ],
-      "foundrySystem": {
-        "uses": {
-          "recovery": [
-            {
-              "period": "lr",
-              "type": "recoverAll"
-            }
-          ],
-          "max": "@attributes.prof"
-        },
-        "activities": [
-          {
-            "activation": {
-              "type": "reaction"
-            },
-            "type": "heal",
-            "healing": {
-              "types": ["temphp"],
-              "custom": {
-                "enabled": true,
-                "formula": "2d4 + @attributes.con"
-              }
-            }
-          }
-        ]
-      }
+      ]
     },
     {
       "name": "Fighting Style",
@@ -2102,7 +2539,9 @@
       "name": "Polearm Fighting",
       "source": "RuinsOfSymbaroumC",
       "page": 96,
-      "featureType": ["FS:C"],
+      "featureType": [
+        "FS:C"
+      ],
       "entries": [
         "When wielding a reach weapon, you can use your reaction to impose disadvantage on a melee attack roll within your reach."
       ]
@@ -2111,7 +2550,9 @@
       "name": "Shield Fighting",
       "source": "RuinsOfSymbaroumC",
       "page": 96,
-      "featureType": ["FS:C"],
+      "featureType": [
+        "FS:C"
+      ],
       "entries": [
         "If you make a successful melee attack roll you can use your bonus action to slam a target within 5 ft with your shield. If the target is your size or smaller, it must make a Strength saving throw against 10 plus your Strength (Athletics) modifier. On a failure you can choose to move the creature 10 feet in a line, or cause it to become prone."
       ]
@@ -2120,7 +2561,9 @@
       "name": "Snare Fighting",
       "source": "RuinsOfSymbaroumC",
       "page": 96,
-      "featureType": ["FS:C"],
+      "featureType": [
+        "FS:C"
+      ],
       "entries": [
         "If using a weapon with the ensnaring prop- erty and you make a successful attack roll, you can spend a bonus action to forgo do- ing damage, instead tripping the target and causing it to fall prone. This only works on creatures your size or smaller with two or less legs, or similarly shaped targets."
       ]
@@ -2129,7 +2572,9 @@
       "name": "Two-Weapon Fighting",
       "source": "RuinsOfSymbaroumC",
       "page": 96,
-      "featureType": ["FS:C"],
+      "featureType": [
+        "FS:C"
+      ],
       "entries": [
         "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
       ]
