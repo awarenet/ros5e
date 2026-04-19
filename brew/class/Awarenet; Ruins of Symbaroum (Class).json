@@ -1351,6 +1351,14 @@
               "formula": "2d4 + @abilities.con.mod"
             }
           },
+          "consumption": {
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": 1
+              }
+            ]
+          },
           "range": {
             "units": "self"
           },
