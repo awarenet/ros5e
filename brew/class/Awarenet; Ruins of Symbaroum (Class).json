@@ -1367,12 +1367,7 @@
               "type": "self"
             }
           },
-          "type": "heal",
-          "uses": {
-            "per": "lr",
-            "value": 1,
-            "max": "@attributes.prof"
-          }
+          "type": "heal"
         }
       ]
     },
