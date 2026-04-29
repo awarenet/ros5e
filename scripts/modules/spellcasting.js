@@ -23,7 +23,7 @@ export class Spellcasting {
   static _getContextMenuOptions(item, options) {
     if (
       item.type == "spell" &&
-      !item.actor.flags[Common.constants.name].noFavors
+      !item.flags[Common.constants.name].notFavorable
     ) {
       options.push({
         callback: () => {
