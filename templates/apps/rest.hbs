@@ -5,11 +5,9 @@
             <legend>Use Hit Dice</legend>
             <label for="hd">Denomination</label>
             <select name="hd">
-                {{#select denomination}}
                 {{#each denominations}}
-                <option value="{{hitDice}}">{{hitDice}} ({{available}} available)</option>
+                <option value="{{hitDice}}" {{#if (eq hitDice ../denomination)}}selected{{/if}}>{{hitDice}} ({{available}} available)</option>
                 {{/each}}
-                {{/select}}
             </select>
             <div class="rest-roll-buttons flexrow" style="margin-bottom:5px;">
                 <button id="roll-hd" {{#unless canRoll}}disabled{{/unless}}>

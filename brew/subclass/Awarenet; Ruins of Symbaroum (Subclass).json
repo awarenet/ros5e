@@ -2842,7 +2842,6 @@
         "enhance ability|RuinsOfSymbaroumS",
         "hold person|RuinsOfSymbaroumS",
         "inherit wound|RuinsOfSymbaroumS",
-        "arcane vigor|RuinsOfSymbaroumS",
         "barkskin|RuinsOfSymbaroumS",
         "beast sense|RuinsOfSymbaroumS",
         "blindness/deafness|RuinsOfSymbaroumS",
@@ -2851,7 +2850,6 @@
         "darkvision|RuinsOfSymbaroumS",
         "detect thoughts|RuinsOfSymbaroumS",
         "gentle repose|RuinsOfSymbaroumS",
-        "homunculus servant|RuinsOfSymbaroumS",
         "kinetic jaunt|RuinsOfSymbaroumS",
         "lesser restoration|RuinsOfSymbaroumS",
         "mind spike|RuinsOfSymbaroumS",
@@ -2888,7 +2886,7 @@
         "charm monster|RuinsOfSymbaroumS",
         "compulsion|RuinsOfSymbaroumS",
         "death ward|RuinsOfSymbaroumS",
-        "raulothim's psychic lance|RuinsOfSymbaroumS",
+        "psychic lance|RuinsOfSymbaroumS",
         "shadow of moil|RuinsOfSymbaroumS",
         "commune with spirits|RuinsOfSymbaroumS",
         "dominate person|RuinsOfSymbaroumS",
@@ -2923,13 +2921,12 @@
         "soul cage|RuinsOfSymbaroumS",
         "soul stone|RuinsOfSymbaroumS",
         "finger of death|RuinsOfSymbaroumS",
-        "power word fortify|RuinsOfSymbaroumS",
         "power word pain|RuinsOfSymbaroumS",
         "regenerate|RuinsOfSymbaroumS",
         "resurrection|RuinsOfSymbaroumS",
         "blood storm|RuinsOfSymbaroumS",
         "dominate monster|RuinsOfSymbaroumS",
-        "abi-dalzim's horrid wilting|RuinsOfSymbaroumS",
+        "horrid wilting|RuinsOfSymbaroumS",
         "antipathy/sympathy|RuinsOfSymbaroumS",
         "befuddlement|RuinsOfSymbaroumS",
         "clone|RuinsOfSymbaroumS",
@@ -7555,7 +7552,12 @@
         ],
         "uses": {
           "value": 1,
-          "per": "lr",
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
           "max": "@attributes.prof"
         }
       },

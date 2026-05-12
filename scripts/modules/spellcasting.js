@@ -17,8 +17,33 @@ export class Spellcasting {
       "renderTidy5eCharacterSheetQuadrone",
       Spellcasting._renderFavoredSpellIcons,
     );
+    Hooks.on(
+      "preCreateItem",
+      Spellcasting._addCorruptionConsumption,
+    );
   }
 
+  // Add the corruption consumption to all RoS spells
+  static _addCorruptionConsumption(item) {
+    var { scope, key } = game.ros5e.CONFIG.PATHS.isRoSSpell
+    if (!item.getFlag(scope,key)) return;
+
+    if (!item.system.activities || !item.system.activities.size) return;
+
+    let activities = item._source.system.activities;
+    for (let [key, value] of Object.entries(activities)) {
+      value.consumption.spellSlot = false;
+      value.consumption.targets = [
+        {
+          type: "attribute",
+          target: "corruption.temp",
+          value: "-(@item.flags.ros5e.corruption.expression)",
+          scaling: { formula: undefined, mode: undefined }
+        }
+      ];
+    }
+    return true;
+  }
   //Add context menu options for spells (favor and talisman)
   static _getContextMenuOptions(item, options) {
     if (

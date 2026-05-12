@@ -47,6 +47,9 @@ export class Corruption {
 
   /* Generate the raw expression string based on level and favor */
   static _generateCorruptionExpression(level, itemData) {
+    if(!itemData.actor){
+      return 0;
+    }
     if (itemData.actor.isSinger()) {
       return "0";
     }

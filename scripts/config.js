@@ -387,6 +387,10 @@ export class ROS5E {
         scope: Common.constants.name,
         key: "sybSoulless",
       },
+      isRoSSpell: {
+        scope: Common.constants.name,
+        key: "isRoSSpell",
+      }
     };
 
     globalThis.game.ros5e.CONFIG.SPELL_PROGRESSION = {

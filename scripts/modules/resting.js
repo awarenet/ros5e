@@ -63,12 +63,22 @@ export class Resting {
     const proficiency = actor.system.attributes.prof;
 
     const restTypes = game.dnd5e.config.restTypes;
+    let recovery = 0;
 
-    const recovery = {
-      [restTypes.short]: proficiency,
-      [restTypes.long]: 2 * proficiency,
-      [restTypes.ext]: currCorr,
-    }[type];
+    switch (type) {
+      case restTypes.short:
+      case "short":
+        recovery = proficiency;
+        break;
+      case restTypes.long:
+      case "long":
+        recovery = 2 * proficiency;
+        break;
+      case restTypes.ext:
+      case "ext":
+        recovery = currCorr;
+        break;
+    }
 
     return Math.min(recovery, currCorr);
   }
@@ -270,9 +280,10 @@ export class Resting {
   /* -------------------------------------------- */
 
   static async corruptionHeal(actor, amount) {
-    var result = { actorUpdates: {} };
+    var result = { actorUpdates: {}, deltas: {} };
     Resting._corruptionHealUpdate(actor.corruption, amount, result);
-    await actor.update(result);
+    await actor.update(result.actorUpdates);
+    return result;
   }
 
   /* -------------------------------------------- */

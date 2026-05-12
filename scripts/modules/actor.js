@@ -35,8 +35,9 @@ export class ActorSyb5e {
       isSinger: { value: ActorSyb5e.isSinger, enumerable: true },
       listSpells: { value: ActorSyb5e.listSpells, enumerable: true },
       getRollData: { value: ActorSyb5e.getRollData, mode: "WRAPPER" },
-      longRest: { value: ActorSyb5e.longRest },
-      shortRest: { value: ActorSyb5e.shortRest },
+      initiateRest: { value: ActorSyb5e.initiateRest},
+      longRest: { value: ActorSyb5e.longRest  },
+      shortRest: { value: ActorSyb5e.shortRest},
       convertSybCurrency: { value: ActorSyb5e.convertSybCurrency, enumerable: true },
       isSybActor: { value: ActorSyb5e.isSybActor, enumerable: true },
       getTalismans: { value: ActorSyb5e.getTalismans, enumerable: true },
@@ -55,6 +56,19 @@ export class ActorSyb5e {
     this.patchDataModel();
   }
 
+  static async initiateRest(wrapped, options = {}) {
+    if (!this.isSybActor()) {
+      wrapped(options);
+      return;
+    }
+    if (options.type === "long") {
+      return this.longRest({});
+    } else if (options.type === "short") {
+      return this.shortRest({ });
+    } else if (options.type === "ext") {
+      return this.extendedRest({  });
+    }
+  }
   /**
    * Modifies the Character data schema to support corruption variables persistently.
    */
