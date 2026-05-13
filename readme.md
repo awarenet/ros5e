@@ -27,7 +27,7 @@ To use this module, you must have the following installed and active:
 4. Paste the following Manifest URL: `https://github.com/awarenet/ros5e/releases/latest/download/module.json`
 5. Click **Install**.
 6. Once enabled, the module will automatically set the local homebrew directory to the module's brew folder.
-
+7. In foundry, ensure the following setting is enabled in plutonium settings "Data Sources -> Use 'index.json' for local homebrew"
 ## Usage
 
 ### 1. Importing Data
