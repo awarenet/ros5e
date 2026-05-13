@@ -7528,7 +7528,7 @@
             "If you are able to cast spells, you can't cast them or concentrate on them while in a rage."
           ]
         },
-        "Your rage lasts for 1 minute.",
+        "Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then.",
         "You can also end your rage on your turn as a bonus action.",
         "Once you have used your rage a number of times equal to your proficiency bonus, you must finish a long or extended rest before you can use this feature again."
       ],

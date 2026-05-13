@@ -2300,7 +2300,18 @@
         "When you are hit by an attack roll you can use your reaction to gain temporary hit points equal to 2d4 + your Constitution modifier.",
         "You immediately gain the temporary hit points and can apply damage from the triggering attack to them.",
         "You can use this feature a number of times equal to your proficiency bonus and then you must take a long or extended rest before using this feature again."
-      ]
+      ],
+      "foundrySystem": {
+        "uses": {
+          "max": "@attributes.prof",
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        }
+      }
     },
     {
       "name": "Fighting Style",

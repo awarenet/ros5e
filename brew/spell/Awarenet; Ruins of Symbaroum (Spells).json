@@ -131,8 +131,33 @@
       },
       "_copy": {
         "name": "True Strike",
-        "source": "PHB"
-      }
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.",
+              "with": "As long as the spell remains active, you have advantage on your first attack roll against the target on your turn."
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "grants you a brief insight into the target's defenses",
+              "with": "gives insights into the target's defenses"
+            }
+          ]
+        }
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "concentration": true,
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          }
+        }
+      ]
     },
     {
       "name": "Contingency",
@@ -9822,8 +9847,31 @@
       },
       "_copy": {
         "name": "Circle of Death",
-        "source": "PHB"
-      }
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "500 gp",
+            "with": "250 thaler"
+          }
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "the powder of a crushed black pearl worth at least 250 thaler"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "concentration": true,
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          }
+        }
+      ]
     },
     {
       "name": "Detect Thoughts",
@@ -9986,7 +10034,26 @@
       "_copy": {
         "name": "Create Undead",
         "source": "PHB"
-      }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 75 thaler black onyx stone for each corpse"
+      },
+      "entries": [
+        "You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a dragoul under your control. (The GM has game statistics for these creatures.)",
+        "As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+        "The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell at 7th level, you can animate or reassert control over four dragouls. When you cast this spell at 8th level, you can animate or reassert control over five dragouls or two crypt walkers. If you cast this spell at 9th level, you can animate or reassert control over six dragouls, three crypt walkers, or one crypt lord."
+          ]
+        }
+      ]
     },
     {
       "name": "Disintegrate",
@@ -11129,7 +11196,29 @@
       },
       "_copy": {
         "name": "Etherealness",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "Ethereal Plane",
+              "with": "ethereal realm between the real world and the Yonderworld",
+              "flags": "g"
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "Border Ethereal",
+              "with": "border realm",
+              "flags": "g"
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "plane you originated from",
+              "with": "real world",
+              "flags": "g"
+            }
+          ]
+        }
       }
     },
     {
@@ -11478,7 +11567,16 @@
       "_copy": {
         "name": "Plane Shift",
         "source": "PHB"
-      }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a forked, metal rod worth at least 100 thaler, attuned to the Yonderworld"
+      },
+      "entries": [
+        "You and up to eight willing creatures who link hands in a circle are transported into the Yonderworld, or if you are in the Yonderworld when this spell is cast, you are returned to the real world.",
+        "You can use this spell to banish an unwilling creature to the Yonderworld. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to a random location in the Yonderworld. A creature so transported must find its own way back to the real world."
+      ]
     },
     {
       "name": "Charm Person",
@@ -11881,7 +11979,13 @@
       "_copy": {
         "name": "Animate Dead",
         "source": "PHB"
-      }
+      },
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ]
     },
     {
       "name": "Dominate Monster",
@@ -12306,7 +12410,14 @@
       "_copy": {
         "name": "Counterspell",
         "source": "PHB"
-      }
+      },
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "when a creature within range casts a spell"
+        }
+      ]
     },
     {
       "name": "Power Word Stun",
@@ -13611,7 +13722,23 @@
       },
       "_copy": {
         "name": "Spirit Guardians",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "If you are good or neutral, their spectral form appears angelic or fey \\(your choice\\). If you are evil, they appear fiendish.",
+              "with": "If you are blight-stricken or uncorrupted, their spectral form appears angelic or fey (your choice). If you are blight-marked, they appear fiendish.",
+              "flags": "g"
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "\\{@damage 3d8\\} radiant damage \\(if you are good or neutral\\) or \\{@damage 3d8\\} necrotic damage \\(if you are evil\\)",
+              "with": "{@damage 3d8} radiant damage or {@damage 3d8} necrotic damage (if you are blight-marked)",
+              "flags": "g"
+            }
+          ]
+        }
       }
     },
     {
@@ -13675,7 +13802,15 @@
       },
       "_copy": {
         "name": "Heal",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "constructs or undead",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -13934,7 +14069,15 @@
       },
       "_copy": {
         "name": "Cure Wounds",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "undead or constructs",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -13967,7 +14110,12 @@
       "_copy": {
         "name": "Dispel Evil and Good",
         "source": "PHB"
-      }
+      },
+      "entries": [
+        "Shimmering energy surrounds and protects you from abominations, celestials, elementals, fey, fiends, or phenomenons, providing disadvantage on their attack rolls against you.",
+        "You can end the spell early by using the following special function:",
+        "Break Enchantment. As your action, you touch a creature you can reach that is charmed, frightened, or possessed by an abomination, a celestial, an elemental, a fey, or a fiend. The creature you touch is no longer charmed, frightened, or possessed by such creatures."
+      ]
     },
     {
       "name": "Flame Strike",
@@ -14226,7 +14374,15 @@
       },
       "_copy": {
         "name": "Healing Word",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "undead or constructs",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -14258,7 +14414,15 @@
       },
       "_copy": {
         "name": "Mass Heal",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "undead or constructs",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -14377,7 +14541,16 @@
       },
       "_copy": {
         "name": "Protection from Evil and Good",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "aberrations, celestials, elementals, fey, fiends, and undead",
+              "with": "aberrations, blight-born, celestials, elementals, fey, and fiends"
+            }
+          ]
+        }
       }
     },
     {
@@ -14442,7 +14615,15 @@
       },
       "_copy": {
         "name": "Mass Cure Wounds",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "undead or constructs",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -14474,7 +14655,15 @@
       },
       "_copy": {
         "name": "Mass Healing Word",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "undead or constructs",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -15778,7 +15967,14 @@
       "_copy": {
         "name": "Hellish Rebuke",
         "source": "PHB"
-      }
+      },
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "when a creature damages you"
+        }
+      ]
     },
     {
       "name": "Imprisonment",
@@ -16515,7 +16711,29 @@
       "_copy": {
         "name": "Otiluke's Freezing Sphere",
         "source": "PHB"
-      }
+      },
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "concentration": true,
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          }
+        }
+      ]
     },
     {
       "name": "Animal Friendship",
@@ -17036,7 +17254,27 @@
       },
       "_copy": {
         "name": "Glyph of Warding",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "200 gp",
+              "with": "100 thaler"
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "creature kind \\(for example, the ward could be set to affect aberrations or drow\\)",
+              "with": "creature kind (for example, the ward could be set to affect only abominations)",
+              "flags": "g"
+            }
+          ]
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "incense and powdered diamond worth at least 100 thaler, which the spell consumes"
       }
     },
     {
@@ -17099,6 +17337,11 @@
       "_copy": {
         "name": "Insect Plague",
         "source": "PHB"
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": true
       }
     },
     {
@@ -18116,7 +18359,15 @@
       },
       "_copy": {
         "name": "Prayer of Healing",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": {
+            "mode": "replaceTxt",
+            "replace": "undead or constructs",
+            "with": "constructs",
+            "flags": "i"
+          }
+        }
       }
     },
     {
@@ -18358,7 +18609,36 @@
       "_copy": {
         "name": "Magic Circle",
         "source": "PHB"
-      }
+      },
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "holy water or powdered silver and iron worth at least 50 thaler, which the spell consumes"
+      },
+      "entries": [
+        "You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or another surface. Choose one option:",
+        "A mystic that knows the pattern to a permanent teleportation circle may communicate telepathically with the attendant of that circle.",
+        "Choose one or more of the following types of creatures: celestials, elementals, fey, fiends, or phenomenons. The circle affects a creature of the chosen type in the following ways:",
+        "The creature can't willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.",
+        "The creature has disadvantage on attack rolls against targets within the cylinder.",
+        "Targets within the cylinder can't be charmed, frightened, or possessed by the creature.",
+        "When you choose this option, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell at 4th level or higher, the duration increases by 1 hour for each level above 3rd."
+          ]
+        }
+      ]
     },
     {
       "name": "Wall of Ice",
@@ -18503,7 +18783,23 @@
       },
       "_copy": {
         "name": "Blink",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "Ethereal Plane",
+              "with": "Yonderworld",
+              "flags": "g"
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "plane you originated from",
+              "with": "place you originated from",
+              "flags": "g"
+            }
+          ]
+        }
       }
     },
     {
@@ -18700,7 +18996,16 @@
       },
       "_copy": {
         "name": "Detect Evil and Good",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "aberration, celestial",
+              "with": "aberration, blight-born, celestial"
+            }
+          ]
+        }
       }
     },
     {
@@ -19094,7 +19399,25 @@
       },
       "_copy": {
         "name": "Teleportation Circle",
-        "source": "PHB"
+        "source": "PHB",
+        "_mod": {
+          "*": [
+            {
+              "mode": "replaceTxt",
+              "replace": "50 gp",
+              "with": "50 thaler"
+            },
+            {
+              "mode": "replaceTxt",
+              "replace": "Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines.",
+              "with": "Many Ordo Magica facilities have permanent teleportation circles inscribed somewhere within their confines."
+            }
+          ]
+        }
+      },
+      "components": {
+        "v": true,
+        "m": "rare chalks and inks infused with precious gems worth 50 thaler, which the spell consumes"
       }
     },
     {
@@ -21825,6 +22148,16 @@
       "_copy": {
         "name": "Control Weather",
         "source": "PHB"
+      },
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
       }
     },
     {
@@ -23721,6 +24054,67 @@
         "The storm heavily obscures the area and those caught in the storm are blinded. In order to take an action, they must first succeed at a Wisdom saving throw. On a success they are able to act this turn.",
         "The blood storm also has a drowning effect; it actively aims for the mouth and nose. If a creature starts its turn in the storm, the creature must make a Constitution saving throw, taking 8d6 necrotic damage on a failed save or half that on a successful one. The only way to avoid the effect is to leave the storm's area of effect, move into the eye area, or find a structure that can be completely closed off from the storm's effects.",
         "On your turn, you can use a bonus action to move the cloud up to 10 feet in a direction that you choose."
+      ]
+    },
+    {
+      "name": "Summon Daemon",
+      "source": "RuinsOfSymbaroumS",
+      "foundryFlags": {
+        "ros5e": {
+          "isRoSSpell": true,
+          "notFavorable": true
+        }
+      },
+      "classes": {
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Mystic",
+              "source": "RuinsOfSymbaroumC"
+            },
+            "subclass": {
+              "name": "Sorcerer",
+              "source": "RuinsOfSymbaroumSC",
+              "shortName": "Sorcerer"
+            }
+          }
+        ]
+      },
+      "meta": {
+        "ritual": true
+      },
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "candles, dagger and golden bowl"
+      },
+      "duration": [
+        {
+          "type": "special"
+        }
+      ],
+      "entries": [
+        "You summon an abomination from the Yonderworld, a daemon. The creature resists your control and you must make a contested Charisma check to keep it under your control. If you fail and the daemon was not summoned into an inverted magic circle, the daemon is free to do as it likes (including attacking you or your allies) and is free to roam until it chooses to return to the Yonderworld (which it can do as an action) or it is destroyed. If it is trapped in an inverted magic circle it instead cannot move and returns to the Yonderworld at the end of the magic circle's duration. You can talk to the daemon during this time, but it is under no compulsion to speak or to give you truthful answers.",
+        "If you succeed at the Charisma check then the daemon is under your control for 24 hours. If requested, it will return to the Yonderworld, which ends your control of it. It will also carry out your orders, unless they involve a clear danger to the daemon from the servants of Prios or another god. It takes its own turn and follows your commands.",
+        "When you cast this spell, you summon a Servant Daemon. If you choose to gain a point of permanent Corruption you can instead summon a Vindictive Daemon, for two points of permanent Corruption you can summon a Knowledge Daemon or for three points of permanent Corruption you can summon a Guardian Daemon. The stats for the daemons are included below.",
+        "Servant Daemon. Small fiend. Armor Class 15. Hit Points 18 (4d6 + 4). Speed 30 ft, fly 30 ft. STR 8 (-1), DEX 20 (+5), CON 12 (+1), INT 10 (+0), WIS 10 (+0), CHA 13 (+1). Condition Immunities exhaustion, paralyzed, petrified, poisoned, unconscious. Damage Immunities fire, poison, psychic. Senses passive Perception 10. Languages understands and speaks the caster's language. Challenge 1 (200 XP, proficiency bonus +2). Manner reluctant and cynical. Shadow same as the caster's. Equipment none. Actions. Sharp Fangs. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
+        "Vindictive Daemon. Medium fiend. Armor Class 13. Hit Points 82 (11d8 + 33). Speed 30 ft, fly 60 ft. STR 11 (+0), DEX 16 (+3), CON 17 (+3), INT 10 (+0), WIS 10 (+0), CHA 17 (+3). Skills Perception +2, Stealth +7. Condition Immunities exhaustion, paralyzed, petrified, poisoned, unconscious. Damage Immunities fire, poison, psychic. Senses passive Perception 12. Languages understands and speaks the caster's language. Challenge 4 (1,100 XP, proficiency bonus +2). Manner sniffing and prying. Shadow a black, oily cloud dancing in hard winds (thoroughly corrupt). Equipment none. Ambusher. In the first round of a combat, the daemon has advantage on attack rolls against any creature it has surprised. Actions. Multiattack. The vindictive daemon makes two attacks with its long claws. Long Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+        "Knowledge Daemon. Medium fiend. Armor Class 10. Hit Points 71 (13d8 + 13). Speed 30 ft, fly 60 ft. STR 11 (+0), DEX 11 (+0), CON 12 (+1), INT 18 (+4), WIS 19 (+4), CHA 20 (+5). Skills Arcana +10, Deception +11, History +10, Perception +10. Saving Throws Dex +3, Cha +8. Condition Immunities exhaustion, paralyzed, petrified, poisoned, unconscious. Damage Immunities fire, poison, psychic. Senses passive Perception 20. Languages understands and speaks the caster's language. Challenge 6 (2,300 XP, proficiency bonus +3). Manner fawning and wheezing. Shadow calm blackness, like a pool of liquid bitumen (thoroughly corrupt). Equipment none. Expertise. The daemon has expertise in all its skills. Wrest Knowledge. The summoner can use its action to make a contested Charisma check with the daemon to receive information. On a success the daemon provides a useful answer to an open-ended question or a definitive answer to a yes-or-no question. On a failure, the daemon refuses to answer any more questions. If the summoner offers a blood sacrifice they have advantage on their Charisma check. Actions. Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage. Dominate. The daemon selects a creature within 30 feet. That creature must make a Charisma saving throw (DC 15) or become charmed by the daemon, following its instructions (the creature will not harm itself, however). At the end of its turn the creature can repeat the saving throw, ending the effect on itself. A daemon inside a magic circle cannot use this feature. Life Consuming Kiss. Melee Weapon Attack: +3 to hit, reach 0 ft., one target. Hit: The creature must make a DC 10 Constitution saving throw or gain a level of exhaustion.",
+        "Guardian Daemon. Large fiend. Armor Class 16 (natural armor). Hit Points 84 (8d10 + 40). Speed 30 ft, fly 60 ft. STR 26 (+8), DEX 11 (+0), CON 20 (+5), INT 11 (+0), WIS 15 (+2), CHA 20 (+5). Saving Throws Dex +3, Con +8, Wis +5. Condition Immunities exhaustion, paralyzed, petrified, poisoned, unconscious. Damage Immunities fire, poison, psychic. Senses passive Perception 12. Languages understands and speaks the caster's language. Challenge 8 (3,900 XP, proficiency bonus +3). Manner snorting and clawing the ground. Shadow night-black as bubbling and boiling tar (thoroughly corrupt). Equipment daemon-glaive. Alertness. The daemon has advantage on initiative rolls as long as it is not surprised. Actions. Multiattack. The daemon makes an attack with its Claws and a Daemon-glaive attack. Claws. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 14 (1d12 + 8) slashing damage. Daemon-glaive. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) magical slashing damage. Reactions. Preemptive Attack. When a creature comes within reach, the daemon can make a Claws or Daemon-glaive attack."
       ]
     }
   ]
