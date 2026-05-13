@@ -24,7 +24,7 @@ To use this module, you must have the following installed and active:
 1. Open the Foundry VTT Setup screen.
 2. Go to the **Add-on Modules** tab.
 3. Click **Install Module**.
-4. Paste the following Manifest URL: `https://raw.githubusercontent.com/awarenet/ros5e/latest/module.json`
+4. Paste the following Manifest URL: `[https://raw.githubusercontent.com/awarenet/ros5e/latest/module.json](https://github.com/awarenet/ros5e/releases/latest/download/module.json)`
 5. Click **Install**.
 6. Once enabled, the module will automatically set the local homebrew directory to the module's brew folder.
 
