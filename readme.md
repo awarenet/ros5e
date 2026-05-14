@@ -5,6 +5,8 @@ This module implements the core mechanics of the **Ruins of Symbaroum** conversi
 Head over to [Free League Publishing](https://freeleaguepublishing.com) to get the core rulebooks.
 This module is useless without the sourcebooks, support the creators!
 
+Have a discord here https://discord.gg/3csSfhtEu
+
 ## Prerequisites
 
 To use this module, you must have the following installed and active:
