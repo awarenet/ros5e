@@ -5847,8 +5847,7 @@
         "As Troll Singing is dependent on the performance of singer and song, the spellcasting ability modifier is Charisma.",
         "You learn spells from the Troll Singer tradition list.",
         "Each spell must be sung, which always requires at least one action.",
-        "If a troll singer wishes to cast a spell at a higher on these magical songs just like spells.",
-        "You can use a bonus level they must sing an additional round for each level they wish to add.",
+        "If a troll singer wishes to cast a spell at a higher level, they must sing an additional round for each level they wish to add.",
         "They then make their saving throw (see below) at the base spell level.",
         "Spells whose casting time is longer than an action use the same unit of time for each spell level upgrade.",
         "For example casting geas as a 7th level spell would require 3 minutes (1 minute for the base casting, 1 minute for each spell level upgraded)."
@@ -6162,12 +6161,9 @@
       "subclassSource": "RuinsOfSymbaroumSC",
       "level": 1,
       "entries": [
-        "For practitioners of witchcraft Corruption is viewed as na- These features interact with nature itself. ture's way of seeking balance; what the witch does to the • Forest Trails.",
-        "You can find or create trails in Davokar world strikes back against him or her.",
-        "The Corruption must or wherever you go that make travel easier.",
-        "You and a be weighed against the necessity of what the witch is about number of companions equal to your proficiency bonus to do and be handled accordingly.",
-        "Some witches will choose have advantage on saving throws against Exhaustion due to sacrifice themselves to the Corruption in order to save to travel. their people; such is the fate of a witch according to the • Shapeshifter.",
-        "You can use your action to magically asdemands of life in the gloom of Davokar."
+        "For practitioners of witchcraft, Corruption is viewed as nature's way of seeking balance; what the witch does to the world strikes back against him or her.",
+        "The Corruption must be weighed against the necessity of what the witch is about to do and be handled accordingly.",
+        "Some witches will choose to sacrifice themselves to the Corruption in order to save their people; such is the fate of a witch according to the demands of life in the gloom of Davokar."
       ],
       "foundrySystem": {
         "activation.type": "action",
