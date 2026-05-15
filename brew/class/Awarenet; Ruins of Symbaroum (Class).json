@@ -24,12 +24,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -325,12 +325,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -538,12 +538,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -825,12 +825,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -1067,12 +1067,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]

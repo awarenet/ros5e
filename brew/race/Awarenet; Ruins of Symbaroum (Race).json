@@ -83,7 +83,7 @@
           "changes": [
             {
               "key": "system.corruption.bonus",
-              "mode": 2,
+              "mode": "add",
               "value": 1
             }
           ]
@@ -172,12 +172,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -292,7 +292,7 @@
           "changes": [
             {
               "key": "flags.ros5e.sybSoulless",
-              "mode": 5,
+              "mode": "override",
               "value": 1
             }
           ],
@@ -308,12 +308,12 @@
         },
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -417,12 +417,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -533,12 +533,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -640,12 +640,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -746,12 +746,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -849,7 +849,7 @@
           "changes": [
             {
               "key": "flags.ros5e.sybSoulless",
-              "mode": 5,
+              "mode": "override",
               "value": 1
             }
           ],
@@ -865,12 +865,12 @@
         },
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -992,7 +992,7 @@
           "changes": [
             {
               "key": "flags.ros5e.sybSoulless",
-              "mode": 5,
+              "mode": "override",
               "value": 0.5
             }
           ],
@@ -1009,12 +1009,12 @@
         },
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -1085,12 +1085,12 @@
       "foundryEffects": [
         {
           "name": "Symbaroum Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.ros5eActor",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]

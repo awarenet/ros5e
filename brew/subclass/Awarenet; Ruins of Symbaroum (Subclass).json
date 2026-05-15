@@ -195,12 +195,12 @@
       "foundryEffects": [
         {
           "name": "No Favors Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.noFavors",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -1913,12 +1913,12 @@
       "foundryEffects": [
         {
           "name": "No Favors Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.noFavors",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -2437,12 +2437,12 @@
       "foundryEffects": [
         {
           "name": "No Favors Actor",
-          "icon": "icons/svg/item-bag.svg",
+          "img": "icons/svg/item-bag.svg",
           "transfer": true,
           "changes": [
             {
               "key": "flags.ros5e.noFavors",
-              "mode": 5,
+              "mode": "override",
               "value": "true"
             }
           ]
@@ -8275,7 +8275,7 @@
         "activities": [
           {
             "name": "Holy Aura",
-            "icon": "icons/svg/item-bag.svg",
+            "img": "icons/svg/item-bag.svg",
             "activation": {
               "type": "bonus"
             },
@@ -8335,7 +8335,7 @@
       "foundryEffects": [
         {
           "name": "Witchhammer Damage",
-          "icon": "icons/svg/holy-symbol.svg",
+          "img": "icons/svg/holy-symbol.svg",
           "transfer": true,
           "changes": [
             {

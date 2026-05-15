@@ -15,7 +15,14 @@
 		],
 		"dateAdded": 1705220000,
 		"dateLastModified": 1705220000,
-		"edition": "classic"
+		"edition": "classic",
+		"featCategories": {
+			"Boon": "Boon",
+			"Burden": "Burden",
+			"Class": "Class",
+			"Mark": "Mark",
+			"Origin": "Origin"
+		}
 	},
 	"feat": [
 		{

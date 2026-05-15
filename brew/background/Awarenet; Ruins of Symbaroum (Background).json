@@ -596,7 +596,7 @@
 					"changes": [
 						{
 							"key": "system.corruption.bonus",
-							"mode": 2,
+							"mode": "add",
 							"value": 1
 						}
 					]
@@ -6287,87 +6287,87 @@
 						{
 							"key": "system.tools.alchemist.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.brewer.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.calligrapher.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.carpenter.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.cartographer.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.cobbler.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.cook.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.glassblower.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.jeweler.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.leatherworker.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.mason.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.painter.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.potter.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.smith.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.tinker.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.weaver.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						},
 						{
 							"key": "system.tools.woodcarver.value",
 							"value": "0.5",
-							"mode": 4
+							"mode": "upgrade"
 						}
 					]
 				}

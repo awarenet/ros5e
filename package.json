@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.2",
-    "5etools-utils": "^0.14.31",
+    "5etools-utils": "^0.16.6",
     "commander": "^9.4.1",
     "he": "^1.2.0",
     "sanitize-html": "^2.12.1"
