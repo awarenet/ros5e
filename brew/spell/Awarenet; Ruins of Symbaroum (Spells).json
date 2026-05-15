@@ -775,7 +775,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -862,6 +862,9 @@
       "_copy": {
         "name": "Rary's Telepathic Bond",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -954,7 +957,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -1008,6 +1011,9 @@
       "_copy": {
         "name": "Alarm",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -1352,7 +1358,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -1461,6 +1467,9 @@
       "_copy": {
         "name": "Prestidigitation",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -1469,7 +1478,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -1490,6 +1499,9 @@
       "_copy": {
         "name": "Commune",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -2739,7 +2751,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -2793,6 +2805,9 @@
       "_copy": {
         "name": "Tenser's Floating Disk",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -3071,7 +3086,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -3092,6 +3107,9 @@
       "_copy": {
         "name": "Divination",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -3476,7 +3494,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -3519,6 +3537,9 @@
       "_copy": {
         "name": "Speak with Animals",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -3622,7 +3643,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -3709,6 +3730,9 @@
       "_copy": {
         "name": "Unseen Servant",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -4042,7 +4066,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -4151,6 +4175,9 @@
       "_copy": {
         "name": "Mending",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -4407,7 +4434,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -4461,6 +4488,9 @@
       "_copy": {
         "name": "Silence",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -4757,7 +4787,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -4866,6 +4896,9 @@
       "_copy": {
         "name": "Light",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -4874,7 +4907,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -4939,6 +4972,9 @@
       "_copy": {
         "name": "Find Familiar",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -5188,7 +5224,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -5242,6 +5278,9 @@
       "_copy": {
         "name": "Phantom Steed",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -5750,7 +5789,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -5837,6 +5876,9 @@
       "_copy": {
         "name": "Illusory Script",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -5980,7 +6022,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -6001,6 +6043,9 @@
       "_copy": {
         "name": "Detect Poison and Disease",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -6009,7 +6054,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -6030,6 +6075,9 @@
       "_copy": {
         "name": "Augury",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -6235,7 +6283,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -6311,6 +6359,9 @@
       "_copy": {
         "name": "Magic Mouth",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -6826,7 +6877,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -6902,6 +6953,9 @@
       "_copy": {
         "name": "Identify",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -7443,7 +7497,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -7519,6 +7573,9 @@
       "_copy": {
         "name": "Water Breathing",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -7589,7 +7646,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -7698,6 +7755,9 @@
       "_copy": {
         "name": "Detect Magic",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -7892,7 +7952,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -7946,6 +8006,9 @@
       "_copy": {
         "name": "Water Walk",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -8045,7 +8108,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -8132,6 +8195,9 @@
       "_copy": {
         "name": "Locate Object",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -8286,7 +8352,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -8307,6 +8373,9 @@
       "_copy": {
         "name": "Meld into Stone",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -8844,7 +8913,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -8865,6 +8934,9 @@
       "_copy": {
         "name": "Purify Food and Drink",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -9410,7 +9482,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -9482,9 +9554,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Lightning Bolt",
@@ -9497,7 +9566,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -9570,9 +9639,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Alter Self",
         "source": "PHB"
@@ -9584,7 +9650,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -9690,9 +9756,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Blindness/Deafness",
         "source": "PHB"
@@ -9704,7 +9767,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -9777,9 +9840,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Chain Lightning",
         "source": "PHB"
@@ -9791,7 +9851,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -9841,9 +9901,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Circle of Death",
@@ -9879,7 +9936,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -9974,9 +10031,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Detect Thoughts",
         "source": "PHB"
@@ -9988,7 +10042,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10027,9 +10081,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Create Undead",
@@ -10061,7 +10112,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10133,9 +10184,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Disintegrate",
@@ -10148,7 +10196,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10253,9 +10301,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Eyebite",
@@ -10268,7 +10313,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10384,9 +10429,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Hold Person",
@@ -10399,7 +10441,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10504,9 +10546,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Mass Suggestion",
@@ -10519,7 +10558,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10591,9 +10630,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Levitate",
@@ -10606,7 +10642,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10700,9 +10736,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Banishment",
@@ -10715,7 +10748,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10787,9 +10820,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Evard's Black Tentacles",
@@ -10802,7 +10832,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10886,9 +10916,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Misty Step",
         "source": "PHB"
@@ -10900,7 +10927,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -10951,9 +10978,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Blight",
         "source": "PHB"
@@ -10965,7 +10989,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11060,9 +11084,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Confusion",
         "source": "PHB"
@@ -11074,7 +11095,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11190,9 +11211,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Etherealness",
@@ -11227,7 +11245,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11333,9 +11351,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Dimension Door",
         "source": "PHB"
@@ -11347,7 +11362,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11398,9 +11413,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Finger of Death",
         "source": "PHB"
@@ -11412,7 +11424,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11485,9 +11497,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Burning Hands",
         "source": "PHB"
@@ -11499,7 +11508,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11561,9 +11570,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Plane Shift",
         "source": "PHB"
@@ -11584,7 +11590,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11689,9 +11695,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Charm Person",
@@ -11704,7 +11707,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11810,9 +11813,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Suggestion",
         "source": "PHB"
@@ -11824,7 +11824,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -11918,9 +11918,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Polymorph",
@@ -11993,7 +11990,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12099,9 +12096,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Dominate Monster",
         "source": "PHB"
@@ -12113,7 +12107,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12186,9 +12180,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "False Life",
         "source": "PHB"
@@ -12200,7 +12191,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12306,9 +12297,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Clairvoyance",
         "source": "PHB"
@@ -12320,7 +12308,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12403,9 +12391,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Counterspell",
@@ -12425,7 +12410,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12530,9 +12515,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Power Word Stun",
@@ -12545,7 +12527,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12661,9 +12643,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Dispel Magic",
@@ -12676,7 +12655,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12781,9 +12760,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Fear",
@@ -12796,7 +12772,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12868,9 +12844,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Magic Missile",
@@ -12883,7 +12856,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -12966,9 +12939,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Gate",
@@ -12981,7 +12951,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13075,9 +13045,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Dominate Person",
@@ -13090,7 +13057,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13195,9 +13162,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Hold Monster",
@@ -13210,7 +13174,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13315,9 +13279,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Power Word Kill",
@@ -13330,7 +13291,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13435,9 +13396,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Planar Binding",
@@ -13450,7 +13408,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13523,9 +13481,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Wish",
         "source": "PHB"
@@ -13537,7 +13492,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13577,9 +13532,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Remove Curse",
         "source": "PHB"
@@ -13591,7 +13543,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13609,9 +13561,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Revivify",
         "source": "PHB"
@@ -13623,7 +13572,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13685,9 +13634,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Speak with Dead",
         "source": "PHB"
@@ -13699,7 +13645,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13716,9 +13662,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Spirit Guardians",
@@ -13747,7 +13690,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13764,9 +13707,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Harm",
@@ -13779,7 +13719,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13796,9 +13736,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Heal",
@@ -13819,7 +13756,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13836,9 +13773,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Death Ward",
@@ -13851,7 +13785,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13901,9 +13835,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Bane",
@@ -13916,7 +13847,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13966,9 +13897,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Zone of Truth",
@@ -13981,7 +13909,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -13999,9 +13927,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Command",
         "source": "PHB"
@@ -14013,7 +13938,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14063,9 +13988,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Cure Wounds",
@@ -14086,7 +14008,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14103,9 +14025,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Dispel Evil and Good",
@@ -14123,7 +14042,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14141,9 +14060,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Flame Strike",
         "source": "PHB"
@@ -14155,7 +14071,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14239,9 +14155,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Geas",
         "source": "PHB"
@@ -14253,7 +14166,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14303,9 +14216,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Greater Restoration",
@@ -14318,7 +14228,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14368,9 +14278,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Healing Word",
@@ -14391,7 +14298,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14408,9 +14315,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Mass Heal",
@@ -14431,7 +14335,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14449,9 +14353,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Inflict Wounds",
         "source": "PHB"
@@ -14463,7 +14364,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14535,9 +14436,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Protection from Evil and Good",
@@ -14559,7 +14457,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14609,9 +14507,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Mass Cure Wounds",
@@ -14632,7 +14527,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14649,9 +14544,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Mass Healing Word",
@@ -14672,7 +14564,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14767,9 +14659,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Scrying",
         "source": "PHB"
@@ -14781,7 +14670,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14820,9 +14709,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Bestow Curse",
@@ -14835,7 +14721,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14885,9 +14771,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Enthrall",
@@ -14900,7 +14783,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -14972,9 +14855,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Tasha's Hideous Laughter",
@@ -14987,7 +14867,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15059,9 +14939,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Otto's Irresistible Dance",
@@ -15074,7 +14951,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15113,9 +14990,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Compulsion",
@@ -15128,7 +15002,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15211,9 +15085,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Feeblemind",
@@ -15226,7 +15097,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15298,9 +15169,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Mind Blank",
@@ -15313,7 +15181,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15385,9 +15253,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Mislead",
@@ -15400,7 +15265,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15472,9 +15337,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Modify Memory",
@@ -15487,7 +15349,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15571,9 +15433,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Forcecage",
         "source": "PHB"
@@ -15585,7 +15444,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15646,9 +15505,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Flesh to Stone",
@@ -15661,7 +15517,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15722,9 +15578,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Vampiric Touch",
@@ -15737,7 +15590,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15798,9 +15651,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Ray of Enfeeblement",
@@ -15813,7 +15663,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15874,9 +15724,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Demiplane",
@@ -15932,7 +15779,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -15960,9 +15807,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Hellish Rebuke",
@@ -15982,7 +15826,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -16044,9 +15888,6 @@
           }
         ]
       },
-      "meta": {
-        "ritual": true
-      },
       "_copy": {
         "name": "Imprisonment",
         "source": "PHB"
@@ -16058,7 +15899,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -16108,9 +15949,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Fabricate",
@@ -16123,7 +15961,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -16173,9 +16011,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Phantasmal Killer",
@@ -16188,7 +16023,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -16238,9 +16073,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Delayed Blast Fireball",
@@ -16253,7 +16085,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -16303,9 +16135,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Clone",
@@ -16318,7 +16147,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -16368,9 +16197,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Fireball",
@@ -17704,7 +17530,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -17747,6 +17573,9 @@
       "_copy": {
         "name": "Animal Messenger",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -17817,7 +17646,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -17893,6 +17722,9 @@
       "_copy": {
         "name": "Leomund's Tiny Hut",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -19510,7 +19342,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -19619,6 +19451,9 @@
       "_copy": {
         "name": "Comprehend Languages",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -19627,7 +19462,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -19648,6 +19483,9 @@
       "_copy": {
         "name": "Gentle Repose",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -19893,7 +19731,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -19936,6 +19774,9 @@
       "_copy": {
         "name": "Locate Animals or Plants",
         "source": "PHB"
+      },
+      "meta": {
+        "ritual": true
       }
     },
     {
@@ -20579,7 +20420,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": false
+          "notFavorable": true
         }
       },
       "classes": {
@@ -20607,9 +20448,6 @@
             }
           }
         ]
-      },
-      "meta": {
-        "ritual": true
       },
       "_copy": {
         "name": "Fly",
@@ -22563,7 +22401,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -22795,7 +22633,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -22855,7 +22693,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -22913,7 +22751,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -22970,7 +22808,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23032,7 +22870,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23114,7 +22952,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23207,7 +23045,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23299,7 +23137,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23355,7 +23193,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23445,7 +23283,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23489,7 +23327,10 @@
       "entries": [
         "As you cast this spell, you touch a number of creatures equal to your proficiency bonus. You can be one of those creatures. Each creature's temporary Corruption is reduced by 1d4. Any excess points restore the creature's hit points.",
         "At Higher Levels. If you cast this spell at 5th level or higher, you can heal one additional creature per spell level."
-      ]
+      ],
+      "meta": {
+        "ritual": true
+      }
     },
     {
       "name": "Inherit Wound",
@@ -23575,7 +23416,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23660,7 +23501,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23748,7 +23589,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23838,7 +23679,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
@@ -23906,7 +23747,7 @@
       "foundryFlags": {
         "ros5e": {
           "isRoSSpell": true,
-          "notFavorable": true
+          "notFavorable": false
         }
       },
       "classes": {
