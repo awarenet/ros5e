@@ -1,9 +1,10 @@
 {
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
         "json": "RuinsOfSymbaroumT",
-        "full": "Awarenet; Ruins of Symbaroum (Tables)",
+        "full": "Ruins of Symbaroum Tables",
         "abbreviation": "RoS:T",
         "authors": ["Free League Publishing"],
         "version": "1.0.0",
@@ -17,7 +18,7 @@
   "table": [
     {
       "name": "Marks of Corruption",
-      "source": "Awarenet",
+      "source": "RuinsOfSymbaroumT",
       "caption": "Marks of Corruption",
       "intro": [
         "When a character gains exceeds their Corruption Threshold, and they fail the saving throw they roll on this table."

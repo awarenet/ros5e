@@ -1,9 +1,10 @@
 {
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
         "json": "RuinsOfSymbaroumI",
-        "full": "Awarenet; Ruins of Symbaroum (Items)",
+        "full": "Ruins of Symbaroum Items",
         "abbreviation": "RoS:I",
         "authors": [
           "Free League Publishing"
