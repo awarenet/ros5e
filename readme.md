@@ -5,6 +5,8 @@ This module implements the core mechanics of the **Ruins of Symbaroum** conversi
 Head over to [Free League Publishing](https://freeleaguepublishing.com) to get the core rulebooks.
 This module is useless without the sourcebooks, support the creators!
 
+Have a discord here https://discord.gg/3csSfhtEu
+
 ## Prerequisites
 
 To use this module, you must have the following installed and active:
@@ -24,10 +26,10 @@ To use this module, you must have the following installed and active:
 1. Open the Foundry VTT Setup screen.
 2. Go to the **Add-on Modules** tab.
 3. Click **Install Module**.
-4. Paste the following Manifest URL: `https://raw.githubusercontent.com/awarenet/ros5e/latest/module.json`
+4. Paste the following Manifest URL: `https://github.com/awarenet/ros5e/releases/latest/download/module.json`
 5. Click **Install**.
 6. Once enabled, the module will automatically set the local homebrew directory to the module's brew folder.
-
+7. In foundry, ensure the following setting is enabled in plutonium settings "Data Sources -> Use 'index.json' for local homebrew"
 ## Usage
 
 ### 1. Importing Data
