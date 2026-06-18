@@ -523,7 +523,7 @@
 					"name": "Pack-mule",
 					"changes": [
 						{
-							"key": "data.attributes.encumbrance.bonuses.overall",
+							"key": "system.attributes.encumbrance.bonuses.overall",
 							"mode": "ADD",
 							"value": "@abilities.str.value * 5"
 						}

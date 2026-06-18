@@ -3782,7 +3782,7 @@
           "name": "Agile Combat",
           "changes": [
             {
-              "key": "data.attributes.ac.base",
+              "key": "system.attributes.ac.base",
               "mode": "OVERRIDE",
               "value": "10 + 2 * @attributes.dex.mod"
             }
@@ -7568,7 +7568,7 @@
           "disabled": true,
           "changes": [
             {
-              "key": "data.bonuses.mwak.damage",
+              "key": "system.bonuses.mwak.damage",
               "mode": "ADD",
               "value": "1+floor(@attributes.prof/2)"
             },
