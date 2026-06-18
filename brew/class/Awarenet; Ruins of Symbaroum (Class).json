@@ -1707,7 +1707,8 @@
       "level": 2,
       "entries": [
         "You can use your bonus action to nominate a creature you can see as a chosen target.",
-        "The first time you hit your chosen target each turn, you do 2 additional damage to the creature."
+        "The first time you hit your chosen target each turn, you do 2 additional damage to the creature.",
+        "If you are wielding a ranged weapon, you can use your reaction to make an attack when the creature uses its own movement, counting the range from the creature's starting position."
       ],
       "foundrySystem": {
         "activation": {
