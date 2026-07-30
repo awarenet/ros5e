@@ -30,6 +30,8 @@ To use this module, you must have the following installed and active:
 5. Click **Install**.
 6. Once enabled, the module will automatically set the local homebrew directory to the module's brew folder.
 7. In foundry, ensure the following setting is enabled in plutonium settings "Data Sources -> Use 'index.json' for local homebrew"
+8. In foundry, ensure the following setting is set to Legacy(2014) in the plutonium settings "Miscellanous -> Rules Version"  
+
 ## Usage
 
 ### 1. Importing Data
