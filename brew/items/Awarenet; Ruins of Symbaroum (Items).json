@@ -999,6 +999,74 @@
       "weaponCategory": "martial"
     },
     {
+      "name": "Firetube, Portable",
+      "source": "RuinsOfSymbaroumI",
+      "type": "R",
+      "value": 10000,
+      "weight": 20.0,
+      "rarity": "common",
+      "dmg1": "1d10",
+      "dmgType": "T",
+      "range": "0",
+      "property": [
+        "2H",
+        "H",
+        "A",
+        "LD",
+        "are|RuinsOfSymbaroumI"
+      ],
+      "entries": [
+        "This portable alchemical firetube uses special firetube powders as ammunition and projects its effect in a 20-foot cone.",
+        "The damage and additional effect are determined by the powder loaded: bang powder deals 1d10 thunder damage and deafens; burning powder deals 1d12 fire damage; flash powder deals 1d6 fire damage and blinds; shock powder deals 1d12 bludgeoning damage and stuns.",
+        "A portable firetube can also be used as a two-handed melee weapon, dealing 1d8 bludgeoning damage. Untrained use is dangerous."
+      ],
+      "weaponCategory": "martial"
+    },
+    {
+      "name": "Bang Powder",
+      "source": "RuinsOfSymbaroumI",
+      "type": "A",
+      "value": 800,
+      "weight": 2.0,
+      "rarity": "common",
+      "entries": [
+        "Firetube ammunition (portable). Crafting DC 25. When fired from a portable firetube, each creature in the cone takes 1d10 thunder damage and is deafened; a successful Dexterity saving throw halves the damage."
+      ]
+    },
+    {
+      "name": "Burning Powder",
+      "source": "RuinsOfSymbaroumI",
+      "type": "A",
+      "value": 1200,
+      "weight": 1.0,
+      "rarity": "common",
+      "entries": [
+        "Firetube ammunition (portable). Crafting DC 20. When fired from a portable firetube, each creature in the cone takes 1d12 fire damage; a successful Dexterity saving throw halves the damage."
+      ]
+    },
+    {
+      "name": "Flash Powder",
+      "source": "RuinsOfSymbaroumI",
+      "type": "A",
+      "value": 600,
+      "weight": 1.0,
+      "rarity": "common",
+      "entries": [
+        "Firetube ammunition (portable). Crafting DC 25. When fired from a portable firetube, each creature in the cone takes 1d6 fire damage and is blinded; a successful Dexterity saving throw halves the damage."
+      ]
+    },
+    {
+      "name": "Shock Powder",
+      "source": "RuinsOfSymbaroumI",
+      "type": "A",
+      "value": 2000,
+      "weight": 2.0,
+      "rarity": "common",
+      "entries": [
+        "Firetube ammunition (portable). Crafting DC 30. When fired from a portable firetube, each creature in the cone takes 1d12 bludgeoning damage and is stunned; a successful Dexterity saving throw halves the damage."
+      ]
+    },
+    {
       "name": "Ballista",
       "source": "RuinsOfSymbaroumI",
       "type": "R",
@@ -1385,6 +1453,19 @@
       "source": "RuinsOfSymbaroumI",
       "entries": [
         "<b><i>Balanced.</i></b> The weapon is so well balanced that it is extra effective when parrying. If you wield this weapon in one hand with a weapon in the other hand increase your AC by 1."
+      ],
+      "foundryEffects": [
+        {
+          "name": "Balanced",
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": "ADD",
+              "value": "1"
+            }
+          ],
+          "transfer": true
+        }
       ]
     },
     {
