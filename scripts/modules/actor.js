@@ -264,12 +264,14 @@ export class ActorSyb5e {
   static calcMaxCorruption() {
     const currentBonus = dnd5e.utils.simplifyBonus(foundry.utils.getProperty(this, "system.corruption.bonus") ?? 0);
 
-    if (Object.keys(this.classes).some((x) => x == "mystic")) {
+    if (Object.keys(this.classes).some((x) => x.toLowerCase() == "mystic")) {
       return Math.max((this.system.attributes.spell.mod + this.system.attributes.prof) * 2 + currentBonus, 4);
     }
 
+    // corner case for Templar warriors, who use Wisdom instead of Charisma for corruption threshold when wisdom is higher
     let corruptionThresholdMod = "cha";
-    if (Object.keys(this.classes).some((x) => x == "templar")) {
+    if (Object.keys(this.classes).some((x) => x.toLowerCase() == "warrior") 
+        && this.classes.warrior.subclass?.name.toLowerCase() == "templar") {
       if (this.system.abilities.wis.mod > this.system.abilities.cha.mod) {
         corruptionThresholdMod = "wis";
       }
