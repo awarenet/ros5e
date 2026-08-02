@@ -85,6 +85,31 @@ export class Tidy5eIntegration {
           selector: `.spellcasting-class-card`,
           position: "beforebegin",
         },
+        onRender(params) {
+          const actor = params.app.document;
+          const container = params.element;
+          if (!container.querySelector?.("[data-talisman-menu]")) return;
+
+          new foundry.applications.ux.ContextMenu(
+            container,
+            "[data-talisman-menu]",
+            [
+              {
+                name: "ROS5E.Talisman.Create",
+                icon: '<i class="fas fa-plus fa-fw"></i>',
+                condition: () => actor.isOwner,
+                callback: () => Tidy5eIntegration.adjustTalismans(actor, 1),
+              },
+              {
+                name: "ROS5E.Talisman.Destroy",
+                icon: '<i class="fas fa-trash fa-fw"></i>',
+                condition: () => actor.isOwner && (actor.getTalismans()?.created ?? 0) > 0,
+                callback: () => Tidy5eIntegration.adjustTalismans(actor, -1),
+              },
+            ],
+            { jQuery: false },
+          );
+        },
         // context doesn't have the extension method for get ros5eActor so we have to do it manually
         getData(context) {
           if (context.actor.getRunes()) {
@@ -102,6 +127,16 @@ export class Tidy5eIntegration {
         },
       }),
     );
+  }
+
+  static adjustTalismans(actor, adjustment) {
+    const talismans = actor.getTalismans();
+    if (!talismans) return;
+
+    return actor.setTalismans({
+      ...talismans,
+      created: Math.max((talismans.created ?? 0) + adjustment, 0),
+    });
   }
 
   // Known spell counts
