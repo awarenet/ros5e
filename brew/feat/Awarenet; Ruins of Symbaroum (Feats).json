@@ -243,6 +243,67 @@
 			"category": "Boon"
 		},
 		{
+			"name": "Book Worm",
+			"source": "RuinsOfSymbaroumF",
+			"entries": [
+				"Your maximum number of known spells at each spell level is doubled."
+			],
+			"foundryEffects": [
+				{
+					"name": "Book Worm",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.spells.spell1.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell2.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell3.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell4.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell5.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell6.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell7.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell8.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						},
+						{
+							"key": "system.spells.spell9.max",
+							"mode": "MULTIPLY",
+							"value": "2"
+						}
+					]
+				}
+			],
+			"category": "Boon"
+		},
+		{
 			"name": "Enduring March",
 			"source": "RuinsOfSymbaroumF",
 			"page": 146,
@@ -348,17 +409,30 @@
 			"page": 146,
 			"entries": [
 				"You were born beneath a glowing celestial phenomenon or were the only one to survive a devastating fire.",
-				"You are resistant to fire damage.",
-				"Fleet-footed You can move at an unusually high speed.",
+				"You are resistant to fire damage."
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"category": "Boon"
+		},
+		{
+			"name": "Fleet-footed",
+			"source": "RuinsOfSymbaroumF",
+			"page": 146,
+			"entries": [
+				"You can move at an unusually high speed.",
 				"You can use your bonus action to Dash."
 			],
 			"ability": [
 				{
 					"str": 1
 				}
-			],
-			"resist": [
-				"fire"
 			],
 			"category": "Boon"
 		},
