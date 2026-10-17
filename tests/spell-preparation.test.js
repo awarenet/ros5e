@@ -55,7 +55,7 @@ function apply(document, updates) {
 function fixture(className, subclassName, bookWorm = false) {
   const identifier = name => name.toLowerCase().replaceAll(" ", "-");
   const item = name => ({ id: identifier(name), name, system: {
-    identifier: identifier(name), spellcasting: { progression: "full", preparation: { formula: "" } }, advancement: {}
+    identifier: identifier(name), spellcasting: { progression: "full", preparation: { formula: "" } }, advancement: []
   }, toObject() { return { system: structuredClone(this.system) }; } });
   const cls = item(className), subclass = item(subclassName);
   cls.subclass = subclass;
@@ -65,7 +65,16 @@ function fixture(className, subclassName, bookWorm = false) {
     items: [cls, subclass], effects: [], sheet: { render() {} },
     async updateEmbeddedDocuments(type, updates) {
       assert.equal(type, "Item");
-      for (const update of updates) apply(this.items.find(item => item.id === update._id), update);
+      for (const update of updates) {
+        assert.equal(Object.keys(update).some(key => key.startsWith("system.advancement.")), false,
+          "advancements must be updated as a complete collection");
+        const item = this.items.find(item => item.id === update._id);
+        if ("system.advancement" in update) {
+          assert.equal(Array.isArray(update["system.advancement"]), Array.isArray(item.system.advancement),
+            "retain the actor's advancement storage format");
+        }
+        apply(item, update);
+      }
     }
   };
   if (bookWorm) {
@@ -136,6 +145,21 @@ test("migration preserves a custom preparation formula", async () => {
   assert.equal(subclass.system.spellcasting.preparation.formula, "@scale.custom.prepared");
 });
 
+test("migration retains other advancements and existing scale metadata", async () => {
+  const { actor, cls } = fixture("Mystic", "Blood Mage");
+  const unrelated = { _id: "hit-points", type: "HitPoints", configuration: {} };
+  cls.system.advancement = [unrelated, {
+    _id: "existing-scale", type: "ScaleValue", level: 1, value: {},
+    configuration: { identifier: "max-prepared", type: "number", scale: {} }
+  }];
+  await migrate([actor]);
+  assert.equal(cls.system.advancement.length, 2);
+  assert.deepEqual(cls.system.advancement[0], unrelated);
+  assert.equal(cls.system.advancement[1]._id, "existing-scale");
+  assert.equal(cls.system.advancement[1].level, 1);
+  assert.equal(Object.keys(cls.system.advancement[1].configuration.scale).length, 20);
+});
+
 test("migration repairs Book Worm feats that have no effect", async () => {
   const { actor } = fixture("Warrior", "Templar", true);
   const feat = actor.items.find(item => item.name === "Book Worm");
@@ -145,6 +169,46 @@ test("migration repairs Book Worm feats that have no effect", async () => {
   assert.equal(feat.effects[0].transfer, true);
   assert.equal(feat.effects[0].changes.length, 1);
   assert.equal(feat.effects[0].changes[0].key, "flags.ros5e.preparedSpellMultiplier");
+});
+
+test("migration adds scales to object advancements without changing storage format", async () => {
+  const fixtures = [fixture("Mystic", "Blood Mage", true), fixture("Warrior", "Templar"),
+    fixture("Scoundrel", "Former Cultist")];
+  for (const { cls, subclass } of fixtures) {
+    cls.system.advancement = {};
+    subclass.system.advancement = {};
+  }
+  await migrate(fixtures.map(({ actor }) => actor));
+  for (const { cls, subclass } of fixtures) {
+    for (const item of [cls, subclass]) {
+      assert.equal(Array.isArray(item.system.advancement), false);
+      for (const [key, advancement] of Object.entries(item.system.advancement)) {
+        assert.equal(key, advancement._id);
+        assert.equal(Object.keys(advancement.configuration.scale).length, 20);
+      }
+    }
+  }
+  assert.equal(Object.keys(fixtures[0].cls.system.advancement).length, 1);
+  assert.equal(Object.keys(fixtures[1].subclass.system.advancement).length, 1);
+  assert.equal(Object.keys(fixtures[2].subclass.system.advancement).length, 1);
+});
+
+test("migration retains object keys and metadata when replacing an existing scale", async () => {
+  const { actor, cls } = fixture("Mystic", "Blood Mage");
+  const unrelated = { _id: "hit-points", type: "HitPoints", configuration: {} };
+  cls.system.advancement = {
+    "hit-points": unrelated,
+    "existing-scale": { type: "ScaleValue", level: 1, value: {},
+      configuration: { identifier: "max-prepared", type: "number", scale: {}, hint: "Keep this" } }
+  };
+  await migrate([actor]);
+  assert.equal(Object.keys(cls.system.advancement).length, 2);
+  assert.deepEqual(cls.system.advancement["hit-points"], unrelated);
+  const scale = cls.system.advancement["existing-scale"];
+  assert.equal(scale._id, "existing-scale");
+  assert.equal(scale.level, 1);
+  assert.equal(scale.configuration.hint, "Keep this");
+  assert.equal(Object.keys(scale.configuration.scale).length, 20);
 });
 
 test("migration keeps Book Worm's disabled state and unrelated effect changes", async () => {
@@ -178,9 +242,9 @@ function worldFixture() {
     fetch: async url => { loads++; return { ok: true, json: async () => url.includes("(Subclass)") ? subclasses : classes }; },
     foundry: { utils: { randomID: () => `world-scale-${++nextId}` } },
     ui: { notifications: { info() {}, warn() {}, error: message => errors.push(message) } },
-    console: { error() {} }
+    console: { error() {}, info() {} }
   };
-  const api = runInNewContext(`(() => { ${migration}\nreturn { migrateSpellPreparation, collectRoSActors }; })()`, context);
+  const api = runInNewContext(`(() => { ${migration}\nreturn { migrateSpellPreparation, collectRoSActors, Migrations }; })()`, context);
   return { ...api, worldActor, tokenActor, unrelated, errors, context, loads: () => loads };
 }
 
@@ -190,8 +254,8 @@ test("world migration includes unlinked tokens, skips non-RoS actors, and record
   const result = await world.migrateSpellPreparation();
   assert.equal(result.migrated, 2);
   assert.equal(result.failed, 0);
-  assert.equal(world.worldActor.flags.spellPreparationMigration, 1);
-  assert.equal(world.tokenActor.flags.spellPreparationMigration, 1);
+  assert.equal(world.worldActor.flags.spellPreparationMigration, 3);
+  assert.equal(world.tokenActor.flags.spellPreparationMigration, 3);
   assert.equal(world.unrelated.flags.spellPreparationMigration, undefined);
   assert.equal((await world.migrateSpellPreparation()).migrated, 0);
   assert.equal(world.loads(), 2);
@@ -214,7 +278,24 @@ test("actor failures are isolated and remain eligible for retry", async () => {
   assert.equal(result.failed, 1);
   assert.equal(result.migrated, 1);
   assert.equal(world.worldActor.flags.spellPreparationMigration, undefined);
-  assert.equal(world.tokenActor.flags.spellPreparationMigration, 1);
+  assert.equal(world.tokenActor.flags.spellPreparationMigration, 3);
   world.worldActor.isOwner = true;
   assert.equal((await world.migrateSpellPreparation()).migrated, 1);
+});
+
+test("ready hook runs the migration and retries actors marked with earlier versions", async () => {
+  const world = worldFixture();
+  world.worldActor.flags.spellPreparationMigration = 1;
+  world.tokenActor.flags.spellPreparationMigration = 2;
+  world.context.game.ros5e = {};
+  let ready;
+  world.context.Hooks = { once(event, callback) {
+    assert.equal(event, "ready");
+    ready = callback;
+  } };
+  world.Migrations.register();
+  await ready();
+  assert.equal(world.worldActor.flags.spellPreparationMigration, 3);
+  assert.equal(world.tokenActor.flags.spellPreparationMigration, 3);
+  assert.equal(typeof world.context.game.ros5e.migrateSpellPreparation, "function");
 });
