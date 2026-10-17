@@ -5,6 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "brew:spells:enrich": "node brew/generator/enrich-spells.js",
     "brew": "npm run build:clean && npm run build:index",
     "brew:index": "node brew/_node/generate-index.js",
     "brew:clean": "npm run build:clean:base",

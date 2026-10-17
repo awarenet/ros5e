@@ -144,7 +144,14 @@
               "replace": "grants you a brief insight into the target's defenses",
               "with": "gives insights into the target's defenses"
             }
-          ]
+          ],
+          "srd": {
+            "mode": "setProp",
+            "value": "True Strike"
+          }
+        },
+        "_preserve": {
+          "srd": true
         }
       },
       "duration": [
@@ -218,7 +225,10 @@
       },
       "_copy": {
         "name": "Contingency",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -335,7 +345,10 @@
       },
       "_copy": {
         "name": "Mage Hand",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -430,7 +443,10 @@
       },
       "_copy": {
         "name": "Foresight",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -536,7 +552,10 @@
       },
       "_copy": {
         "name": "Message",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -598,7 +617,10 @@
       },
       "_copy": {
         "name": "Sequester",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -660,7 +682,10 @@
       },
       "_copy": {
         "name": "Earthquake",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -766,7 +791,10 @@
       },
       "_copy": {
         "name": "Stinking Cloud",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -861,7 +889,10 @@
       },
       "_copy": {
         "name": "Rary's Telepathic Bond",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -948,7 +979,10 @@
       },
       "_copy": {
         "name": "Darkvision",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1010,7 +1044,10 @@
       },
       "_copy": {
         "name": "Alarm",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -1119,7 +1156,10 @@
       },
       "_copy": {
         "name": "Greater Invisibility",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1236,7 +1276,10 @@
       },
       "_copy": {
         "name": "Hypnotic Pattern",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1320,7 +1363,10 @@
       },
       "_copy": {
         "name": "Programmed Illusion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1349,7 +1395,10 @@
       },
       "_copy": {
         "name": "Thaumaturgy",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1466,7 +1515,10 @@
       },
       "_copy": {
         "name": "Prestidigitation",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -1498,7 +1550,10 @@
       },
       "_copy": {
         "name": "Commune",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -1563,7 +1618,10 @@
       },
       "_copy": {
         "name": "Glibness",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1592,7 +1650,10 @@
       },
       "_copy": {
         "name": "Heroes' Feast",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1665,7 +1726,10 @@
       },
       "_copy": {
         "name": "Stone Shape",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1749,7 +1813,10 @@
       },
       "_copy": {
         "name": "Mirage Arcane",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1844,7 +1911,10 @@
       },
       "_copy": {
         "name": "Legend Lore",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1906,7 +1976,10 @@
       },
       "_copy": {
         "name": "Otiluke's Resilient Sphere",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1968,7 +2041,10 @@
       },
       "_copy": {
         "name": "Drawmij's Instant Summons",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -1997,7 +2073,10 @@
       },
       "_copy": {
         "name": "Protection from Poison",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2048,7 +2127,10 @@
       },
       "_copy": {
         "name": "Speak with Plants",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2143,7 +2225,10 @@
       },
       "_copy": {
         "name": "Dream",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2227,7 +2312,10 @@
       },
       "_copy": {
         "name": "Wall of Stone",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2289,7 +2377,10 @@
       },
       "_copy": {
         "name": "Enlarge/Reduce",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2373,7 +2464,10 @@
       },
       "_copy": {
         "name": "Sleet Storm",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2424,7 +2518,10 @@
       },
       "_copy": {
         "name": "Vicious Mockery",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2530,7 +2627,10 @@
       },
       "_copy": {
         "name": "Silent Image",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2614,7 +2714,10 @@
       },
       "_copy": {
         "name": "Reverse Gravity",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2742,7 +2845,10 @@
       },
       "_copy": {
         "name": "Tongues",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2804,7 +2910,10 @@
       },
       "_copy": {
         "name": "Tenser's Floating Disk",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -2869,7 +2978,10 @@
       },
       "_copy": {
         "name": "Sunbeam",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -2964,7 +3076,10 @@
       },
       "_copy": {
         "name": "Hallucinatory Terrain",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3048,7 +3163,10 @@
       },
       "_copy": {
         "name": "Mordenkainen's Sword",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3077,7 +3195,10 @@
       },
       "_copy": {
         "name": "Resistance",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3106,7 +3227,10 @@
       },
       "_copy": {
         "name": "Divination",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -3215,7 +3339,10 @@
       },
       "_copy": {
         "name": "See Invisibility",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3299,7 +3426,10 @@
       },
       "_copy": {
         "name": "Move Earth",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3361,7 +3491,10 @@
       },
       "_copy": {
         "name": "Passwall",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3423,7 +3556,10 @@
       },
       "_copy": {
         "name": "Maze",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3485,7 +3621,10 @@
       },
       "_copy": {
         "name": "Arcane Lock",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3536,7 +3675,10 @@
       },
       "_copy": {
         "name": "Speak with Animals",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -3634,7 +3776,10 @@
       },
       "_copy": {
         "name": "Chill Touch",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3729,7 +3874,10 @@
       },
       "_copy": {
         "name": "Unseen Servant",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -3838,7 +3986,10 @@
       },
       "_copy": {
         "name": "Knock",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3944,7 +4095,10 @@
       },
       "_copy": {
         "name": "Dancing Lights",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -3973,7 +4127,10 @@
       },
       "_copy": {
         "name": "Divine Word",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4057,7 +4214,10 @@
       },
       "_copy": {
         "name": "Nondetection",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4174,7 +4334,10 @@
       },
       "_copy": {
         "name": "Mending",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -4239,7 +4402,10 @@
       },
       "_copy": {
         "name": "Sunburst",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4312,7 +4478,10 @@
       },
       "_copy": {
         "name": "Continual Flame",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4341,7 +4510,10 @@
       },
       "_copy": {
         "name": "Forbiddance",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4425,7 +4597,10 @@
       },
       "_copy": {
         "name": "Blur",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4487,7 +4662,10 @@
       },
       "_copy": {
         "name": "Silence",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -4519,7 +4697,10 @@
       },
       "_copy": {
         "name": "Sanctuary",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4636,7 +4817,10 @@
       },
       "_copy": {
         "name": "Sending",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4720,7 +4904,10 @@
       },
       "_copy": {
         "name": "Gust of Wind",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4749,7 +4936,10 @@
       },
       "_copy": {
         "name": "Holy Aura",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4778,7 +4968,10 @@
       },
       "_copy": {
         "name": "Warding Bond",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -4895,7 +5088,10 @@
       },
       "_copy": {
         "name": "Light",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -4971,7 +5167,10 @@
       },
       "_copy": {
         "name": "Find Familiar",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -5058,7 +5257,10 @@
       },
       "_copy": {
         "name": "Mordenkainen's Magnificent Mansion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5120,7 +5322,10 @@
       },
       "_copy": {
         "name": "Fire Shield",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5215,7 +5420,10 @@
       },
       "_copy": {
         "name": "Fire Bolt",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5277,7 +5485,10 @@
       },
       "_copy": {
         "name": "Phantom Steed",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -5320,7 +5531,10 @@
       },
       "_copy": {
         "name": "Eldritch Blast",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5382,7 +5596,10 @@
       },
       "_copy": {
         "name": "Arcane Eye",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5510,7 +5727,10 @@
       },
       "_copy": {
         "name": "True Seeing",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5572,7 +5792,10 @@
       },
       "_copy": {
         "name": "Find the Path",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5634,7 +5857,10 @@
       },
       "_copy": {
         "name": "Grease",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5729,7 +5955,10 @@
       },
       "_copy": {
         "name": "Locate Creature",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5780,7 +6009,10 @@
       },
       "_copy": {
         "name": "Awaken",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -5875,7 +6107,10 @@
       },
       "_copy": {
         "name": "Illusory Script",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -5984,7 +6219,10 @@
       },
       "_copy": {
         "name": "Disguise Self",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6013,7 +6251,10 @@
       },
       "_copy": {
         "name": "Create Food and Water",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6042,7 +6283,10 @@
       },
       "_copy": {
         "name": "Detect Poison and Disease",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -6074,7 +6318,10 @@
       },
       "_copy": {
         "name": "Augury",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -6161,7 +6408,10 @@
       },
       "_copy": {
         "name": "Feather Fall",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6190,7 +6440,10 @@
       },
       "_copy": {
         "name": "Guardian of Faith",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6274,7 +6527,10 @@
       },
       "_copy": {
         "name": "Stoneskin",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6358,7 +6614,10 @@
       },
       "_copy": {
         "name": "Magic Mouth",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -6423,7 +6682,10 @@
       },
       "_copy": {
         "name": "Fire Storm",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6485,7 +6747,10 @@
       },
       "_copy": {
         "name": "Entangle",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6547,7 +6812,10 @@
       },
       "_copy": {
         "name": "Weird",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6609,7 +6877,10 @@
       },
       "_copy": {
         "name": "Mordenkainen's Faithful Hound",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6693,7 +6964,10 @@
       },
       "_copy": {
         "name": "Slow",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6722,7 +6996,10 @@
       },
       "_copy": {
         "name": "Guidance",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6806,7 +7083,10 @@
       },
       "_copy": {
         "name": "Telekinesis",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6868,7 +7148,10 @@
       },
       "_copy": {
         "name": "Lesser Restoration",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -6952,7 +7235,10 @@
       },
       "_copy": {
         "name": "Identify",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -7050,7 +7336,10 @@
       },
       "_copy": {
         "name": "Mirror Image",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7123,7 +7412,10 @@
       },
       "_copy": {
         "name": "Control Water",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7218,7 +7510,10 @@
       },
       "_copy": {
         "name": "Symbol",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7324,7 +7619,10 @@
       },
       "_copy": {
         "name": "Seeming",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7408,7 +7706,10 @@
       },
       "_copy": {
         "name": "Guards and Wards",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7437,7 +7738,10 @@
       },
       "_copy": {
         "name": "Sacred Flame",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7488,7 +7792,10 @@
       },
       "_copy": {
         "name": "Faerie Fire",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7572,7 +7879,10 @@
       },
       "_copy": {
         "name": "Water Breathing",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -7637,7 +7947,10 @@
       },
       "_copy": {
         "name": "Calm Emotions",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7754,7 +8067,10 @@
       },
       "_copy": {
         "name": "Detect Magic",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -7819,7 +8135,10 @@
       },
       "_copy": {
         "name": "Nystul's Magic Aura",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7848,7 +8167,10 @@
       },
       "_copy": {
         "name": "Spare the Dying",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -7943,7 +8265,10 @@
       },
       "_copy": {
         "name": "Expeditious Retreat",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8005,7 +8330,10 @@
       },
       "_copy": {
         "name": "Water Walk",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -8070,7 +8398,10 @@
       },
       "_copy": {
         "name": "Antipathy/Sympathy",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8099,7 +8430,10 @@
       },
       "_copy": {
         "name": "Find Traps",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8194,7 +8528,10 @@
       },
       "_copy": {
         "name": "Locate Object",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -8281,7 +8618,10 @@
       },
       "_copy": {
         "name": "Shield",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8343,7 +8683,10 @@
       },
       "_copy": {
         "name": "Leomund's Secret Chest",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8372,7 +8715,10 @@
       },
       "_copy": {
         "name": "Meld into Stone",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -8404,7 +8750,10 @@
       },
       "_copy": {
         "name": "Shield of Faith",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8499,7 +8848,10 @@
       },
       "_copy": {
         "name": "Gaseous Form",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8561,7 +8913,10 @@
       },
       "_copy": {
         "name": "Prismatic Wall",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8645,7 +9000,10 @@
       },
       "_copy": {
         "name": "Mage Armor",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8729,7 +9087,10 @@
       },
       "_copy": {
         "name": "Incendiary Cloud",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8791,7 +9152,10 @@
       },
       "_copy": {
         "name": "Freedom of Movement",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8820,7 +9184,10 @@
       },
       "_copy": {
         "name": "Blade Barrier",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8904,7 +9271,10 @@
       },
       "_copy": {
         "name": "Meteor Swarm",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -8933,7 +9303,10 @@
       },
       "_copy": {
         "name": "Purify Food and Drink",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -9031,7 +9404,10 @@
       },
       "_copy": {
         "name": "Darkness",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9126,7 +9502,10 @@
       },
       "_copy": {
         "name": "Spider Climb",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9210,7 +9589,10 @@
       },
       "_copy": {
         "name": "Project Image",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9294,7 +9676,10 @@
       },
       "_copy": {
         "name": "Haste",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9378,7 +9763,10 @@
       },
       "_copy": {
         "name": "Prismatic Spray",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9473,7 +9861,10 @@
       },
       "_copy": {
         "name": "Shocking Grasp",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9557,7 +9948,10 @@
       },
       "_copy": {
         "name": "Lightning Bolt",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9641,7 +10035,10 @@
       },
       "_copy": {
         "name": "Alter Self",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9758,7 +10155,10 @@
       },
       "_copy": {
         "name": "Blindness/Deafness",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9842,7 +10242,10 @@
       },
       "_copy": {
         "name": "Chain Lightning",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -9911,6 +10314,9 @@
             "replace": "500 gp",
             "with": "250 thaler"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       },
       "components": {
@@ -10033,7 +10439,10 @@
       },
       "_copy": {
         "name": "Detect Thoughts",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10084,7 +10493,10 @@
       },
       "_copy": {
         "name": "Create Undead",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "components": {
         "v": true,
@@ -10187,7 +10599,10 @@
       },
       "_copy": {
         "name": "Disintegrate",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10304,7 +10719,10 @@
       },
       "_copy": {
         "name": "Eyebite",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10432,7 +10850,10 @@
       },
       "_copy": {
         "name": "Hold Person",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10549,7 +10970,10 @@
       },
       "_copy": {
         "name": "Mass Suggestion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10633,7 +11057,10 @@
       },
       "_copy": {
         "name": "Levitate",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10739,7 +11166,10 @@
       },
       "_copy": {
         "name": "Banishment",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10823,7 +11253,10 @@
       },
       "_copy": {
         "name": "Evard's Black Tentacles",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10918,7 +11351,10 @@
       },
       "_copy": {
         "name": "Misty Step",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -10980,7 +11416,10 @@
       },
       "_copy": {
         "name": "Blight",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11086,7 +11525,10 @@
       },
       "_copy": {
         "name": "Confusion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11236,6 +11678,9 @@
               "flags": "g"
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -11353,7 +11798,10 @@
       },
       "_copy": {
         "name": "Dimension Door",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11415,7 +11863,10 @@
       },
       "_copy": {
         "name": "Finger of Death",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11499,7 +11950,10 @@
       },
       "_copy": {
         "name": "Burning Hands",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11572,7 +12026,10 @@
       },
       "_copy": {
         "name": "Plane Shift",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "components": {
         "v": true,
@@ -11698,7 +12155,10 @@
       },
       "_copy": {
         "name": "Charm Person",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11815,7 +12275,10 @@
       },
       "_copy": {
         "name": "Suggestion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11921,7 +12384,10 @@
       },
       "_copy": {
         "name": "Polymorph",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -11975,7 +12441,10 @@
       },
       "_copy": {
         "name": "Animate Dead",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "time": [
         {
@@ -12098,7 +12567,10 @@
       },
       "_copy": {
         "name": "Dominate Monster",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -12182,7 +12654,10 @@
       },
       "_copy": {
         "name": "False Life",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -12299,7 +12774,10 @@
       },
       "_copy": {
         "name": "Clairvoyance",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -12394,7 +12872,10 @@
       },
       "_copy": {
         "name": "Counterspell",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "time": [
         {
@@ -12518,7 +12999,10 @@
       },
       "_copy": {
         "name": "Power Word Stun",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -12646,7 +13130,10 @@
       },
       "_copy": {
         "name": "Dispel Magic",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -12763,7 +13250,10 @@
       },
       "_copy": {
         "name": "Fear",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -12847,8 +13337,29 @@
       },
       "_copy": {
         "name": "Magic Missile",
-        "source": "PHB"
-      }
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
+      },
+      "foundryActivities": [
+        {
+          "type": "damage",
+          "damage": {
+            "parts": [
+              {
+                "custom": {
+                  "enabled": true,
+                  "formula": "(1d4 + 1) * (2 + @item.level)"
+                },
+                "types": [
+                  "force"
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "Gate",
@@ -12942,7 +13453,10 @@
       },
       "_copy": {
         "name": "Gate",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13048,7 +13562,10 @@
       },
       "_copy": {
         "name": "Dominate Person",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13165,7 +13682,10 @@
       },
       "_copy": {
         "name": "Hold Monster",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13282,7 +13802,10 @@
       },
       "_copy": {
         "name": "Power Word Kill",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13399,7 +13922,10 @@
       },
       "_copy": {
         "name": "Planar Binding",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13483,7 +14009,10 @@
       },
       "_copy": {
         "name": "Wish",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13534,7 +14063,10 @@
       },
       "_copy": {
         "name": "Remove Curse",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13563,7 +14095,10 @@
       },
       "_copy": {
         "name": "Revivify",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13636,7 +14171,10 @@
       },
       "_copy": {
         "name": "Speak with Dead",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13681,6 +14219,9 @@
               "flags": "g"
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -13710,7 +14251,10 @@
       },
       "_copy": {
         "name": "Harm",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13747,6 +14291,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -13776,7 +14323,10 @@
       },
       "_copy": {
         "name": "Death Ward",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13838,7 +14388,10 @@
       },
       "_copy": {
         "name": "Bane",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13900,7 +14453,10 @@
       },
       "_copy": {
         "name": "Zone of Truth",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13929,7 +14485,10 @@
       },
       "_copy": {
         "name": "Command",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -13999,6 +14558,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -14028,7 +14590,10 @@
       },
       "_copy": {
         "name": "Dispel Evil and Good",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "entries": [
         "Shimmering energy surrounds and protects you from abominations, celestials, elementals, fey, fiends, or phenomenons, providing disadvantage on their attack rolls against you.",
@@ -14062,7 +14627,10 @@
       },
       "_copy": {
         "name": "Flame Strike",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14157,7 +14725,10 @@
       },
       "_copy": {
         "name": "Geas",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14219,7 +14790,10 @@
       },
       "_copy": {
         "name": "Greater Restoration",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14289,6 +14863,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -14326,6 +14903,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -14355,7 +14935,10 @@
       },
       "_copy": {
         "name": "Inflict Wounds",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14448,6 +15031,9 @@
               "with": "aberrations, blight-born, celestials, elementals, fey, and fiends"
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -14518,6 +15104,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -14555,6 +15144,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -14661,7 +15253,10 @@
       },
       "_copy": {
         "name": "Scrying",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14712,7 +15307,10 @@
       },
       "_copy": {
         "name": "Bestow Curse",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14774,7 +15372,10 @@
       },
       "_copy": {
         "name": "Enthrall",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14858,7 +15459,10 @@
       },
       "_copy": {
         "name": "Tasha's Hideous Laughter",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14942,7 +15546,10 @@
       },
       "_copy": {
         "name": "Otto's Irresistible Dance",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -14993,7 +15600,10 @@
       },
       "_copy": {
         "name": "Compulsion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15088,7 +15698,10 @@
       },
       "_copy": {
         "name": "Feeblemind",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15172,7 +15785,10 @@
       },
       "_copy": {
         "name": "Mind Blank",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15256,7 +15872,10 @@
       },
       "_copy": {
         "name": "Mislead",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15340,7 +15959,10 @@
       },
       "_copy": {
         "name": "Modify Memory",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15435,7 +16057,10 @@
       },
       "_copy": {
         "name": "Forcecage",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15508,7 +16133,10 @@
       },
       "_copy": {
         "name": "Flesh to Stone",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15581,7 +16209,10 @@
       },
       "_copy": {
         "name": "Vampiric Touch",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15654,7 +16285,10 @@
       },
       "_copy": {
         "name": "Ray of Enfeeblement",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15727,7 +16361,10 @@
       },
       "_copy": {
         "name": "Demiplane",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15770,7 +16407,10 @@
       },
       "_copy": {
         "name": "Contact Other Plane",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15810,7 +16450,10 @@
       },
       "_copy": {
         "name": "Hellish Rebuke",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "time": [
         {
@@ -15890,7 +16533,10 @@
       },
       "_copy": {
         "name": "Imprisonment",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -15952,7 +16598,10 @@
       },
       "_copy": {
         "name": "Fabricate",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16014,7 +16663,10 @@
       },
       "_copy": {
         "name": "Phantasmal Killer",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16076,7 +16728,10 @@
       },
       "_copy": {
         "name": "Delayed Blast Fireball",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16138,7 +16793,10 @@
       },
       "_copy": {
         "name": "Clone",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16200,7 +16858,10 @@
       },
       "_copy": {
         "name": "Fireball",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16295,7 +16956,10 @@
       },
       "_copy": {
         "name": "Ray of Frost",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16401,7 +17065,10 @@
       },
       "_copy": {
         "name": "Thunderwave",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16474,7 +17141,10 @@
       },
       "_copy": {
         "name": "Antimagic Field",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16536,7 +17206,10 @@
       },
       "_copy": {
         "name": "Otiluke's Freezing Sphere",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "range": {
         "type": "point",
@@ -16609,7 +17282,10 @@
       },
       "_copy": {
         "name": "Animal Friendship",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16704,7 +17380,10 @@
       },
       "_copy": {
         "name": "Poison Spray",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16755,7 +17434,10 @@
       },
       "_copy": {
         "name": "Plant Growth",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16839,7 +17521,10 @@
       },
       "_copy": {
         "name": "Globe of Invulnerability",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16923,7 +17608,10 @@
       },
       "_copy": {
         "name": "Fog Cloud",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -16985,7 +17673,10 @@
       },
       "_copy": {
         "name": "Enhance Ability",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17095,6 +17786,9 @@
               "flags": "g"
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       },
       "components": {
@@ -17162,7 +17856,10 @@
       },
       "_copy": {
         "name": "Insect Plague",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "components": {
         "v": true,
@@ -17251,7 +17948,10 @@
       },
       "_copy": {
         "name": "Ice Storm",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17346,7 +18046,10 @@
       },
       "_copy": {
         "name": "Acid Splash",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17430,7 +18133,10 @@
       },
       "_copy": {
         "name": "Time Stop",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17492,7 +18198,10 @@
       },
       "_copy": {
         "name": "Flaming Sphere",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17521,7 +18230,10 @@
       },
       "_copy": {
         "name": "Hallow",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17572,7 +18284,10 @@
       },
       "_copy": {
         "name": "Animal Messenger",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -17637,7 +18352,10 @@
       },
       "_copy": {
         "name": "Magic Weapon",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17721,7 +18439,10 @@
       },
       "_copy": {
         "name": "Leomund's Tiny Hut",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -17808,7 +18529,10 @@
       },
       "_copy": {
         "name": "Cone of Cold",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -17837,8 +18561,29 @@
       },
       "_copy": {
         "name": "Spiritual Weapon",
-        "source": "PHB"
-      }
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
+      },
+      "foundryActivities": [
+        {
+          "type": "damage",
+          "damage": {
+            "parts": [
+              {
+                "custom": {
+                  "enabled": true,
+                  "formula": "(floor((@item.level) / 2))d8 + @mod"
+                },
+                "types": [
+                  "force"
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "Wall of Force",
@@ -17899,7 +18644,10 @@
       },
       "_copy": {
         "name": "Wall of Force",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18016,7 +18764,10 @@
       },
       "_copy": {
         "name": "Major Image",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18100,7 +18851,10 @@
       },
       "_copy": {
         "name": "Sleep",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18162,7 +18916,10 @@
       },
       "_copy": {
         "name": "Bigby's Hand",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18199,6 +18956,9 @@
             "with": "constructs",
             "flags": "i"
           }
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -18283,7 +19043,10 @@
       },
       "_copy": {
         "name": "Cloudkill",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18334,7 +19097,10 @@
       },
       "_copy": {
         "name": "Heat Metal",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18440,7 +19206,10 @@
       },
       "_copy": {
         "name": "Magic Circle",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "time": [
         {
@@ -18531,7 +19300,10 @@
       },
       "_copy": {
         "name": "Wall of Ice",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18631,6 +19403,9 @@
               "flags": "g"
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -18715,7 +19490,10 @@
       },
       "_copy": {
         "name": "Wall of Fire",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18799,7 +19577,10 @@
       },
       "_copy": {
         "name": "Animate Objects",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18837,6 +19618,9 @@
               "with": "aberration, blight-born, celestial"
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       }
     },
@@ -18888,7 +19672,10 @@
       },
       "_copy": {
         "name": "Heroism",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -18917,7 +19704,10 @@
       },
       "_copy": {
         "name": "Create or Destroy Water",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19001,7 +19791,10 @@
       },
       "_copy": {
         "name": "Creation",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19118,7 +19911,10 @@
       },
       "_copy": {
         "name": "Minor Illusion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19169,7 +19965,10 @@
       },
       "_copy": {
         "name": "Dominate Beast",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19245,6 +20044,9 @@
               "with": "Many Ordo Magica facilities have permanent teleportation circles inscribed somewhere within their confines."
             }
           ]
+        },
+        "_preserve": {
+          "srd": true
         }
       },
       "components": {
@@ -19333,7 +20135,10 @@
       },
       "_copy": {
         "name": "Longstrider",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19450,7 +20255,10 @@
       },
       "_copy": {
         "name": "Comprehend Languages",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -19482,7 +20290,10 @@
       },
       "_copy": {
         "name": "Gentle Repose",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -19602,7 +20413,10 @@
       },
       "_copy": {
         "name": "Shatter",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19631,7 +20445,10 @@
       },
       "_copy": {
         "name": "Beacon of Hope",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19660,7 +20477,10 @@
       },
       "_copy": {
         "name": "Guiding Bolt",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19722,7 +20542,10 @@
       },
       "_copy": {
         "name": "Mordenkainen's Private Sanctum",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19773,7 +20596,10 @@
       },
       "_copy": {
         "name": "Locate Animals or Plants",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       },
       "meta": {
         "ritual": true
@@ -19838,7 +20664,10 @@
       },
       "_copy": {
         "name": "Rope Trick",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19922,7 +20751,10 @@
       },
       "_copy": {
         "name": "Jump",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -19984,8 +20816,38 @@
       },
       "_copy": {
         "name": "Melf's Acid Arrow",
-        "source": "PHB"
-      }
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
+      },
+      "foundryActivities": [
+        {
+          "type": "attack",
+          "damage": {
+            "parts": [
+              {
+                "custom": {
+                  "enabled": true,
+                  "formula": "4d4[immediate]"
+                },
+                "types": [
+                  "acid"
+                ]
+              },
+              {
+                "custom": {
+                  "enabled": true,
+                  "formula": "(@item.level)d4[end of turn]"
+                },
+                "types": [
+                  "acid"
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "Bless",
@@ -20013,7 +20875,10 @@
       },
       "_copy": {
         "name": "Bless",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20042,7 +20907,10 @@
       },
       "_copy": {
         "name": "Daylight",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20126,7 +20994,10 @@
       },
       "_copy": {
         "name": "Scorching Ray",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20221,7 +21092,10 @@
       },
       "_copy": {
         "name": "Protection from Energy",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20338,7 +21212,10 @@
       },
       "_copy": {
         "name": "Invisibility",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20411,7 +21288,10 @@
       },
       "_copy": {
         "name": "Control Weather",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20451,7 +21331,10 @@
       },
       "_copy": {
         "name": "Fly",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20491,7 +21374,10 @@
       },
       "_copy": {
         "name": "Web",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20520,7 +21406,10 @@
       },
       "_copy": {
         "name": "Aid",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20549,7 +21438,10 @@
       },
       "_copy": {
         "name": "True Resurrection",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20607,7 +21499,10 @@
       },
       "_copy": {
         "name": "Antilife Shell",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20752,7 +21647,10 @@
       },
       "_copy": {
         "name": "Barkskin",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20782,7 +21680,34 @@
       "_copy": {
         "name": "Blade Ward",
         "source": "PHB"
-      }
+      },
+      "foundryEffects": [
+        {
+          "duration": {
+            "rounds": 1
+          },
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": "CUSTOM",
+              "value": "bludgeoning",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "CUSTOM",
+              "value": "piercing",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": "CUSTOM",
+              "value": "slashing",
+              "priority": 20
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Compelled Duel",
@@ -20839,7 +21764,10 @@
       },
       "_copy": {
         "name": "Contagion",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -20984,7 +21912,10 @@
       },
       "_copy": {
         "name": "Magic Jar",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -21013,7 +21944,10 @@
       },
       "_copy": {
         "name": "Raise Dead",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -21042,7 +21976,10 @@
       },
       "_copy": {
         "name": "Regenerate",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -21071,7 +22008,10 @@
       },
       "_copy": {
         "name": "Reincarnate",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -21100,7 +22040,10 @@
       },
       "_copy": {
         "name": "Resurrection",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        }
       }
     },
     {
@@ -21275,7 +22218,52 @@
       "_copy": {
         "name": "Befuddlement",
         "source": "XPHB"
-      }
+      },
+      "foundryActivities": [
+        {
+          "type": "save",
+          "activation": {
+            "type": "action"
+          },
+          "damage": {
+            "parts": [
+              {
+                "number": 10,
+                "denomination": 12,
+                "types": [
+                  "psychic"
+                ],
+                "scaling": {
+                  "number": 1
+                }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": [
+              "int"
+            ],
+            "dc": {
+              "calculation": "spellcasting"
+            }
+          },
+          "effects": [
+            {
+              "foundryId": "befuddlement"
+            }
+          ]
+        }
+      ],
+      "foundryEffects": [
+        {
+          "foundryId": "befuddlement",
+          "name": "Befuddled",
+          "descriptionEntries": [
+            "On a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the Magic action. At the end of every 30 days, the target repeats the [[/save ability=wis]] save, ending the effect on a success. The effect can also be ended by the {@spell Greater Restoration|XPHB}, {@spell Heal|XPHB}, or {@spell Wish|XPHB} spell."
+          ]
+        }
+      ]
     },
     {
       "name": "Catnap",
@@ -21985,7 +22973,16 @@
       },
       "_copy": {
         "name": "Control Weather",
-        "source": "PHB"
+        "source": "PHB",
+        "_preserve": {
+          "srd": true
+        },
+        "_mod": {
+          "srd": {
+            "mode": "setProp",
+            "value": "Control Weather"
+          }
+        }
       },
       "range": {
         "type": "point",
