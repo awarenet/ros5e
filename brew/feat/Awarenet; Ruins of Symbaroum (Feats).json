@@ -254,47 +254,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.spells.spell1.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell2.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell3.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell4.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell5.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell6.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell7.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell8.max",
-							"mode": "MULTIPLY",
-							"value": "2"
-						},
-						{
-							"key": "system.spells.spell9.max",
+							"key": "system.scale.mystic.max-prepared.value",
 							"mode": "MULTIPLY",
 							"value": "2"
 						}
