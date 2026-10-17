@@ -317,7 +317,14 @@
         20,
         21
       ],
-      "casterProgression": "full"
+      "casterProgression": "full",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      }
     },
     {
       "name": "Hunter",

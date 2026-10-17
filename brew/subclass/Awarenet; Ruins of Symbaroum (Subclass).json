@@ -38,6 +38,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "wis",
       "foundryFlags": {
@@ -190,6 +197,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.self-taught.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "int",
       "foundryEffects": [
@@ -501,7 +515,7 @@
         3,
         3
       ],
-      "spellsKnownProgression": [
+      "preparedSpellsProgression": [
         1,
         2,
         3,
@@ -530,6 +544,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "cha",
       "subclassFeatures": [
@@ -671,6 +692,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "int",
       "subclassFeatures": [
@@ -915,6 +943,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "int",
       "foundryFlags": {
@@ -1143,6 +1178,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "wis",
       "subclassFeatures": [
@@ -1280,6 +1322,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "cha",
       "foundryFlags": {
@@ -1414,6 +1463,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "wis",
       "subclassFeatures": [
@@ -1507,6 +1563,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "int",
       "subclassFeatures": [
@@ -1892,8 +1955,6 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Scoundrel",
       "classSource": "RuinsOfSymbaroumC",
-      "casterProgression": "full",
-      "spellcastingAbility": "cha",
       "subclassFeatures": [
         "Precise Shot|Scoundrel|RuinsOfSymbaroumC|Explorer|RuinsOfSymbaroumSC|1",
         "Wilderness-master|Scoundrel|RuinsOfSymbaroumC|Explorer|RuinsOfSymbaroumSC|1",
@@ -2224,7 +2285,36 @@
         "water breathing|RuinsOfSymbaroumS",
         "water walk|RuinsOfSymbaroumS",
         "wish|RuinsOfSymbaroumS"
-      ]
+      ],
+      "preparedSpellsProgression": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        10,
+        10,
+        10,
+        10,
+        13,
+        13,
+        13,
+        13,
+        15,
+        15,
+        15,
+        15
+      ],
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.former-cultist.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      }
     },
     {
       "name": "Guild Thief",
@@ -2694,7 +2784,36 @@
         "warding bond|RuinsOfSymbaroumS",
         "water walk|RuinsOfSymbaroumS",
         "zone of truth|RuinsOfSymbaroumS"
-      ]
+      ],
+      "preparedSpellsProgression": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        10,
+        10,
+        10,
+        10,
+        13,
+        13,
+        13,
+        13,
+        15,
+        15,
+        15,
+        15
+      ],
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.templar.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      }
     },
     {
       "name": "Tattooed Fighter",
@@ -2784,6 +2903,13 @@
       "source": "RuinsOfSymbaroumSC",
       "className": "Mystic",
       "classSource": "RuinsOfSymbaroumC",
+      "foundrySystem": {
+        "spellcasting": {
+          "preparation": {
+            "formula": "@scale.mystic.max-prepared * max(1, @flags.ros5e.preparedSpellMultiplier)"
+          }
+        }
+      },
       "casterProgression": "full",
       "spellcastingAbility": "int",
       "subclassFeatures": [

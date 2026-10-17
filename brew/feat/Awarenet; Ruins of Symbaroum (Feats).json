@@ -254,8 +254,8 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.scale.mystic.max-prepared.value",
-							"mode": "MULTIPLY",
+							"key": "flags.ros5e.preparedSpellMultiplier",
+							"mode": "OVERRIDE",
 							"value": "2"
 						}
 					]

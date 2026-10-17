@@ -12,10 +12,6 @@ export class ItemSyb5e {
     const targetPath = "dnd5e.documents.Item5e.prototype";
 
     const patches = {
-      spellcasting: {
-        value: ItemSyb5e.getSpellcasting,
-        mode: "WRAPPER",
-      },
       properties: {
         get: ItemSyb5e.getProperties,
       },
@@ -36,19 +32,6 @@ export class ItemSyb5e {
     };
 
     Common.patch(target, targetPath, patches);
-  }
-
-  static getSpellcasting(originalGetter) {
-    const spellcasting = originalGetter.call(this);
-    if (!spellcasting || !this.actor?.isSybActor?.()) return spellcasting;
-
-    const classItem = this.type === "class" ? this : this.class;
-    const preparation = classItem?.system.spellcasting?.preparation;
-    // Subclasses can supply the casting ability without defining their own preparation limit.
-    if (!spellcasting.preparation?.formula && preparation?.formula) {
-      spellcasting.preparation = foundry.utils.deepClone(preparation);
-    }
-    return spellcasting;
   }
 
   static prepareDerivedData(wrapped, ...args) {
