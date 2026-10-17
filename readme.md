@@ -129,6 +129,25 @@ TBD
 
 TBD
 
+## Actor Migrations
+
+When the world loads, the active GM automatically migrates spell preparation for
+actors enabled as RoS actors (`flags.ros5e.ros5eActor`). This includes world actors
+and unlinked token actors across all scenes. Compendium actors are not modified.
+
+The migration updates class and subclass preparation scales, Explorer's casting
+settings, and Book Worm effects. Custom preparation formulas and unrelated effect
+changes are retained. Each successful actor records its migration version, so it
+is skipped on later loads. Failed actors are reported and retried on the next load.
+
+To reapply the migration to all RoS actors, run
+`scripts/macros/migrate-spell-preparation.js` as a Script macro, or run this in the
+browser console as the active GM:
+
+```js
+await game.ros5e.migrateSpellPreparation({ force: true });
+```
+
 ## Known Issues
 
 ### Mystic Saving Throws

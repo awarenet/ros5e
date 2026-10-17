@@ -9,6 +9,7 @@ import { ItemSyb5e } from "./modules/item.js";
 import { DamageRollSyb5e } from "./modules/damage-roll.js";
 import { Tidy5eIntegration } from "./modules/tidy5e-integration.js";
 import { Corruption } from "./modules/corruption.js";
+import { Migrations } from "./modules/migrations.js";
 
 const SUB_MODULES = [
   LibWrapperShim,
@@ -22,6 +23,7 @@ const SUB_MODULES = [
   Spellcasting,
   Resting,
   Tidy5eIntegration,
+  Migrations,
 ];
 
 Hooks.on("init", () => {

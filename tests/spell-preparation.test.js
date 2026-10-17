@@ -7,7 +7,7 @@ const read = path => readFileSync(new URL(path, import.meta.url), "utf8");
 const classes = JSON.parse(read("../brew/class/Awarenet; Ruins of Symbaroum (Class).json"));
 const subclasses = JSON.parse(read("../brew/subclass/Awarenet; Ruins of Symbaroum (Subclass).json"));
 const feats = JSON.parse(read("../brew/feat/Awarenet; Ruins of Symbaroum (Feats).json"));
-const macro = read("../scripts/macros/migrate-spell-preparation.js");
+const migration = read("../scripts/modules/migrations.js").replaceAll("export ", "");
 const suffix = " * max(1, @flags.ros5e.preparedSpellMultiplier)";
 const formula = identifier => `@scale.${identifier}.max-prepared${suffix}`;
 
@@ -96,8 +96,12 @@ async function migrate(actors) {
     foundry: { utils: { randomID: () => `scale-${++nextId}` } },
     ui: { notifications: { info() {}, warn() {}, error: message => errors.push(message) } }, console
   };
-  await runInNewContext(macro, context);
-  await runInNewContext(macro, context);
+  context.actors = actors;
+  context.classes = classes;
+  context.subclasses = subclasses;
+  const run = `(async () => { ${migration}\nfor (const actor of actors) await migrateSpellPreparationActor(actor, classes, subclasses); })()`;
+  await runInNewContext(run, context);
+  await runInNewContext(run, context);
   assert.deepEqual(errors, []);
 }
 
@@ -152,4 +156,65 @@ test("migration keeps Book Worm's disabled state and unrelated effect changes", 
   assert.equal(effect.disabled, true);
   assert.equal(effect.changes.length, 2);
   assert.equal(effect.changes[0].key, "system.attributes.hp.max");
+});
+
+function worldFixture() {
+  const actor = () => {
+    const { actor } = fixture("Mystic", "Blood Mage");
+    actor.flags = { ros5eActor: true };
+    actor.getFlag = (scope, key) => actor.flags[key];
+    actor.setFlag = async (scope, key, value) => { actor.flags[key] = value; };
+    return actor;
+  };
+  const worldActor = actor(), tokenActor = actor(), unrelated = actor();
+  unrelated.flags.ros5eActor = false;
+  const errors = [];
+  let loads = 0, nextId = 0;
+  const context = {
+    game: { user: { id: "gm", isGM: true }, users: { activeGM: { id: "gm" } },
+      actors: [worldActor, unrelated], scenes: [{ tokens: [
+        { actorLink: true, actor: worldActor }, { actorLink: false, actor: tokenActor }
+      ] }] },
+    fetch: async url => { loads++; return { ok: true, json: async () => url.includes("(Subclass)") ? subclasses : classes }; },
+    foundry: { utils: { randomID: () => `world-scale-${++nextId}` } },
+    ui: { notifications: { info() {}, warn() {}, error: message => errors.push(message) } },
+    console: { error() {} }
+  };
+  const api = runInNewContext(`(() => { ${migration}\nreturn { migrateSpellPreparation, collectRoSActors }; })()`, context);
+  return { ...api, worldActor, tokenActor, unrelated, errors, context, loads: () => loads };
+}
+
+test("world migration includes unlinked tokens, skips non-RoS actors, and records successful versions", async () => {
+  const world = worldFixture();
+  assert.equal(world.collectRoSActors().length, 2);
+  const result = await world.migrateSpellPreparation();
+  assert.equal(result.migrated, 2);
+  assert.equal(result.failed, 0);
+  assert.equal(world.worldActor.flags.spellPreparationMigration, 1);
+  assert.equal(world.tokenActor.flags.spellPreparationMigration, 1);
+  assert.equal(world.unrelated.flags.spellPreparationMigration, undefined);
+  assert.equal((await world.migrateSpellPreparation()).migrated, 0);
+  assert.equal(world.loads(), 2);
+  assert.equal((await world.migrateSpellPreparation({ force: true })).migrated, 2);
+});
+
+test("only the active GM migrates actors", async () => {
+  for (const user of [{ id: "player", isGM: false }, { id: "other-gm", isGM: true }]) {
+    const world = worldFixture();
+    world.context.game.user = user;
+    assert.equal((await world.migrateSpellPreparation()).migrated, 0);
+    assert.equal(world.loads(), 0);
+  }
+});
+
+test("actor failures are isolated and remain eligible for retry", async () => {
+  const world = worldFixture();
+  world.worldActor.isOwner = false;
+  const result = await world.migrateSpellPreparation();
+  assert.equal(result.failed, 1);
+  assert.equal(result.migrated, 1);
+  assert.equal(world.worldActor.flags.spellPreparationMigration, undefined);
+  assert.equal(world.tokenActor.flags.spellPreparationMigration, 1);
+  world.worldActor.isOwner = true;
+  assert.equal((await world.migrateSpellPreparation()).migrated, 1);
 });
